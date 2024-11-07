@@ -1,0 +1,492 @@
+/* Menggunakan gaya global dari CSS tambahan */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card-social {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+/* PROJECT */
+
+input[type="text"] {
+    padding: 5px; /* Ensure there's padding */
+    border: 1px solid #ced4da; /* Match Bootstrap default input border */
+    border-radius: 4px; /* Match Bootstrap input border radius */
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; /* Smooth transition */
+}
+
+input[type="text"]:focus {
+    border-color: #80bdff; /* Bootstrap focus color */
+    outline: 0; /* Remove default outline */
+    box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25); /* Add a focus shadow */
+}
+
+.uploaded-image {
+    background-color: #ffffff;
+    padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-project {
+    margin-top: 5.5rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.document {
+    background-color: white;
+    width: 100%;
+    min-height: 90vh;
+    padding: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Area penulisan */
+.editor-content {
+    width: 100%;
+    border: none;
+    outline: none;
+    line-height: 1.5;
+    color: #202124;
+    resize: none;
+    min-height: 90vh;
+}
+
+/* Sidebar kiri */
+.sidebar-left {
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    min-height: 50vh;
+    padding: 20px;
+    overflow-y: auto;
+    position: sticky;
+    top: 90px;
+    /* Stick to the top */
+    height: 100vh;
+    min-width: 50px;
+}
+
+.sidebar-left .list-unstyled {
+    padding: 0;
+    /* Menghapus padding bawaan */
+}
+
+.sidebar-left .nav-item {
+    width: 100%;
+    /* Membuat lebar item menjadi 100% dari lebar kolom */
+    text-align: center;
+    /* Menyelaraskan teks di tengah */
+    white-space: normal;
+    /* Membiarkan teks membungkus jika perlu */
+    overflow-wrap: break-word;
+    /* Mengizinkan pembungkusan kata */
+}
+
+.sidebar-left .list-unstyled {
+    padding: 0;
+    /* Menghapus padding bawaan */
+}
+
+.sidebar-left .nav-item {
+    width: 100%;
+    /* Membuat lebar item menjadi 100% dari lebar kolom */
+    text-align: center;
+    /* Menyelaraskan teks di tengah */
+    white-space: normal;
+    /* Membiarkan teks membungkus jika perlu */
+    overflow-wrap: break-word;
+    /* Mengizinkan pembungkusan kata */
+}
+
+/* Sidebar kanan untuk komentar dan history */
+.sidebar-right {
+    background-color: #fff;
+    min-height: 50vh;
+    padding: 20px;
+    border-left: 1px solid #ddd;
+    overflow-y: auto;
+    position: sticky;
+    top: 90px;
+    /* Stick to the top */
+    height: 100vh;
+    min-width: 50px;
+}
+.comments,
+.history {
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+.comments h6,
+.history h6 {
+    color: #6C48C5;
+}
+
+/* Styling struktur sidebar kiri */
+.gradient-text-sidebar {
+    background: linear-gradient(to right, #1230AE, #6C48C5, #C68FE6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+/* Menghapus scrollbar dari textarea */
+.editor-content::-webkit-scrollbar {
+    display: none;
+}
+
+/* Penyesuaian layout sidebar */
+aside {
+    position: fixed;
+    overflow: auto;
+    height: calc(100vh - 68px);
+    justify-content: flex-start;
+    align-self: flex-start;
+    background-color: #fff;
+}
+
+#sidebarshow {
+    display: none;
+}
+
+@media screen and (max-width: 575px) {
+    #sidebarshow {
+        display: inline;
+    }
+
+    #sidebartoggle {
+        display: none;
+    }
+}
+
+/* Styling tombol "Send" */
+.send-btn-container {
+    text-align: right;
+    margin-top: 20px;
+}
+
+.btn-send {
+    padding: 2px 8px;
+    font-size: 10px;
+    line-height: 1.5;
+    border-radius: 0.2rem;
+}
+
+/* LATEXT EDITOR */
+.latex-editor {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.line-numbers {
+    background: #f5f5f5;
+    padding: 10px;
+    border-right: 1px solid #ccc;
+    text-align: right;
+    user-select: none;
+    min-width: 50px;
+    height: auto;
+    overflow-y: auto;
+}
+
+.editor-content {
+    border: none;
+    padding: 10px;
+    height: 450px;
+    resize: none;
+    outline: none;
+    font-family: monospace;
+    flex-grow: 1;
+}
+
+.latex-editor>div {
+    height: auto;
+}
+
+/* NAVBAR */
+.profile-section {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    padding: 10px 10px; /* Menambah padding agar ukurannya lebih besar */
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.profile-section:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Shadow lebih besar ketika hover */
+}
+
+.notification-container {
+    background-color: #ffffff; /* Background color for the notification box */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1); /* Elegant shadow */
+    padding: 5px; /* Padding for the notification box */
+    display: inline-block;
+    transition: box-shadow 0.3s ease;
+}
+
+.notification-container:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); /* Larger shadow on hover */
+}
+
+.fw-semibold {
+    color: #000;
+}
+
+
+.thesis-font-logo {
+    color: #6C48C5;
+}
+
+.active {
+    color: #6C48C5 !important;
+    border-bottom: 1px solid #6C48C5;
+    padding-bottom: 2px;
+    box-sizing: border-box;
+}
+
+.navbar-shadow {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link-hover {
+    border-bottom: 1px solid transparent; 
+    padding-bottom: 2px;
+}
+
+.nav-link-hover:hover {
+    border-bottom: 1px solid #6C48C5;
+    padding-bottom: 2px;
+}
+
+.btn-primary {
+    background-color: #6C48C5;
+    border-color: #6C48C5;
+}
+
+.btn-outline-primary {
+    border-color: #6C48C5;
+}
+
+.home-link {
+    margin-left: 65px;
+}
+
+/* FOOTER */
+.footer {
+    background: linear-gradient(to right, #1230AE, #6C48C5);
+    color: #fff;
+}
+
+.footer h5 {
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer ul li {
+    margin-bottom: 10px;
+}
+
+.footer .fab {
+    font-size: 20px;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.footer .fab:hover {
+    color: #ddd;
+}
+
+/* LANDING PAGE */
+.header {
+    background-color: rgb(113, 124, 113);
+    height: 80vh;
+    width: 100%;
+    padding: 20px 20px;
+}
+
+.gradient-text {
+    background: linear-gradient(to left, #1230AE, #6C48C5, #C68FE6, #FFF7F7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
+}
+
+/* MYPROJECT */
+
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap; /* Allow wrapping for both text and button */
+}
+
+.project-name {
+    flex: 1; /* Allow the project name to take available space */
+    word-break: break-word; /* Break long words to wrap to the next line */
+    white-space: normal; /* Ensure the text wraps properly */
+    overflow-wrap: break-word; /* Ensure long strings without spaces also wrap */
+}
+
+.view-detail-btn {
+    flex-shrink: 0; /* Ensure the button stays the same size and doesn't shrink */
+    white-space: nowrap; /* Prevent the button text from wrapping */
+}
+
+
+.project-item {
+    border-radius: 15px !important;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-item:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* PROJECT LINE NUMBER */
+.latex-editor {
+    display: flex;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    height: 700px;
+    /* Batas tinggi untuk membuat scroll */
+    overflow-y: scroll;
+    position: relative;
+}
+
+.line-numbers {
+    background-color: #f7f7f7;
+    padding: 10px;
+    border-right: 1px solid #ddd;
+    user-select: none;
+    text-align: right;
+    white-space: nowrap;
+    position: sticky;
+    /* Gunakan sticky agar tetap di tempat saat di-scroll */
+    top: 0;
+    /* Tetap di atas */
+    width: 50px;
+    /* Lebar tetap */
+    height: 100%;
+    overflow: hidden;
+}
+
+.editor-content {
+    font-family: monospace;
+    line-height: 1.5;
+    padding: 10px;
+    padding-left: 10px;
+    /* Sesuaikan padding kiri */
+    border: none;
+    resize: none;
+    width: calc(100% - 10px);
+    /* Sesuaikan lebar untuk menghindari overlap */
+    height: calc(100% - 20px);
+    /* Sesuaikan tinggi untuk memperhitungkan padding */
+    overflow-y: auto;
+    /* Pastikan scroll diaktifkan saat konten lebih panjang */
+    overflow-x: hidden;
+    outline: none;
+    box-sizing: border-box;
+}
+
+/* LATEX TEMPLATE */
+.latex-editor {
+    display: flex;
+    flex-direction: row;
+    /* Force horizontal direction */
+    justify-content: space-between;
+    /* Ensure spacing between elements */
+    align-items: flex-start;
+    /* Align elements at the start */
+    width: 100%;
+    overflow-x: auto;
+    /* Allow horizontal scrolling if necessary */
+}
+
+.section {
+    flex-grow: 1;
+    /* Make sections grow equally */
+    min-width: 200px;
+    /* Set minimum width for each section */
+    padding: 10px;
+}
+
+.line-numbers {
+    width: 50px;
+    /* Fixed width for line numbers */
+    background-color: #f7f7f7;
+    padding: 10px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+
+/* PROJECT SETTING */
+
+/* CURRENT COLLABORATOR SECTION */
+.notification-icon {
+    position: relative;
+}
+
+.notification-badge {
+    position: absolute;
+    top: 1px;
+    /* Adjusts vertical position */
+    right: 10px;
+    /* Adjusts horizontal position */
+    background: #C68FE6;
+    /* Background color */
+    color: white;
+    /* Text color */
+    border-radius: 50%;
+    /* Makes it round */
+    padding: 2px 5px;
+    /* Space around text */
+    font-size: 0.9rem;
+    /* Size of the number */
+    min-width: 18px;
+    /* Minimum width of the badge */
+    height: 18px;
+    /* Fixed height to keep the circle consistent */
+    display: flex;
+    /* Align items */
+    justify-content: center;
+    /* Center the number horizontally */
+    align-items: center;
+    /* Center the number vertically */
+}
