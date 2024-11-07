@@ -1,0 +1,12 @@
+2024-10-29 07:58:41,070+0700 INFO  mpmcli - this is mpmcli 4.4 (MiKTeX 24.1 Portable)
+2024-10-29 07:58:41,070+0700 INFO  mpmcli - this process (2804) started by 'miktex-portable' with command line: mpm --register-components --verbose
+2024-10-29 07:58:41,070+0700 INFO  mpmcli - Operating on the private (per-user) MiKTeX setup
+2024-10-29 07:58:41,131+0700 WARN  mpmcli.core - still open: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\fontconfig\config\fonts.conf.in"
+2024-10-29 07:58:41,131+0700 WARN  mpmcli.core - still open: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs/config\fontconfig\config\fonts.conf"
+2024-10-29 07:58:41,132+0700 INFO  mpmcli - this process (2804) finishes with exit code 0
+2024-10-29 08:04:15,718+0700 INFO  mpmcli - this is mpmcli 4.5 (MiKTeX 24.4 Portable)
+2024-10-29 08:04:15,718+0700 INFO  mpmcli - this process (11380) started by 'miktex-console' with command line: mpm --register-components --verbose
+2024-10-29 08:04:15,718+0700 INFO  mpmcli - Operating on the private (per-user) MiKTeX setup
+2024-10-29 08:04:15,722+0700 WARN  mpmcli.core - still open: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs/config\fontconfig\config\fonts.conf"
+2024-10-29 08:04:15,722+0700 WARN  mpmcli.core - still open: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\fontconfig/config\fonts.conf.in"
+2024-10-29 08:04:15,806+0700 INFO  mpmcli - this process (11380) finishes with exit code 0

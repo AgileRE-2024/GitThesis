@@ -1,0 +1,858 @@
+2024-10-29 08:01:07,061+0700 INFO  main - starting: MiKTeX Console 4.11 (MiKTeX 24.1 Portable)
+2024-10-29 08:01:07,078+0700 ERROR miktex-console.core - Something is wrong with the PATH:
+2024-10-29 08:01:07,078+0700 ERROR miktex-console.core - C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\node.js\;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\Program Files\Graphviz\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Launcher\;C:\Users\WINDOWS 10 PRO\AppData\Local\Microsoft\WindowsApps;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Microsoft VS Code\bin;D:\Flutter\flutter\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Android\Sdk\platform-tools;C:\Users\WINDOWS 10 PRO\AppData\Roaming\npm;C:\Users\WINDOWS 10 PRO\AppData\Roaming\Composer\vendor\bin
+2024-10-29 08:01:08,347+0700 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2024-10-29 08:01:08,347+0700 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2024-10-29 08:01:08,349+0700 WARN  miktex-console.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2024-10-29 08:01:08,898+0700 INFO  miktex-console.core - start process: miktex fontmaps configure
+2024-10-29 08:01:16,084+0700 INFO  mainwindow - checking for updates...
+2024-10-29 08:01:16,094+0700 INFO  miktex-console.packagemanager - searching for updateable packages
+2024-10-29 08:01:16,103+0700 INFO  miktex-console.packagemanager - going to download https://api2.miktex.org/hello
+2024-10-29 08:01:18,341+0700 INFO  miktex-console.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2024-10-29 08:01:18,529+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzdb3-2.9.tar.lzma...
+2024-10-29 08:01:18,733+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzdb3-2.9.tar.lzma
+2024-10-29 08:01:20,873+0700 INFO  mainwindow - 1.81 MB, 6.78 Mbit/s
+2024-10-29 08:01:23,231+0700 INFO  mainwindow - updating package manifests ("D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex/config\package-manifests.ini")...
+2024-10-29 08:01:24,904+0700 INFO  mainwindow - installed 7475 package manifests
+2024-10-29 08:01:24,904+0700 INFO  mainwindow - visiting repository https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/...
+2024-10-29 08:01:24,904+0700 INFO  mainwindow - repository type: remote package repository
+2024-10-29 08:01:24,906+0700 INFO  mainwindow - loading package repository manifest...
+2024-10-29 08:01:24,907+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma...
+2024-10-29 08:01:24,907+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma
+2024-10-29 08:01:25,199+0700 INFO  mainwindow - 0.37 MB, 10.14 Mbit/s
+2024-10-29 08:01:26,396+0700 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2024-10-29 08:01:26,396+0700 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2024-10-29 08:01:26,398+0700 WARN  miktex-console.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2024-10-29 08:01:30,345+0700 INFO  mainwindow - package repository digest: fa25150c438707efe98dc1910f8f9e39
+2024-10-29 08:01:32,839+0700 INFO  miktex-console.packagemanager - ms: package is obsolete
+2024-10-29 08:01:32,839+0700 INFO  miktex-console.packagemanager - miktex-mpfr-bin-x64-2.9: package is obsolete
+2024-10-29 08:01:32,878+0700 INFO  mainwindow - found 115 updates
+2024-10-29 08:01:32,923+0700 ERROR miktex-console.core - Something is wrong with the PATH:
+2024-10-29 08:01:32,923+0700 ERROR miktex-console.core - C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\node.js\;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\Program Files\Graphviz\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Launcher\;C:\Users\WINDOWS 10 PRO\AppData\Local\Microsoft\WindowsApps;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Microsoft VS Code\bin;D:\Flutter\flutter\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Android\Sdk\platform-tools;C:\Users\WINDOWS 10 PRO\AppData\Roaming\npm;C:\Users\WINDOWS 10 PRO\AppData\Roaming\Composer\vendor\bin
+2024-10-29 08:01:41,649+0700 INFO  mainwindow - installing updates...
+2024-10-29 08:01:41,651+0700 INFO  miktex-console.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2024-10-29 08:01:42,798+0700 INFO  mainwindow - starting package maintenance...
+2024-10-29 08:01:42,798+0700 INFO  mainwindow - installation directory: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install"
+2024-10-29 08:01:42,798+0700 INFO  mainwindow - package repository: https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/
+2024-10-29 08:01:43,204+0700 INFO  mainwindow - package repository digest: fa25150c438707efe98dc1910f8f9e39
+2024-10-29 08:01:43,205+0700 INFO  mainwindow - going to download 70757661 bytes
+2024-10-29 08:01:43,205+0700 INFO  mainwindow - going to install 2122 file(s) (113 package(s))
+2024-10-29 08:01:43,205+0700 INFO  mainwindow - going to remove 5 file(s) (2 package(s))
+2024-10-29 08:01:44,019+0700 INFO  miktex-console.packagemanager - installing package amsmath
+2024-10-29 08:01:44,020+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/amsmath.tar.lzma...
+2024-10-29 08:01:44,020+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/amsmath.tar.lzma
+2024-10-29 08:01:44,064+0700 INFO  mainwindow - 0.03 MB, 5.87 Mbit/s
+2024-10-29 08:01:44,105+0700 INFO  mainwindow - extracting files from amsmath.tar.lzma...
+2024-10-29 08:01:44,372+0700 INFO  miktex-console.packagemanager - installing package atveryend
+2024-10-29 08:01:44,373+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/atveryend.tar.lzma...
+2024-10-29 08:01:44,373+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/atveryend.tar.lzma
+2024-10-29 08:01:44,396+0700 INFO  mainwindow - 0.00 MB, 0.50 Mbit/s
+2024-10-29 08:01:44,424+0700 INFO  mainwindow - extracting files from atveryend.tar.lzma...
+2024-10-29 08:01:44,453+0700 INFO  miktex-console.packagemanager - installing package babel
+2024-10-29 08:01:44,455+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/babel.tar.lzma...
+2024-10-29 08:01:44,455+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/babel.tar.lzma
+2024-10-29 08:01:44,948+0700 INFO  mainwindow - 0.24 MB, 3.87 Mbit/s
+2024-10-29 08:02:06,477+0700 INFO  mainwindow - extracting files from babel.tar.lzma...
+2024-10-29 08:02:09,578+0700 INFO  miktex-console.packagemanager - installing package biber-windows-x64
+2024-10-29 08:02:09,579+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/biber-windows-x64.tar.lzma...
+2024-10-29 08:02:09,579+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/biber-windows-x64.tar.lzma
+2024-10-29 08:02:26,803+0700 INFO  mainwindow - 24.49 MB, 11.38 Mbit/s
+2024-10-29 08:02:26,891+0700 INFO  mainwindow - extracting files from biber-windows-x64.tar.lzma...
+2024-10-29 08:02:28,643+0700 INFO  miktex-console.packagemanager - installing package biblatex
+2024-10-29 08:02:28,644+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/biblatex.tar.lzma...
+2024-10-29 08:02:28,644+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/biblatex.tar.lzma
+2024-10-29 08:02:31,931+0700 INFO  mainwindow - 0.27 MB, 0.65 Mbit/s
+2024-10-29 08:02:32,188+0700 INFO  mainwindow - extracting files from biblatex.tar.lzma...
+2024-10-29 08:02:32,747+0700 INFO  miktex-console.packagemanager - installing package fontspec
+2024-10-29 08:02:32,748+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/fontspec.tar.lzma...
+2024-10-29 08:02:32,748+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/fontspec.tar.lzma
+2024-10-29 08:02:32,798+0700 INFO  mainwindow - 0.03 MB, 4.49 Mbit/s
+2024-10-29 08:02:32,829+0700 INFO  mainwindow - extracting files from fontspec.tar.lzma...
+2024-10-29 08:02:32,864+0700 INFO  miktex-console.packagemanager - installing package graphics
+2024-10-29 08:02:32,865+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/graphics.tar.lzma...
+2024-10-29 08:02:32,865+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/graphics.tar.lzma
+2024-10-29 08:02:32,953+0700 INFO  mainwindow - 0.02 MB, 1.52 Mbit/s
+2024-10-29 08:02:33,010+0700 INFO  mainwindow - extracting files from graphics.tar.lzma...
+2024-10-29 08:02:33,084+0700 INFO  miktex-console.packagemanager - installing package graphics-def
+2024-10-29 08:02:33,085+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/graphics-def.tar.lzma...
+2024-10-29 08:02:33,085+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/graphics-def.tar.lzma
+2024-10-29 08:02:33,110+0700 INFO  mainwindow - 0.01 MB, 3.63 Mbit/s
+2024-10-29 08:02:33,147+0700 INFO  mainwindow - extracting files from graphics-def.tar.lzma...
+2024-10-29 08:02:33,184+0700 INFO  miktex-console.packagemanager - installing package hyperref
+2024-10-29 08:02:33,185+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/hyperref.tar.lzma...
+2024-10-29 08:02:33,185+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/hyperref.tar.lzma
+2024-10-29 08:02:33,279+0700 INFO  mainwindow - 0.09 MB, 7.57 Mbit/s
+2024-10-29 08:02:33,338+0700 INFO  mainwindow - extracting files from hyperref.tar.lzma...
+2024-10-29 08:02:33,442+0700 INFO  miktex-console.packagemanager - installing package l3backend
+2024-10-29 08:02:33,443+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/l3backend.tar.lzma...
+2024-10-29 08:02:33,443+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/l3backend.tar.lzma
+2024-10-29 08:02:33,884+0700 INFO  mainwindow - 0.02 MB, 0.30 Mbit/s
+2024-10-29 08:02:33,921+0700 INFO  mainwindow - extracting files from l3backend.tar.lzma...
+2024-10-29 08:02:33,961+0700 INFO  miktex-console.packagemanager - installing package l3kernel
+2024-10-29 08:02:33,962+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/l3kernel.tar.lzma...
+2024-10-29 08:02:33,962+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/l3kernel.tar.lzma
+2024-10-29 08:02:34,120+0700 INFO  mainwindow - 0.18 MB, 9.28 Mbit/s
+2024-10-29 08:02:34,171+0700 INFO  mainwindow - extracting files from l3kernel.tar.lzma...
+2024-10-29 08:02:34,261+0700 INFO  miktex-console.packagemanager - installing package l3packages
+2024-10-29 08:02:34,263+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/l3packages.tar.lzma...
+2024-10-29 08:02:34,263+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/l3packages.tar.lzma
+2024-10-29 08:02:34,289+0700 INFO  mainwindow - 0.02 MB, 6.36 Mbit/s
+2024-10-29 08:02:34,335+0700 INFO  mainwindow - extracting files from l3packages.tar.lzma...
+2024-10-29 08:02:34,397+0700 INFO  miktex-console.packagemanager - installing package latex-firstaid
+2024-10-29 08:02:34,398+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/latex-firstaid.tar.lzma...
+2024-10-29 08:02:34,398+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/latex-firstaid.tar.lzma
+2024-10-29 08:02:34,423+0700 INFO  mainwindow - 0.00 MB, 1.37 Mbit/s
+2024-10-29 08:02:34,455+0700 INFO  mainwindow - extracting files from latex-firstaid.tar.lzma...
+2024-10-29 08:02:34,491+0700 INFO  miktex-console.packagemanager - installing package latex-tools
+2024-10-29 08:02:34,492+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/latex-tools.tar.lzma...
+2024-10-29 08:02:34,492+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/latex-tools.tar.lzma
+2024-10-29 08:02:34,554+0700 INFO  mainwindow - 0.05 MB, 6.09 Mbit/s
+2024-10-29 08:02:34,635+0700 INFO  mainwindow - extracting files from latex-tools.tar.lzma...
+2024-10-29 08:02:34,810+0700 INFO  miktex-console.packagemanager - installing package listings
+2024-10-29 08:02:34,812+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/listings.tar.lzma...
+2024-10-29 08:02:34,812+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/listings.tar.lzma
+2024-10-29 08:02:34,921+0700 INFO  mainwindow - 0.15 MB, 10.83 Mbit/s
+2024-10-29 08:02:34,958+0700 INFO  mainwindow - extracting files from listings.tar.lzma...
+2024-10-29 08:02:35,013+0700 INFO  miktex-console.packagemanager - installing package ltxbase
+2024-10-29 08:02:35,014+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/ltxbase.tar.lzma...
+2024-10-29 08:02:35,014+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/ltxbase.tar.lzma
+2024-10-29 08:02:35,163+0700 INFO  mainwindow - 0.25 MB, 13.56 Mbit/s
+2024-10-29 08:02:35,419+0700 INFO  mainwindow - extracting files from ltxbase.tar.lzma...
+2024-10-29 08:02:35,901+0700 INFO  miktex-console.packagemanager - installing package luaotfload
+2024-10-29 08:02:35,902+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/luaotfload.tar.lzma...
+2024-10-29 08:02:35,902+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/luaotfload.tar.lzma
+2024-10-29 08:02:36,315+0700 INFO  mainwindow - 0.62 MB, 12.16 Mbit/s
+2024-10-29 08:02:36,461+0700 INFO  mainwindow - extracting files from luaotfload.tar.lzma...
+2024-10-29 08:02:36,846+0700 INFO  miktex-console.packagemanager - installing package make4ht
+2024-10-29 08:02:36,847+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/make4ht.tar.lzma...
+2024-10-29 08:02:36,848+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/make4ht.tar.lzma
+2024-10-29 08:02:41,565+0700 INFO  mainwindow - 0.08 MB, 0.13 Mbit/s
+2024-10-29 08:02:41,693+0700 INFO  mainwindow - extracting files from make4ht.tar.lzma...
+2024-10-29 08:02:41,912+0700 INFO  miktex-console.packagemanager - installing package miktex-arctrl-bin-x64-2.9
+2024-10-29 08:02:41,914+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-arctrl-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:41,914+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-arctrl-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:41,966+0700 INFO  mainwindow - 0.04 MB, 5.86 Mbit/s
+2024-10-29 08:02:41,998+0700 INFO  mainwindow - extracting files from miktex-arctrl-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:42,030+0700 INFO  miktex-console.packagemanager - installing package miktex-asymptote-bin-x64-2.9
+2024-10-29 08:02:42,031+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-asymptote-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:42,031+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-asymptote-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:42,789+0700 INFO  mainwindow - 1.19 MB, 12.54 Mbit/s
+2024-10-29 08:02:42,824+0700 INFO  mainwindow - extracting files from miktex-asymptote-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:42,933+0700 INFO  miktex-console.packagemanager - installing package miktex-autosp-bin-x64-2.9
+2024-10-29 08:02:42,934+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-autosp-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:42,934+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-autosp-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:43,067+0700 INFO  mainwindow - 0.03 MB, 1.94 Mbit/s
+2024-10-29 08:02:43,098+0700 INFO  mainwindow - extracting files from miktex-autosp-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,134+0700 INFO  miktex-console.packagemanager - installing package miktex-axohelp-bin-x64-2.9
+2024-10-29 08:02:43,136+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-axohelp-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,136+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-axohelp-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:43,170+0700 INFO  mainwindow - 0.04 MB, 9.10 Mbit/s
+2024-10-29 08:02:43,202+0700 INFO  mainwindow - extracting files from miktex-axohelp-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,235+0700 INFO  miktex-console.packagemanager - installing package miktex-bibarts-bin-x64-2.9
+2024-10-29 08:02:43,236+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-bibarts-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,236+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-bibarts-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:43,302+0700 INFO  mainwindow - 0.07 MB, 8.36 Mbit/s
+2024-10-29 08:02:43,329+0700 INFO  mainwindow - extracting files from miktex-bibarts-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,360+0700 INFO  miktex-console.packagemanager - installing package miktex-bibtex-bin-x64-2.9
+2024-10-29 08:02:43,361+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-bibtex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,361+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-bibtex-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:43,611+0700 INFO  mainwindow - 0.08 MB, 2.57 Mbit/s
+2024-10-29 08:02:43,640+0700 INFO  mainwindow - extracting files from miktex-bibtex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,669+0700 INFO  miktex-console.packagemanager - installing package miktex-bibtex8bit-bin-x64-2.9
+2024-10-29 08:02:43,670+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-bibtex8bit-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,670+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-bibtex8bit-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:43,761+0700 INFO  mainwindow - 0.10 MB, 9.40 Mbit/s
+2024-10-29 08:02:43,789+0700 INFO  mainwindow - extracting files from miktex-bibtex8bit-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,823+0700 INFO  miktex-console.packagemanager - installing package miktex-bzip2-bin-x64-2.9
+2024-10-29 08:02:43,824+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-bzip2-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,824+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-bzip2-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:43,853+0700 INFO  mainwindow - 0.03 MB, 8.91 Mbit/s
+2024-10-29 08:02:43,866+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:02:43,866+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:02:43,866+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:02:43,866+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-bzip2.dll"
+2024-10-29 08:02:43,866+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:02:43,885+0700 INFO  mainwindow - extracting files from miktex-bzip2-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,929+0700 INFO  miktex-console.packagemanager - installing package miktex-cairo-bin-x64-2.9
+2024-10-29 08:02:43,930+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-cairo-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:43,930+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-cairo-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:44,632+0700 INFO  mainwindow - 0.44 MB, 4.98 Mbit/s
+2024-10-29 08:02:44,663+0700 INFO  mainwindow - extracting files from miktex-cairo-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:44,726+0700 INFO  miktex-console.packagemanager - installing package miktex-chktex-bin-x64-2.9
+2024-10-29 08:02:44,727+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-chktex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:44,727+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-chktex-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:44,875+0700 INFO  mainwindow - 0.04 MB, 2.26 Mbit/s
+2024-10-29 08:02:44,904+0700 INFO  mainwindow - extracting files from miktex-chktex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:44,935+0700 INFO  miktex-console.packagemanager - installing package miktex-cjkutils-bin-x64-2.9
+2024-10-29 08:02:44,936+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-cjkutils-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:44,936+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-cjkutils-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:45,024+0700 INFO  mainwindow - 0.06 MB, 5.59 Mbit/s
+2024-10-29 08:02:45,063+0700 INFO  mainwindow - extracting files from miktex-cjkutils-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:45,121+0700 INFO  miktex-console.packagemanager - installing package miktex-console-bin-x64-2.9
+2024-10-29 08:02:45,123+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-console-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:45,123+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-console-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:45,397+0700 INFO  mainwindow - 0.28 MB, 8.18 Mbit/s
+2024-10-29 08:02:45,410+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:02:45,410+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:02:45,410+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:02:45,410+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\miktex-console.exe"
+2024-10-29 08:02:45,410+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:02:45,434+0700 INFO  mainwindow - extracting files from miktex-console-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:45,484+0700 INFO  miktex-console.packagemanager - installing package miktex-curl-bin-x64-2.9
+2024-10-29 08:02:45,484+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-curl-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:45,485+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-curl-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:45,693+0700 INFO  mainwindow - 0.24 MB, 9.28 Mbit/s
+2024-10-29 08:02:45,705+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:02:45,705+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:02:45,705+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:02:45,705+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-curl.dll"
+2024-10-29 08:02:45,705+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:02:45,724+0700 INFO  mainwindow - extracting files from miktex-curl-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:45,775+0700 INFO  miktex-console.packagemanager - installing package miktex-cweb-bin-x64-2.9
+2024-10-29 08:02:45,776+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-cweb-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:45,776+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-cweb-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:45,879+0700 INFO  mainwindow - 0.11 MB, 8.63 Mbit/s
+2024-10-29 08:02:45,915+0700 INFO  mainwindow - extracting files from miktex-cweb-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:45,956+0700 INFO  miktex-console.packagemanager - installing package miktex-devnag-bin-x64-2.9
+2024-10-29 08:02:45,958+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-devnag-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:45,958+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-devnag-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:45,992+0700 INFO  mainwindow - 0.03 MB, 6.66 Mbit/s
+2024-10-29 08:02:46,023+0700 INFO  mainwindow - extracting files from miktex-devnag-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:46,059+0700 INFO  miktex-console.packagemanager - installing package miktex-doc
+2024-10-29 08:02:46,060+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-doc.tar.lzma...
+2024-10-29 08:02:46,060+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-doc.tar.lzma
+2024-10-29 08:02:46,356+0700 INFO  mainwindow - 0.47 MB, 12.88 Mbit/s
+2024-10-29 08:02:46,524+0700 INFO  mainwindow - extracting files from miktex-doc.tar.lzma...
+2024-10-29 08:02:46,757+0700 INFO  miktex-console.packagemanager - installing package miktex-dvicopy-bin-x64-2.9
+2024-10-29 08:02:46,758+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvicopy-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:46,758+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvicopy-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:51,790+0700 INFO  mainwindow - 0.05 MB, 0.09 Mbit/s
+2024-10-29 08:02:51,818+0700 INFO  mainwindow - extracting files from miktex-dvicopy-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:51,848+0700 INFO  miktex-console.packagemanager - installing package miktex-dvipdfmx-bin-x64-2.9
+2024-10-29 08:02:51,849+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvipdfmx-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:51,849+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvipdfmx-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:52,137+0700 INFO  mainwindow - 0.34 MB, 9.38 Mbit/s
+2024-10-29 08:02:52,170+0700 INFO  mainwindow - extracting files from miktex-dvipdfmx-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:52,220+0700 INFO  miktex-console.packagemanager - installing package miktex-dvipng-bin-x64-2.9
+2024-10-29 08:02:52,222+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvipng-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:52,222+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvipng-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:52,312+0700 INFO  mainwindow - 0.05 MB, 4.32 Mbit/s
+2024-10-29 08:02:52,341+0700 INFO  mainwindow - extracting files from miktex-dvipng-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:52,372+0700 INFO  miktex-console.packagemanager - installing package miktex-dvips-bin-x64-2.9
+2024-10-29 08:02:52,374+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvips-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:52,374+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvips-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:52,469+0700 INFO  mainwindow - 0.14 MB, 11.67 Mbit/s
+2024-10-29 08:02:52,501+0700 INFO  mainwindow - extracting files from miktex-dvips-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:52,543+0700 INFO  miktex-console.packagemanager - installing package miktex-dvisvgm-bin-x64-2.9
+2024-10-29 08:02:52,545+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvisvgm-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:52,545+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-dvisvgm-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:53,706+0700 INFO  mainwindow - 1.46 MB, 10.05 Mbit/s
+2024-10-29 08:02:53,736+0700 INFO  mainwindow - extracting files from miktex-dvisvgm-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:53,872+0700 INFO  miktex-console.packagemanager - installing package miktex-epstopdf-bin-x64-2.9
+2024-10-29 08:02:53,873+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-epstopdf-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:53,873+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-epstopdf-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:54,020+0700 INFO  mainwindow - 0.11 MB, 5.86 Mbit/s
+2024-10-29 08:02:54,048+0700 INFO  mainwindow - extracting files from miktex-epstopdf-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,089+0700 INFO  miktex-console.packagemanager - installing package miktex-expat-bin-x64-2.9
+2024-10-29 08:02:54,090+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-expat-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,090+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-expat-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:54,145+0700 INFO  mainwindow - 0.05 MB, 7.41 Mbit/s
+2024-10-29 08:02:54,158+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:02:54,158+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:02:54,158+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:02:54,158+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-expat.dll"
+2024-10-29 08:02:54,158+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:02:54,181+0700 INFO  mainwindow - extracting files from miktex-expat-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,223+0700 INFO  miktex-console.packagemanager - installing package miktex-findtexmf-bin-x64-2.9
+2024-10-29 08:02:54,224+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-findtexmf-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,224+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-findtexmf-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:54,256+0700 INFO  mainwindow - 0.03 MB, 7.49 Mbit/s
+2024-10-29 08:02:54,286+0700 INFO  mainwindow - extracting files from miktex-findtexmf-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,318+0700 INFO  miktex-console.packagemanager - installing package miktex-fmt-bin-x64-2.9
+2024-10-29 08:02:54,320+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-fmt-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,320+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-fmt-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:54,377+0700 INFO  mainwindow - 0.08 MB, 11.61 Mbit/s
+2024-10-29 08:02:54,389+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:02:54,389+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:02:54,389+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:02:54,390+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-fmt.dll"
+2024-10-29 08:02:54,390+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:02:54,409+0700 INFO  mainwindow - extracting files from miktex-fmt-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,452+0700 INFO  miktex-console.packagemanager - installing package miktex-fontconfig-bin-x64-2.9
+2024-10-29 08:02:54,453+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-fontconfig-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,453+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-fontconfig-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:54,536+0700 INFO  mainwindow - 0.16 MB, 15.44 Mbit/s
+2024-10-29 08:02:54,581+0700 INFO  mainwindow - extracting files from miktex-fontconfig-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,688+0700 INFO  miktex-console.packagemanager - installing package miktex-fonts-bin-x64-2.9
+2024-10-29 08:02:54,690+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-fonts-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,690+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-fonts-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:54,754+0700 INFO  mainwindow - 0.08 MB, 10.69 Mbit/s
+2024-10-29 08:02:54,784+0700 INFO  mainwindow - extracting files from miktex-fonts-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,821+0700 INFO  miktex-console.packagemanager - installing package miktex-freeglut-bin-x64-2.9
+2024-10-29 08:02:54,823+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-freeglut-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:54,823+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-freeglut-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:55,422+0700 INFO  mainwindow - 0.08 MB, 1.14 Mbit/s
+2024-10-29 08:02:55,455+0700 INFO  mainwindow - extracting files from miktex-freeglut-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:55,500+0700 INFO  miktex-console.packagemanager - installing package miktex-freetype2-bin-x64-2.9
+2024-10-29 08:02:55,501+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-freetype2-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:55,501+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-freetype2-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:55,676+0700 INFO  mainwindow - 0.30 MB, 14.10 Mbit/s
+2024-10-29 08:02:55,708+0700 INFO  mainwindow - extracting files from miktex-freetype2-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:55,771+0700 INFO  miktex-console.packagemanager - installing package miktex-fribidixetex-bin-x64-2.9
+2024-10-29 08:02:55,772+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-fribidixetex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:55,773+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-fribidixetex-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:55,804+0700 INFO  mainwindow - 0.03 MB, 6.78 Mbit/s
+2024-10-29 08:02:55,838+0700 INFO  mainwindow - extracting files from miktex-fribidixetex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:55,875+0700 INFO  miktex-console.packagemanager - installing package miktex-gd-bin-x64-2.9
+2024-10-29 08:02:55,877+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-gd-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:55,877+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-gd-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:55,967+0700 INFO  mainwindow - 0.11 MB, 9.60 Mbit/s
+2024-10-29 08:02:55,999+0700 INFO  mainwindow - extracting files from miktex-gd-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:56,050+0700 INFO  miktex-console.packagemanager - installing package miktex-graphite2-bin-x64-2.9
+2024-10-29 08:02:56,052+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-graphite2-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:56,052+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-graphite2-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:56,206+0700 INFO  mainwindow - 0.07 MB, 3.87 Mbit/s
+2024-10-29 08:02:56,235+0700 INFO  mainwindow - extracting files from miktex-graphite2-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:56,283+0700 INFO  miktex-console.packagemanager - installing package miktex-gregorio-bin-x64-2.9
+2024-10-29 08:02:56,285+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-gregorio-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:56,285+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-gregorio-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:56,342+0700 INFO  mainwindow - 0.12 MB, 16.60 Mbit/s
+2024-10-29 08:02:56,379+0700 INFO  mainwindow - extracting files from miktex-gregorio-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:56,415+0700 INFO  miktex-console.packagemanager - installing package miktex-gsf2pk-bin-x64-2.9
+2024-10-29 08:02:56,416+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-gsf2pk-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:56,416+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-gsf2pk-bin-x64-2.9.tar.lzma
+2024-10-29 08:02:56,446+0700 INFO  mainwindow - 0.05 MB, 12.00 Mbit/s
+2024-10-29 08:02:56,482+0700 INFO  mainwindow - extracting files from miktex-gsf2pk-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:56,514+0700 INFO  miktex-console.packagemanager - installing package miktex-harfbuzz-bin-x64-2.9
+2024-10-29 08:02:56,514+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-harfbuzz-bin-x64-2.9.tar.lzma...
+2024-10-29 08:02:56,515+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-harfbuzz-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:04,123+0700 INFO  mainwindow - 0.78 MB, 0.82 Mbit/s
+2024-10-29 08:03:04,154+0700 INFO  mainwindow - extracting files from miktex-harfbuzz-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:04,467+0700 INFO  miktex-console.packagemanager - installing package miktex-hitex-bin-x64
+2024-10-29 08:03:04,468+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-hitex-bin-x64.tar.lzma...
+2024-10-29 08:03:04,468+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-hitex-bin-x64.tar.lzma
+2024-10-29 08:03:04,674+0700 INFO  mainwindow - 0.26 MB, 10.05 Mbit/s
+2024-10-29 08:03:04,706+0700 INFO  mainwindow - extracting files from miktex-hitex-bin-x64.tar.lzma...
+2024-10-29 08:03:04,758+0700 INFO  miktex-console.packagemanager - installing package miktex-hunspell-bin-x64-2.9
+2024-10-29 08:03:04,759+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-hunspell-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:04,759+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-hunspell-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:04,913+0700 INFO  mainwindow - 0.22 MB, 11.37 Mbit/s
+2024-10-29 08:03:04,944+0700 INFO  mainwindow - extracting files from miktex-hunspell-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:04,998+0700 INFO  miktex-console.packagemanager - installing package miktex-icu-bin-x64
+2024-10-29 08:03:04,999+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-icu-bin-x64.tar.lzma...
+2024-10-29 08:03:04,999+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-icu-bin-x64.tar.lzma
+2024-10-29 08:03:35,225+0700 INFO  mainwindow - 9.46 MB, 2.50 Mbit/s
+2024-10-29 08:03:35,280+0700 INFO  mainwindow - extracting files from miktex-icu-bin-x64.tar.lzma...
+2024-10-29 08:03:36,197+0700 INFO  miktex-console.packagemanager - installing package miktex-jpeg-bin-x64-2.9
+2024-10-29 08:03:36,198+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-jpeg-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,198+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-jpeg-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:36,301+0700 INFO  mainwindow - 0.11 MB, 8.65 Mbit/s
+2024-10-29 08:03:36,333+0700 INFO  mainwindow - extracting files from miktex-jpeg-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,376+0700 INFO  miktex-console.packagemanager - installing package miktex-kpathsea-bin-x64-2.9
+2024-10-29 08:03:36,378+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-kpathsea-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,378+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-kpathsea-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:36,410+0700 INFO  mainwindow - 0.02 MB, 5.54 Mbit/s
+2024-10-29 08:03:36,437+0700 INFO  mainwindow - extracting files from miktex-kpathsea-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,466+0700 INFO  miktex-console.packagemanager - installing package miktex-lacheck-bin-x64-2.9
+2024-10-29 08:03:36,467+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-lacheck-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,468+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-lacheck-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:36,500+0700 INFO  mainwindow - 0.03 MB, 8.40 Mbit/s
+2024-10-29 08:03:36,529+0700 INFO  mainwindow - extracting files from miktex-lacheck-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,560+0700 INFO  miktex-console.packagemanager - installing package miktex-lcdf-typetools-bin-x64-2.9
+2024-10-29 08:03:36,561+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-lcdf-typetools-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,561+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-lcdf-typetools-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:36,807+0700 INFO  mainwindow - 0.71 MB, 23.38 Mbit/s
+2024-10-29 08:03:36,860+0700 INFO  mainwindow - extracting files from miktex-lcdf-typetools-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,985+0700 INFO  miktex-console.packagemanager - installing package miktex-libressl-bin-x64-2.9
+2024-10-29 08:03:36,987+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-libressl-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:36,987+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-libressl-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:37,324+0700 INFO  mainwindow - 0.61 MB, 14.53 Mbit/s
+2024-10-29 08:03:37,338+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:37,338+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:37,338+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:37,338+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-libressl-crypto.dll"
+2024-10-29 08:03:37,338+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:37,357+0700 INFO  mainwindow - extracting files from miktex-libressl-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:37,438+0700 INFO  miktex-console.packagemanager - installing package miktex-log4cxx-bin-x64-2.9
+2024-10-29 08:03:37,439+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-log4cxx-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:37,439+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-log4cxx-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:37,641+0700 INFO  mainwindow - 0.62 MB, 24.72 Mbit/s
+2024-10-29 08:03:37,654+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:37,654+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:37,654+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:37,654+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-apr.dll"
+2024-10-29 08:03:37,654+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:37,657+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:37,657+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:37,657+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:37,657+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-log4cxx.dll"
+2024-10-29 08:03:37,657+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:37,661+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:37,661+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:37,661+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:37,661+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-aprutil.dll"
+2024-10-29 08:03:37,661+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:37,679+0700 INFO  mainwindow - extracting files from miktex-log4cxx-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:37,773+0700 INFO  miktex-console.packagemanager - installing package miktex-lua53-bin-x64-2.9
+2024-10-29 08:03:37,775+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-lua53-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:37,775+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-lua53-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:39,409+0700 INFO  mainwindow - 0.10 MB, 0.51 Mbit/s
+2024-10-29 08:03:39,442+0700 INFO  mainwindow - extracting files from miktex-lua53-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:39,500+0700 INFO  miktex-console.packagemanager - installing package miktex-luatex-bin-x64-2.9
+2024-10-29 08:03:39,502+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-luatex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:39,502+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-luatex-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:42,434+0700 INFO  mainwindow - 2.04 MB, 5.56 Mbit/s
+2024-10-29 08:03:42,470+0700 INFO  mainwindow - extracting files from miktex-luatex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:42,887+0700 INFO  miktex-console.packagemanager - installing package miktex-lzma-bin-x64-2.9
+2024-10-29 08:03:42,888+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-lzma-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:42,888+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-lzma-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:43,043+0700 INFO  mainwindow - 0.08 MB, 4.26 Mbit/s
+2024-10-29 08:03:43,058+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:43,058+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:43,058+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:43,058+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-lzma2.dll"
+2024-10-29 08:03:43,059+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:43,080+0700 INFO  mainwindow - extracting files from miktex-lzma-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:43,124+0700 INFO  miktex-console.packagemanager - installing package miktex-m-tx-bin-x64-2.9
+2024-10-29 08:03:43,125+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-m-tx-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:43,125+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-m-tx-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:43,162+0700 INFO  mainwindow - 0.05 MB, 12.06 Mbit/s
+2024-10-29 08:03:43,189+0700 INFO  mainwindow - extracting files from miktex-m-tx-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:43,226+0700 INFO  miktex-console.packagemanager - installing package miktex-makeindex-bin-x64-2.9
+2024-10-29 08:03:43,227+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-makeindex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:43,227+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-makeindex-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:43,292+0700 INFO  mainwindow - 0.03 MB, 4.32 Mbit/s
+2024-10-29 08:03:43,321+0700 INFO  mainwindow - extracting files from miktex-makeindex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:43,352+0700 INFO  miktex-console.packagemanager - installing package miktex-md5-bin-x64-2.9
+2024-10-29 08:03:43,353+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-md5-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:43,353+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-md5-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:43,379+0700 INFO  mainwindow - 0.01 MB, 2.95 Mbit/s
+2024-10-29 08:03:43,392+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:43,392+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:43,392+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:43,392+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-md5.dll"
+2024-10-29 08:03:43,392+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:43,411+0700 INFO  mainwindow - extracting files from miktex-md5-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:43,453+0700 INFO  miktex-console.packagemanager - installing package miktex-metafont-bin-x64-2.9
+2024-10-29 08:03:43,454+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-metafont-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:43,454+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-metafont-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:44,892+0700 INFO  mainwindow - 0.24 MB, 1.33 Mbit/s
+2024-10-29 08:03:44,920+0700 INFO  mainwindow - extracting files from miktex-metafont-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:44,963+0700 INFO  miktex-console.packagemanager - installing package miktex-metapost-bin-x64-2.9
+2024-10-29 08:03:44,964+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-metapost-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:44,964+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-metapost-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:45,369+0700 INFO  mainwindow - 0.47 MB, 9.40 Mbit/s
+2024-10-29 08:03:45,404+0700 INFO  mainwindow - extracting files from miktex-metapost-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:45,476+0700 INFO  miktex-console.packagemanager - installing package miktex-mfware-bin-x64-2.9
+2024-10-29 08:03:45,477+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mfware-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:45,477+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mfware-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:45,533+0700 INFO  mainwindow - 0.11 MB, 16.09 Mbit/s
+2024-10-29 08:03:45,568+0700 INFO  mainwindow - extracting files from miktex-mfware-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:45,605+0700 INFO  miktex-console.packagemanager - installing package miktex-misc
+2024-10-29 08:03:45,607+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-misc.tar.lzma...
+2024-10-29 08:03:45,607+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-misc.tar.lzma
+2024-10-29 08:03:45,632+0700 INFO  mainwindow - 0.02 MB, 8.15 Mbit/s
+2024-10-29 08:03:45,700+0700 INFO  mainwindow - extracting files from miktex-misc.tar.lzma...
+2024-10-29 08:03:45,787+0700 INFO  miktex-console.packagemanager - installing package miktex-mktex-bin-x64-2.9
+2024-10-29 08:03:45,789+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mktex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:45,789+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mktex-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:45,853+0700 INFO  mainwindow - 0.14 MB, 18.19 Mbit/s
+2024-10-29 08:03:45,890+0700 INFO  mainwindow - extracting files from miktex-mktex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:45,941+0700 INFO  miktex-console.packagemanager - installing package miktex-mo-bin-x64-2.9
+2024-10-29 08:03:45,943+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mo-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:45,943+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mo-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:46,081+0700 INFO  mainwindow - 0.29 MB, 17.17 Mbit/s
+2024-10-29 08:03:46,113+0700 INFO  mainwindow - extracting files from miktex-mo-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,164+0700 INFO  miktex-console.packagemanager - installing package miktex-mpmcli-bin-x64-2.9
+2024-10-29 08:03:46,165+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mpmcli-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,166+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mpmcli-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:46,205+0700 INFO  mainwindow - 0.06 MB, 12.17 Mbit/s
+2024-10-29 08:03:46,235+0700 INFO  mainwindow - extracting files from miktex-mpmcli-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,270+0700 INFO  miktex-console.packagemanager - installing package miktex-mspack-bin-x64-2.9
+2024-10-29 08:03:46,271+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mspack-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,271+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mspack-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:46,494+0700 INFO  mainwindow - 0.04 MB, 1.28 Mbit/s
+2024-10-29 08:03:46,506+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:46,506+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:46,506+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:46,506+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-mspack.dll"
+2024-10-29 08:03:46,506+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:46,525+0700 INFO  mainwindow - extracting files from miktex-mspack-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,567+0700 INFO  miktex-console.packagemanager - installing package miktex-mthelp-bin-x64-2.9
+2024-10-29 08:03:46,569+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mthelp-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,569+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mthelp-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:46,608+0700 INFO  mainwindow - 0.05 MB, 9.62 Mbit/s
+2024-10-29 08:03:46,638+0700 INFO  mainwindow - extracting files from miktex-mthelp-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,667+0700 INFO  miktex-console.packagemanager - installing package miktex-mtprint-bin-x64-2.9
+2024-10-29 08:03:46,668+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mtprint-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,668+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-mtprint-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:46,710+0700 INFO  mainwindow - 0.05 MB, 9.82 Mbit/s
+2024-10-29 08:03:46,739+0700 INFO  mainwindow - extracting files from miktex-mtprint-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,776+0700 INFO  miktex-console.packagemanager - installing package miktex-omegaware-bin-x64-2.9
+2024-10-29 08:03:46,777+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-omegaware-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,777+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-omegaware-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:46,876+0700 INFO  mainwindow - 0.22 MB, 18.29 Mbit/s
+2024-10-29 08:03:46,916+0700 INFO  mainwindow - extracting files from miktex-omegaware-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:46,984+0700 INFO  miktex-console.packagemanager - installing package miktex-patgen-bin-x64
+2024-10-29 08:03:46,987+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-patgen-bin-x64.tar.lzma...
+2024-10-29 08:03:46,987+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-patgen-bin-x64.tar.lzma
+2024-10-29 08:03:47,023+0700 INFO  mainwindow - 0.04 MB, 10.01 Mbit/s
+2024-10-29 08:03:47,054+0700 INFO  mainwindow - extracting files from miktex-patgen-bin-x64.tar.lzma...
+2024-10-29 08:03:47,088+0700 INFO  miktex-console.packagemanager - installing package miktex-pdftex-bin-x64-2.9
+2024-10-29 08:03:47,089+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-pdftex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:47,089+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-pdftex-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:47,381+0700 INFO  mainwindow - 0.84 MB, 23.08 Mbit/s
+2024-10-29 08:03:47,416+0700 INFO  mainwindow - extracting files from miktex-pdftex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:47,517+0700 INFO  miktex-console.packagemanager - installing package miktex-pixman-bin-x64-2.9
+2024-10-29 08:03:47,519+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-pixman-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:47,519+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-pixman-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:47,631+0700 INFO  mainwindow - 0.21 MB, 14.99 Mbit/s
+2024-10-29 08:03:47,663+0700 INFO  mainwindow - extracting files from miktex-pixman-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:47,713+0700 INFO  miktex-console.packagemanager - installing package miktex-pmx-bin-x64-2.9
+2024-10-29 08:03:47,714+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-pmx-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:47,714+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-pmx-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:47,808+0700 INFO  mainwindow - 0.25 MB, 21.38 Mbit/s
+2024-10-29 08:03:47,840+0700 INFO  mainwindow - extracting files from miktex-pmx-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:47,886+0700 INFO  miktex-console.packagemanager - installing package miktex-png-bin-x64-2.9
+2024-10-29 08:03:47,887+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-png-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:47,887+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-png-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:47,929+0700 INFO  mainwindow - 0.09 MB, 17.86 Mbit/s
+2024-10-29 08:03:47,956+0700 INFO  mainwindow - extracting files from miktex-png-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:47,999+0700 INFO  miktex-console.packagemanager - installing package miktex-poppler-bin-x64-2.9
+2024-10-29 08:03:48,000+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-poppler-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:48,001+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-poppler-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:48,439+0700 INFO  mainwindow - 1.61 MB, 29.56 Mbit/s
+2024-10-29 08:03:48,492+0700 INFO  mainwindow - extracting files from miktex-poppler-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:48,706+0700 INFO  miktex-console.packagemanager - installing package miktex-popt-bin-x64-2.9
+2024-10-29 08:03:48,708+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-popt-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:48,708+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-popt-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:48,776+0700 INFO  mainwindow - 0.02 MB, 2.94 Mbit/s
+2024-10-29 08:03:48,789+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:48,790+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:48,790+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:48,790+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-popt.dll"
+2024-10-29 08:03:48,790+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:48,806+0700 INFO  mainwindow - extracting files from miktex-popt-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:48,847+0700 INFO  miktex-console.packagemanager - installing package miktex-posix-bin-x64-2.9
+2024-10-29 08:03:48,848+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-posix-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:48,848+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-posix-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:48,911+0700 INFO  mainwindow - 0.04 MB, 4.94 Mbit/s
+2024-10-29 08:03:48,943+0700 INFO  mainwindow - extracting files from miktex-posix-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:48,989+0700 INFO  miktex-console.packagemanager - installing package miktex-ps2pk-bin-x64-2.9
+2024-10-29 08:03:48,989+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-ps2pk-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:48,990+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-ps2pk-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:50,082+0700 INFO  mainwindow - 0.08 MB, 0.55 Mbit/s
+2024-10-29 08:03:50,114+0700 INFO  mainwindow - extracting files from miktex-ps2pk-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:50,147+0700 INFO  miktex-console.packagemanager - installing package miktex-psutils-bin-x64-2.9
+2024-10-29 08:03:50,148+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-psutils-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:50,148+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-psutils-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:50,242+0700 INFO  mainwindow - 0.06 MB, 5.31 Mbit/s
+2024-10-29 08:03:50,282+0700 INFO  mainwindow - extracting files from miktex-psutils-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:50,331+0700 INFO  miktex-console.packagemanager - installing package miktex-ptex-bin-x64
+2024-10-29 08:03:50,332+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-ptex-bin-x64.tar.lzma...
+2024-10-29 08:03:50,333+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-ptex-bin-x64.tar.lzma
+2024-10-29 08:03:50,752+0700 INFO  mainwindow - 0.51 MB, 9.84 Mbit/s
+2024-10-29 08:03:50,795+0700 INFO  mainwindow - extracting files from miktex-ptex-bin-x64.tar.lzma...
+2024-10-29 08:03:50,899+0700 INFO  miktex-console.packagemanager - installing package miktex-qt6-bin-x64
+2024-10-29 08:03:50,900+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-qt6-bin-x64.tar.lzma...
+2024-10-29 08:03:50,900+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-qt6-bin-x64.tar.lzma
+2024-10-29 08:03:58,053+0700 INFO  mainwindow - 10.38 MB, 11.61 Mbit/s
+2024-10-29 08:03:58,091+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:58,091+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:58,091+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:58,091+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\Qt6Core.dll"
+2024-10-29 08:03:58,091+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:58,099+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:58,099+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:58,099+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:58,099+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\Qt6Gui.dll"
+2024-10-29 08:03:58,099+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:58,104+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:58,104+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:58,104+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:58,104+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\platforms\qwindows.dll"
+2024-10-29 08:03:58,104+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:58,109+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:58,109+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:58,109+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:58,109+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\Qt6Widgets.dll"
+2024-10-29 08:03:58,109+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:58,113+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:03:58,113+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:03:58,113+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:03:58,113+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\styles\qwindowsvistastyle.dll"
+2024-10-29 08:03:58,113+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:03:58,135+0700 INFO  mainwindow - extracting files from miktex-qt6-bin-x64.tar.lzma...
+2024-10-29 08:03:59,144+0700 INFO  miktex-console.packagemanager - installing package miktex-runtime-bin-x64-2.9
+2024-10-29 08:03:59,145+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-runtime-bin-x64-2.9.tar.lzma...
+2024-10-29 08:03:59,145+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-runtime-bin-x64-2.9.tar.lzma
+2024-10-29 08:03:59,983+0700 INFO  mainwindow - 1.57 MB, 14.96 Mbit/s
+2024-10-29 08:04:00,009+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,009+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,009+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,009+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-ui-Qt.dll"
+2024-10-29 08:04:00,009+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,014+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,014+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,014+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,014+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-setup.dll"
+2024-10-29 08:04:00,014+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,030+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,030+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,030+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,030+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-res.dll"
+2024-10-29 08:04:00,030+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,033+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,033+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,033+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,033+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-trace.dll"
+2024-10-29 08:04:00,033+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,041+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,041+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,041+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,041+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-core.dll"
+2024-10-29 08:04:00,041+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,045+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,045+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,045+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,045+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-extractor.dll"
+2024-10-29 08:04:00,045+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,056+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,056+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,056+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,056+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-utf8wrap.dll"
+2024-10-29 08:04:00,056+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,063+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,063+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,063+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,063+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-util.dll"
+2024-10-29 08:04:00,063+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,068+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,068+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,068+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,068+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-loc.dll"
+2024-10-29 08:04:00,068+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,072+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:00,072+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:00,072+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:00,072+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-packagemanager.dll"
+2024-10-29 08:04:00,072+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:00,092+0700 INFO  mainwindow - extracting files from miktex-runtime-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:00,360+0700 INFO  miktex-console.packagemanager - installing package miktex-synctex-bin-x64-2.9
+2024-10-29 08:04:00,362+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-synctex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:00,362+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-synctex-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:00,479+0700 INFO  mainwindow - 0.06 MB, 3.81 Mbit/s
+2024-10-29 08:04:00,508+0700 INFO  mainwindow - extracting files from miktex-synctex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:00,539+0700 INFO  miktex-console.packagemanager - installing package miktex-tdsutil-bin-x64
+2024-10-29 08:04:00,540+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-tdsutil-bin-x64.tar.lzma...
+2024-10-29 08:04:00,540+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-tdsutil-bin-x64.tar.lzma
+2024-10-29 08:04:00,728+0700 INFO  mainwindow - 0.07 MB, 2.82 Mbit/s
+2024-10-29 08:04:00,757+0700 INFO  mainwindow - extracting files from miktex-tdsutil-bin-x64.tar.lzma...
+2024-10-29 08:04:00,787+0700 INFO  miktex-console.packagemanager - installing package miktex-teckit-bin-x64-2.9
+2024-10-29 08:04:00,788+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-teckit-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:00,788+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-teckit-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:00,857+0700 INFO  mainwindow - 0.03 MB, 3.24 Mbit/s
+2024-10-29 08:04:00,885+0700 INFO  mainwindow - extracting files from miktex-teckit-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:00,926+0700 INFO  miktex-console.packagemanager - installing package miktex-tex-bin-x64-2.9
+2024-10-29 08:04:00,927+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-tex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:00,927+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-tex-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:01,109+0700 INFO  mainwindow - 0.18 MB, 7.78 Mbit/s
+2024-10-29 08:04:01,141+0700 INFO  mainwindow - extracting files from miktex-tex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:01,180+0700 INFO  miktex-console.packagemanager - installing package miktex-tex2xindy-bin-x64-2.9
+2024-10-29 08:04:01,181+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-tex2xindy-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:01,181+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-tex2xindy-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:06,039+0700 INFO  mainwindow - 0.02 MB, 0.03 Mbit/s
+2024-10-29 08:04:06,069+0700 INFO  mainwindow - extracting files from miktex-tex2xindy-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:06,307+0700 INFO  miktex-console.packagemanager - installing package miktex-tex4ht-bin-x64-2.9
+2024-10-29 08:04:06,309+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-tex4ht-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:06,309+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-tex4ht-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:06,379+0700 INFO  mainwindow - 0.07 MB, 8.51 Mbit/s
+2024-10-29 08:04:06,412+0700 INFO  mainwindow - extracting files from miktex-tex4ht-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:06,446+0700 INFO  miktex-console.packagemanager - installing package miktex-texify-bin-x64-2.9
+2024-10-29 08:04:06,447+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-texify-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:06,447+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-texify-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:06,508+0700 INFO  mainwindow - 0.07 MB, 9.52 Mbit/s
+2024-10-29 08:04:06,537+0700 INFO  mainwindow - extracting files from miktex-texify-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:06,568+0700 INFO  miktex-console.packagemanager - installing package miktex-texware-bin-x64-2.9
+2024-10-29 08:04:06,568+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-texware-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:06,569+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-texware-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:06,656+0700 INFO  mainwindow - 0.11 MB, 10.65 Mbit/s
+2024-10-29 08:04:06,690+0700 INFO  mainwindow - extracting files from miktex-texware-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:06,735+0700 INFO  miktex-console.packagemanager - installing package miktex-texworks-bin-x64-2.9
+2024-10-29 08:04:06,736+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-texworks-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:06,737+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-texworks-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:08,803+0700 INFO  mainwindow - 2.94 MB, 11.39 Mbit/s
+2024-10-29 08:04:08,839+0700 INFO  mainwindow - extracting files from miktex-texworks-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:09,053+0700 INFO  miktex-console.packagemanager - installing package miktex-ttf2pk2-bin-x64-2.9
+2024-10-29 08:04:09,054+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-ttf2pk2-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:09,055+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-ttf2pk2-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:09,444+0700 INFO  mainwindow - 0.06 MB, 1.34 Mbit/s
+2024-10-29 08:04:09,478+0700 INFO  mainwindow - extracting files from miktex-ttf2pk2-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:09,509+0700 INFO  miktex-console.packagemanager - installing package miktex-upmendex-bin-x64
+2024-10-29 08:04:09,510+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-upmendex-bin-x64.tar.lzma...
+2024-10-29 08:04:09,511+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-upmendex-bin-x64.tar.lzma
+2024-10-29 08:04:09,548+0700 INFO  mainwindow - 0.05 MB, 10.02 Mbit/s
+2024-10-29 08:04:09,578+0700 INFO  mainwindow - extracting files from miktex-upmendex-bin-x64.tar.lzma...
+2024-10-29 08:04:09,610+0700 INFO  miktex-console.packagemanager - installing package miktex-uriparser-bin-x64-2.9
+2024-10-29 08:04:09,611+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-uriparser-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:09,611+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-uriparser-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:09,644+0700 INFO  mainwindow - 0.03 MB, 8.31 Mbit/s
+2024-10-29 08:04:09,657+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:09,657+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:09,657+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:09,657+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-uriparser.dll"
+2024-10-29 08:04:09,657+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:09,678+0700 INFO  mainwindow - extracting files from miktex-uriparser-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:09,719+0700 INFO  miktex-console.packagemanager - installing package miktex-web-bin-x64-2.9
+2024-10-29 08:04:09,720+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-web-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:09,720+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-web-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:09,774+0700 INFO  mainwindow - 0.08 MB, 11.71 Mbit/s
+2024-10-29 08:04:09,806+0700 INFO  mainwindow - extracting files from miktex-web-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:09,843+0700 INFO  miktex-console.packagemanager - installing package miktex-xetex-bin-x64-2.9
+2024-10-29 08:04:09,844+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-xetex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:09,844+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-xetex-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:10,959+0700 INFO  mainwindow - 0.36 MB, 2.57 Mbit/s
+2024-10-29 08:04:10,987+0700 INFO  mainwindow - extracting files from miktex-xetex-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:11,040+0700 INFO  miktex-console.packagemanager - installing package miktex-xml2pmx-bin-x64
+2024-10-29 08:04:11,041+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-xml2pmx-bin-x64.tar.lzma...
+2024-10-29 08:04:11,042+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-xml2pmx-bin-x64.tar.lzma
+2024-10-29 08:04:11,107+0700 INFO  mainwindow - 0.06 MB, 7.34 Mbit/s
+2024-10-29 08:04:11,135+0700 INFO  mainwindow - extracting files from miktex-xml2pmx-bin-x64.tar.lzma...
+2024-10-29 08:04:11,168+0700 INFO  miktex-console.packagemanager - installing package miktex-yap-bin-x64-2.9
+2024-10-29 08:04:11,169+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-yap-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:11,169+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-yap-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:11,619+0700 INFO  mainwindow - 0.61 MB, 10.86 Mbit/s
+2024-10-29 08:04:11,654+0700 INFO  mainwindow - extracting files from miktex-yap-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:11,742+0700 INFO  miktex-console.packagemanager - installing package miktex-zlib-bin-x64-2.9
+2024-10-29 08:04:11,744+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zlib-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:11,744+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zlib-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:11,808+0700 INFO  mainwindow - 0.05 MB, 5.77 Mbit/s
+2024-10-29 08:04:11,820+0700 ERROR miktex-console.core - Access is denied.
+
+2024-10-29 08:04:11,820+0700 ERROR miktex-console.core - Function: DeleteFileW
+2024-10-29 08:04:11,820+0700 ERROR miktex-console.core - Result: 5
+2024-10-29 08:04:11,820+0700 ERROR miktex-console.core - Data: path="D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex\bin\x64\MiKTeX240100-zlib.dll"
+2024-10-29 08:04:11,820+0700 ERROR miktex-console.core - Source: Libraries\MiKTeX\Core\File\win\winFile.cpp:320
+2024-10-29 08:04:11,840+0700 INFO  mainwindow - extracting files from miktex-zlib-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:11,887+0700 INFO  miktex-console.packagemanager - installing package miktex-zzip-bin-x64-2.9
+2024-10-29 08:04:11,888+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzip-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:11,888+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzip-bin-x64-2.9.tar.lzma
+2024-10-29 08:04:11,918+0700 INFO  mainwindow - 0.01 MB, 4.01 Mbit/s
+2024-10-29 08:04:11,950+0700 INFO  mainwindow - extracting files from miktex-zzip-bin-x64-2.9.tar.lzma...
+2024-10-29 08:04:11,991+0700 INFO  miktex-console.packagemanager - installing package oberdiek
+2024-10-29 08:04:11,992+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/oberdiek.tar.lzma...
+2024-10-29 08:04:11,992+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/oberdiek.tar.lzma
+2024-10-29 08:04:12,026+0700 INFO  mainwindow - 0.04 MB, 8.39 Mbit/s
+2024-10-29 08:04:12,124+0700 INFO  mainwindow - extracting files from oberdiek.tar.lzma...
+2024-10-29 08:04:12,264+0700 INFO  miktex-console.packagemanager - installing package tcolorbox
+2024-10-29 08:04:12,264+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/tcolorbox.tar.lzma...
+2024-10-29 08:04:12,264+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/tcolorbox.tar.lzma
+2024-10-29 08:04:12,367+0700 INFO  mainwindow - 0.23 MB, 18.61 Mbit/s
+2024-10-29 08:04:12,423+0700 INFO  mainwindow - extracting files from tcolorbox.tar.lzma...
+2024-10-29 08:04:12,511+0700 INFO  miktex-console.packagemanager - installing package xcolor
+2024-10-29 08:04:12,512+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/xcolor.tar.lzma...
+2024-10-29 08:04:12,512+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/xcolor.tar.lzma
+2024-10-29 08:04:12,863+0700 INFO  mainwindow - 0.02 MB, 0.42 Mbit/s
+2024-10-29 08:04:12,898+0700 INFO  mainwindow - extracting files from xcolor.tar.lzma...
+2024-10-29 08:04:12,935+0700 INFO  miktex-console.packagemanager - going to remove ms
+2024-10-29 08:04:12,936+0700 INFO  mainwindow - removing package ms...
+2024-10-29 08:04:12,955+0700 INFO  miktex-console.packagemanager - going to remove miktex-mpfr-bin-x64-2.9
+2024-10-29 08:04:12,955+0700 INFO  mainwindow - removing package miktex-mpfr-bin-x64-2.9...
+2024-10-29 08:04:13,719+0700 INFO  miktex-console.core - start process: miktex fontmaps configure
+2024-10-29 08:04:15,010+0700 INFO  miktex-console.core - start process: mpm --register-components --verbose
+2024-10-29 08:04:15,812+0700 INFO  miktex-console.core - start process: miktex --disable-installer --verbose fndb refresh
+2024-10-29 08:04:22,403+0700 INFO  miktex-console.core - start process: miktex --disable-installer --verbose links install --force
+2024-10-29 08:04:34,633+0700 INFO  miktex-console.core - start process: miktex --disable-installer --verbose fontmaps configure
+2024-10-29 08:04:35,726+0700 INFO  miktex-console.core - start process: miktex --disable-installer --verbose languages configure
+2024-10-29 08:04:36,142+0700 ERROR miktex-console.core - Something is wrong with the PATH:
+2024-10-29 08:04:36,142+0700 ERROR miktex-console.core - C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\node.js\;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\Program Files\Graphviz\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Launcher\;C:\Users\WINDOWS 10 PRO\AppData\Local\Microsoft\WindowsApps;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Microsoft VS Code\bin;D:\Flutter\flutter\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Android\Sdk\platform-tools;C:\Users\WINDOWS 10 PRO\AppData\Roaming\npm;C:\Users\WINDOWS 10 PRO\AppData\Roaming\Composer\vendor\bin
+2024-10-29 08:04:36,425+0700 INFO  mainwindow - MiKTeX Console needs to be closed
+2024-10-29 08:04:39,728+0700 INFO  miktex-console.core - starting finish script
+2024-10-29 08:04:39,729+0700 INFO  miktex-console.core - start process: C:\WINDOWS\system32\cmd.exe /c C:\Users\WINDOW~1\AppData\Local\Temp\mik54263\miktex-console-finish.cmd
+2024-10-29 08:04:39,875+0700 INFO  main - finishing with exit code 0
+2024-10-29 08:04:46,387+0700 INFO  main - starting: MiKTeX Console 4.12 (MiKTeX 24.4 Portable)
+2024-10-29 08:04:46,400+0700 ERROR miktex-console.core - Something is wrong with the PATH:
+2024-10-29 08:04:46,400+0700 ERROR miktex-console.core - C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\node.js\;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\Program Files\Graphviz\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Launcher\;C:\Users\WINDOWS 10 PRO\AppData\Local\Microsoft\WindowsApps;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Microsoft VS Code\bin;D:\Flutter\flutter\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Android\Sdk\platform-tools;C:\Users\WINDOWS 10 PRO\AppData\Roaming\npm;C:\Users\WINDOWS 10 PRO\AppData\Roaming\Composer\vendor\bin
+2024-10-29 08:04:47,675+0700 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2024-10-29 08:04:47,675+0700 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2024-10-29 08:04:47,677+0700 WARN  miktex-console.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2024-10-29 08:04:48,220+0700 INFO  miktex-console.core - start process: miktex fontmaps configure
+2024-10-29 08:04:58,773+0700 INFO  miktex-console.core - start process: cmd
+2024-10-29 08:06:42,044+0700 INFO  miktex-console.core - start process: cmd
+2024-10-29 08:13:51,867+0700 INFO  main - starting: MiKTeX Console 4.12 (MiKTeX 24.4 Portable)
+2024-10-29 08:13:51,877+0700 ERROR miktex-console.core - Something is wrong with the PATH:
+2024-10-29 08:13:51,877+0700 ERROR miktex-console.core - C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\node.js\;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\Program Files\Graphviz\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Launcher\;C:\Users\WINDOWS 10 PRO\AppData\Local\Microsoft\WindowsApps;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Microsoft VS Code\bin;D:\Flutter\flutter\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Android\Sdk\platform-tools;C:\Users\WINDOWS 10 PRO\AppData\Roaming\npm;C:\Users\WINDOWS 10 PRO\AppData\Roaming\Composer\vendor\bin
+2024-10-29 08:13:53,185+0700 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2024-10-29 08:13:53,185+0700 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2024-10-29 08:13:53,187+0700 WARN  miktex-console.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2024-10-29 08:13:53,793+0700 INFO  miktex-console.core - start process: miktex fontmaps configure
+2024-10-29 08:30:09,496+0700 INFO  miktex-console.core - start process: miktex-texworks
+2024-10-29 08:30:26,797+0700 INFO  mainwindow - checking for updates...
+2024-10-29 08:30:26,808+0700 INFO  miktex-console.packagemanager - searching for updateable packages
+2024-10-29 08:30:26,820+0700 INFO  miktex-console.packagemanager - going to download https://api2.miktex.org/hello
+2024-10-29 08:30:27,644+0700 INFO  miktex-console.packagemanager - going to download https://api2.miktex.org/repositories?&releaseState=Stable&orderBy=ranking&take=1&onlySecure=true
+2024-10-29 08:30:27,828+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzdb3-2.9.tar.lzma...
+2024-10-29 08:30:28,060+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzdb3-2.9.tar.lzma
+2024-10-29 08:30:28,996+0700 INFO  mainwindow - 1.81 MB, 15.54 Mbit/s
+2024-10-29 08:30:31,495+0700 INFO  mainwindow - updating package manifests ("D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable\texmfs\install\miktex/config\package-manifests.ini")...
+2024-10-29 08:30:33,279+0700 INFO  mainwindow - installed 7475 package manifests
+2024-10-29 08:30:33,279+0700 INFO  mainwindow - visiting repository https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/...
+2024-10-29 08:30:33,280+0700 INFO  mainwindow - repository type: remote package repository
+2024-10-29 08:30:33,282+0700 INFO  mainwindow - loading package repository manifest...
+2024-10-29 08:30:33,283+0700 INFO  mainwindow - downloading https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma...
+2024-10-29 08:30:33,283+0700 INFO  miktex-console.packagemanager - going to download https://mirror.unpad.ac.id/ctan/systems/win32/miktex/tm/packages/miktex-zzdb1-2.9.tar.lzma
+2024-10-29 08:30:34,365+0700 INFO  mainwindow - 0.37 MB, 2.73 Mbit/s
+2024-10-29 08:30:35,622+0700 WARN  miktex-console.packagemanager - dependency problem: ms is required by _miktex-latex-packages
+2024-10-29 08:30:35,623+0700 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2024-10-29 08:30:35,623+0700 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2024-10-29 08:30:35,625+0700 WARN  miktex-console.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2024-10-29 08:30:39,732+0700 INFO  mainwindow - package repository digest: fa25150c438707efe98dc1910f8f9e39
+2024-10-29 08:30:42,609+0700 INFO  mainwindow - found 0 updates
+2024-10-29 08:30:42,646+0700 ERROR miktex-console.core - Something is wrong with the PATH:
+2024-10-29 08:30:42,646+0700 ERROR miktex-console.core - C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\node.js\;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\ProgramData\ComposerSetup\bin;C:\xampp\php;C:\Program Files\Graphviz\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Python312\;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Python\Launcher\;C:\Users\WINDOWS 10 PRO\AppData\Local\Microsoft\WindowsApps;C:\Users\WINDOWS 10 PRO\AppData\Local\Programs\Microsoft VS Code\bin;D:\Flutter\flutter\bin;C:\Users\WINDOWS 10 PRO\AppData\Local\Android\Sdk\platform-tools;C:\Users\WINDOWS 10 PRO\AppData\Roaming\npm;C:\Users\WINDOWS 10 PRO\AppData\Roaming\Composer\vendor\bin
+2024-10-29 08:30:51,677+0700 WARN  miktex-console.packagemanager - dependency problem: ms is required by _miktex-latex-packages
+2024-10-29 08:30:51,678+0700 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2024-10-29 08:30:51,678+0700 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2024-10-29 08:30:51,680+0700 WARN  miktex-console.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2024-10-29 08:30:53,828+0700 WARN  miktex-console.packagemanager - dependency problem: ms is required by _miktex-latex-packages
+2024-10-29 08:30:53,828+0700 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2024-10-29 08:30:53,828+0700 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2024-10-29 08:30:53,830+0700 WARN  miktex-console.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2024-10-29 09:49:06,675+0700 INFO  main - finishing with exit code 0
+2024-11-02 21:01:19,967+0700 INFO  main - starting: MiKTeX Console 4.12 (MiKTeX 24.4 Portable)
+2024-11-02 21:01:19,974+0700 ERROR miktex-console.core - Something is wrong with the PATH:
+2024-11-02 21:01:19,974+0700 ERROR miktex-console.core - D:\App\Scripts\;D:\App\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files\Git\cmd;D:\App\runtime\win64;D:\App\bin;C:\Users\Hiekam\AppData\Local\Pub\Cache\bin;D:\App\Xammp\php;C:\ProgramData\ComposerSetup\bin;D:\Kuliah\Semester 5\AVD PRAK\Habis UTS\Tugas 1\Graphviz-12.1.2-win64\bin;D:\App\Wireshark;C:\Users\Hiekam\AppData\Local\Microsoft\WindowsApps;D:\Microsoft VS Code\bin;D:\App\;D:\flutter\bin;C:\Users\Hiekam\AppData\Local\Android\Sdk\platform-tools;C:\Users\Hiekam\AppData\Roaming\npm;C:\Users\Hiekam\AppData\Roaming\Composer\vendor\bin;D:\Kuliah\Semester 5\AVD PRAK\Habis UTS\Tugas 1\Graphviz-12.1.2-win64\bin;
+2024-11-02 21:01:20,545+0700 WARN  miktex-console.packagemanager - dependency problem: ms is required by _miktex-latex-packages
+2024-11-02 21:01:20,548+0700 WARN  miktex-console.packagemanager - dependency problem: showframe is required by _miktex-latex-packages
+2024-11-02 21:01:20,548+0700 WARN  miktex-console.packagemanager - dependency problem: thailatex is required by _miktex-latex-packages
+2024-11-02 21:01:20,549+0700 WARN  miktex-console.packagemanager - dependency problem: luxi is required by _miktex-fonts-type1
+2024-11-02 21:01:21,200+0700 INFO  miktex-console.core - start process: miktex fontmaps configure

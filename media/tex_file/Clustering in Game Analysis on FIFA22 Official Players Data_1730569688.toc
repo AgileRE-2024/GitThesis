@@ -1,0 +1,6 @@
+\contentsline {section}{\numberline {1}Kata Pengantar}{2}{}%
+\contentsline {section}{\numberline {2}Pendahuluan}{2}{}%
+\contentsline {section}{\numberline {3}Tinjauan Pustaka}{2}{}%
+\contentsline {section}{\numberline {4}Metodologi}{2}{}%
+\contentsline {section}{\numberline {5}Hasil dan Pembahasan}{2}{}%
+\contentsline {section}{\numberline {6}Kesimpulan}{4}{}%

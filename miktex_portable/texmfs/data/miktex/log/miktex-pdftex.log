@@ -1,0 +1,5 @@
+2024-10-29 09:21:40,233+0700 INFO  miktex-pdftex - this process (9472) started by miktex-makefmt in directory C:\Users\WINDOW~1\AppData\Local\Temp\mik48173 with command line: miktex-pdftex.exe --miktex-disable-maintenance --miktex-disable-diagnose --interaction=nonstopmode --initialize --halt-on-error --alias=pdflatex --job-name=pdflatex -tcx=cp227.tcx --enable-etex pdflatex.ini
+2024-10-29 09:21:40,234+0700 INFO  miktex-pdftex - running on Windows 10.0.19045
+2024-10-29 09:21:40,234+0700 INFO  miktex-pdftex - this is MiKTeX-PDFTEX 4.19.0 (1.40.26) (MiKTeX 24.4 Portable)
+2024-10-29 09:21:40,238+0700 INFO  miktex-pdftex - allowing known shell commands
+2024-10-29 09:21:57,872+0700 INFO  miktex-pdftex - this process (9472) finishes with exit code 0

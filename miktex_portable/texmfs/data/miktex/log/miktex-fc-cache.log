@@ -1,0 +1,25 @@
+2024-10-29 07:58:50,546+0700 INFO  miktex-fc-cache - this process (6300) started by miktex in directory C:\Users\WINDOWS 10 PRO\Downloads with command line: miktex-fc-cache --verbose --miktex-disable-maintenance --miktex-disable-diagnose
+2024-10-29 07:58:50,547+0700 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2024-10-29 07:58:56,681+0700 INFO  miktex-fc-cache - this process (6300) finishes with exit code 0
+2024-10-29 08:01:10,071+0700 INFO  miktex-fc-cache - this process (13260) started by miktex in directory D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2024-10-29 08:01:10,071+0700 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2024-10-29 08:01:10,166+0700 INFO  miktex-fc-cache - this process (13260) finishes with exit code 0
+2024-10-29 08:04:14,822+0700 INFO  miktex-fc-cache - this process (10208) started by miktex in directory D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2024-10-29 08:04:14,822+0700 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2024-10-29 08:04:14,901+0700 INFO  miktex-fc-cache - this process (10208) finishes with exit code 0
+2024-10-29 08:04:35,559+0700 INFO  miktex-fc-cache - this process (14512) started by miktex in directory D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable with command line: miktex-fc-cache --verbose --miktex-disable-maintenance --miktex-disable-diagnose
+2024-10-29 08:04:35,560+0700 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2024-10-29 08:04:35,645+0700 INFO  miktex-fc-cache - this process (14512) finishes with exit code 0
+2024-10-29 08:04:49,257+0700 INFO  miktex-fc-cache - this process (9904) started by miktex in directory D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\Project\git_thesis\miktex_portable with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2024-10-29 08:04:49,257+0700 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2024-10-29 08:04:49,338+0700 INFO  miktex-fc-cache - this process (9904) finishes with exit code 0
+2024-10-29 08:13:54,844+0700 INFO  miktex-fc-cache - this process (5768) started by miktex in directory C:\WINDOWS\system32 with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2024-10-29 08:13:54,844+0700 INFO  miktex-fc-cache - running on Windows 10.0.19045
+2024-10-29 08:13:54,854+0700 WARN  miktex-fc-cache - security risk: running with elevated privileges
+2024-10-29 08:13:54,938+0700 INFO  miktex-fc-cache - this process (5768) finishes with exit code 0
+2024-11-02 21:01:22,020+0700 INFO  miktex-fc-cache - this process (10788) started by miktex in directory D:\Kuliah\Semester 5\PPL PRAK\project\miktex_portable with command line: miktex-fc-cache --miktex-disable-maintenance --miktex-disable-diagnose
+2024-11-02 21:01:22,020+0700 INFO  miktex-fc-cache - running on Windows 10.0.22621
+2024-11-02 21:01:24,162+0700 FATAL miktex-fc-cache.core - The file name database is damaged.
+2024-11-02 21:01:24,162+0700 FATAL miktex-fc-cache.core - Data: path="D:\Kuliah\Semester 5\PPL PRAK\project\miktex_portable\texmfs/data\miktex/data/le\texmf.fndb-5.log"
+2024-11-02 21:01:24,162+0700 FATAL miktex-fc-cache.core - Source: Libraries\MiKTeX\Core\Fndb\FileNameDatabase.cpp:494
+2024-11-02 21:01:24,198+0700 INFO  miktex-fc-cache - this process (10788) finishes with exit code 0

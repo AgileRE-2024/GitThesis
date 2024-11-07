@@ -1,0 +1,291 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4 Portable) (preloaded format=pdflatex 2024.10.29)  31 OCT 2024 13:25
+entering extended mode
+ \write18 enabled.
+ %&-line parsing enabled.
+**"D:/Kuliah/Semester 5/PPL PRAK/project/media/project_1_all_sections_173035593
+7.tex"
+
+(D:/Kuliah/Semester 5/PPL PRAK/project/media/project_1_all_sections_1730355937.
+tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-10-09>
+
+(D:\Kuliah\Semester 5\PPL PRAK\project\miktex_portable\texmfs\install\tex/latex
+/base\article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+
+(D:\Kuliah\Semester 5\PPL PRAK\project\miktex_portable\texmfs\install\tex/latex
+/base\size10.clo
+File: size10.clo 2024/02/08 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count194
+\c@section=\count195
+\c@subsection=\count196
+\c@subsubsection=\count197
+\c@paragraph=\count198
+\c@subparagraph=\count199
+\c@figure=\count266
+\c@table=\count267
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+\bibindent=\dimen141
+)
+(D:\Kuliah\Semester 5\PPL PRAK\project\miktex_portable\texmfs\install\tex/latex
+/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box52
+)
+No file project_1_all_sections_1730355937.aux.
+\openout1 = `project_1_all_sections_1730355937.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 2.
+LaTeX Font Info:    ... okay on input line 2.
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.3 \documentclass
+                  {article}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.4 \usepackage
+               {graphicx}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+! Undefined control sequence.
+l.5 \graphicspath
+                 {{./images/}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: Can be used only in preamble.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.8 \begin{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+
+[1
+
+{D:/Kuliah/Semester 5/PPL PRAK/project/miktex_portable/texmfs/data/fonts/map/pd
+ftex/pdftex.map}]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <12> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 9.
+
+
+LaTeX Warning: No \author given.
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 15.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 15.
+! Undefined control sequence.
+l.27 \includegraphics
+                     [width=\textwidth]{35_20241029081511.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.27 \includegraphics[width=\textwidth]
+                                       {35_20241029081511.jpg}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.27 \includegraphics[width=\textwidth]
+                                       {35_20241029081511.jpg}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.27 \includegraphics[width=\textwidth]{35_
+                                           20241029081511.jpg}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.27 ...s[width=\textwidth]{35_20241029081511.jpg}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.28 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Undefined control sequence.
+l.56 \includegraphics
+                     [width=\textwidth]{35_20241029081511.jpg}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   ]
+l.56 \includegraphics[width=\textwidth]
+                                       {35_20241029081511.jpg}
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   ]
+l.56 \includegraphics[width=\textwidth]
+                                       {35_20241029081511.jpg}
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.56 \includegraphics[width=\textwidth]{35_
+                                           20241029081511.jpg}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+l.56 ...s[width=\textwidth]{35_20241029081511.jpg}
+                                                  
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.57 
+     
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+
+
+Overfull \hbox (5.00002pt too wide) has occurred while \output is active
+ \OT1/cmr/m/n/10 2 
+ []
+
+[2]
+
+
+Overfull \hbox (5.00002pt too wide) has occurred while \output is active
+ \OT1/cmr/m/n/10 3 
+ []
+
+[3] (project_1_all_sections_1730355937.aux)
+ ***********
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-10-09>
+ ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+ )
+(\end occurred inside a group at level 3)
+
+### simple group (level 3) entered at line 56 ({)
+### simple group (level 2) entered at line 27 ({)
+### semi simple group (level 1) entered at line 8 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 464 strings out of 473896
+ 9490 string characters out of 5696178
+ 399643 words of memory out of 5000000
+ 23411 multiletter control sequences out of 15000+600000
+ 562016 words of font info for 49 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 35i,10n,50p,400b,253s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<D:/Kuliah/Semester 5/PPL PRAK/project/miktex_portable/texmfs/i
+nstall/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Kuliah/Semester 5/PPL PRAK
+/project/miktex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmex10.p
+fb><D:/Kuliah/Semester 5/PPL PRAK/project/miktex_portable/texmfs/install/fonts/
+type1/public/amsfonts/cm/cmmi10.pfb><D:/Kuliah/Semester 5/PPL PRAK/project/mikt
+ex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi7.pfb><D:/Kuliah/
+Semester 5/PPL PRAK/project/miktex_portable/texmfs/install/fonts/type1/public/a
+msfonts/cm/cmr10.pfb><D:/Kuliah/Semester 5/PPL PRAK/project/miktex_portable/tex
+mfs/install/fonts/type1/public/amsfonts/cm/cmr12.pfb><D:/Kuliah/Semester 5/PPL 
+PRAK/project/miktex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr1
+7.pfb><D:/Kuliah/Semester 5/PPL PRAK/project/miktex_portable/texmfs/install/fon
+ts/type1/public/amsfonts/cm/cmr7.pfb><D:/Kuliah/Semester 5/PPL PRAK/project/mik
+tex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on project_1_all_sections_1730355937.pdf (3 pages, 108372 bytes)
+.
+PDF statistics:
+ 57 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
