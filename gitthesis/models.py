@@ -36,7 +36,7 @@ class Section(models.Model):
         Project, on_delete=models.CASCADE, related_name="sections"
     )
     title = models.CharField(max_length=255, default="Untitled Section") 
-    content = models.TextField(null=True, blank=True)
+    content = models.TextField(default="", null=True, blank=True)
     position = models.PositiveIntegerField(default=0)
     created_at = models.DateTimeField(default=timezone.now)
     updated_at = models.DateTimeField(auto_now=True)  
@@ -91,7 +91,7 @@ class SectionVersion(models.Model):
         Section, on_delete=models.CASCADE, related_name="versions"
     )
     title = models.CharField(max_length=255, default="Untitled Section")
-    content = models.TextField(null=True, blank=True)
+    content = models.TextField(default="", null=True, blank=True)
     created_at = models.DateTimeField(default=timezone.now)
 
     def __str__(self):
@@ -175,10 +175,17 @@ def create_default_sections(sender, instance, created, **kwargs):
 
         # Buat setiap section dengan position bertambah secara otomatis
         for section_data in sections:
-            Section.objects.create(
+            section = Section.objects.create(
                 project=instance,
                 title=section_data["title"],
                 content=section_data["content"],
                 position=position
             )
-            position += 1  # Naikkan posisi untuk section berikutnya
+            position += 1  
+
+            SectionVersion.objects.create(
+                section=section,
+                title=section.title,
+                content=section.content,
+                created_at=timezone.now()
+            )
