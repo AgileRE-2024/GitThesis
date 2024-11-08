@@ -1,0 +1,145 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container" style="margin-top: 6rem;">
+
+                   <!-- Display messages (success, error, warning, etc.) -->
+    {% if messages %}
+        <div class="row">
+            <div class="col-md-12">
+                {% for message in messages %}
+                    <div class="alert alert-{{ message.tags }} alert-dismissible fade show" role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+            </div>
+        </div>
+    {% endif %}
+
+    <h1 class="gradient-text-sidebar">Settings for {{ project.name }}</h1>
+
+    <form method="POST">
+        {% csrf_token %}
+        
+        <!-- Input for editing the project name -->
+        <div class="mb-3">
+            <label for="projectName" class="form-label gradient-text-sidebar">Project Name</label>
+            <input type="text" class="form-control" id="projectName" name="project_name" 
+                   value="{{ project.name }}" required>
+        </div>
+
+        <!-- Input for collaborators, excluding project owner -->
+        <div class="mb-3">
+            <label for="collaborators" class="form-label gradient-text-sidebar">Collaborators (comma-separated emails)</label>
+            <input type="text" class="form-control" id="collaborators" name="collaborators" 
+                   value="{% for collaborator in all_collaborators %}{% if collaborator.user != project.owner %}{{ collaborator.user.email }}{% if not forloop.last %}, {% endif %}{% endif %}{% endfor %}" required>
+            <small class="form-text text-muted">Add multiple collaborators by separating their emails with commas.</small>
+        </div>
+        
+        <button type="submit" class="btn btn-primary">Update</button>
+    </form>
+
+    <hr>
+
+<!-- Displaying Current Collaborators -->
+<h6>Current Collaborators:</h6>
+<div class="col-md-4 offset">
+    <div class="list-group">
+        <!-- Loop through accepted collaborators -->
+        {% for collaboratorAccepted in collaboratorsAccepted %}
+        <div class="list-group-item d-flex justify-content-between align-items-center mb-2 collaborator-item" style="border-top: 1px solid #ddd;">
+            <div class="d-flex align-items-center">
+                <img src="{{ collaboratorAccepted.user.profile_picture.url }}" alt="{{ collaboratorAccepted.user.username }}'s avatar" class="collaborator-avatar" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;">
+                <div>
+                    <strong>{{ collaboratorAccepted.user.username }}</strong>
+                    {% if collaboratorAccepted.user == project.owner %}
+                        <span class="badge bg-success ms-1">Owner</span>
+                    {% else %}
+                        <span class="badge bg-primary ms-1">Collaborator</span>
+                    {% endif %}
+                    <br>
+                    <small>{{ collaboratorAccepted.user.email }}</small>
+                </div>
+            </div>
+            {% if collaboratorAccepted.user != project.owner %}
+            <!-- Trigger Modal for Remove Confirmation -->
+            <button type="button" class="btn btn-outline-danger btn-sm" data-bs-toggle="modal" data-bs-target="#removeCollaboratorModal{{ collaboratorAccepted.id }}">
+                Remove
+            </button>
+
+            <!-- Remove Collaborator Modal -->
+            <div class="modal fade" id="removeCollaboratorModal{{ collaboratorAccepted.id }}" tabindex="-1" aria-labelledby="removeCollaboratorModalLabel{{ collaboratorAccepted.id }}" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-danger" id="removeCollaboratorModalLabel{{ collaboratorAccepted.id }}">Confirm Removal</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure you want to remove {{ collaboratorAccepted.user.username }} as a collaborator?
+                        </div>
+                        <div class="modal-footer">
+                            <!-- Form for collaborator removal -->
+                            <form action="{% url 'remove_collaborator' project.id collaboratorAccepted.id %}" method="POST" class="d-inline">
+                                {% csrf_token %}
+                                <button type="submit" class="btn btn-outline-danger">Yes, Remove</button>
+                            </form>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        {% empty %}
+        <div class="list-group-item">No collaborators added.</div>
+        {% endfor %}
+    </div>
+</div>
+
+
+<!-- Danger Zone Section -->
+<div class="danger-zone d-inline-block p-4 border border-danger rounded mt-4 mb-5">
+    <h6 class="text-danger">Danger Zone</h6>
+
+    <div class="d-flex align-items-center">
+        <p class="text-muted mb-0">Delete this repository. <br>
+            Once you delete a repository, there is no going back. Please be certain.</p>
+        
+        <!-- Delete Button with Outline (Trigger Modal) -->
+        <button type="button" class="btn btn-outline-danger ms-3" data-bs-toggle="modal" data-bs-target="#deleteProjectModal">
+            Delete Project
+        </button>
+    </div>
+</div>
+
+<!-- Delete Project Confirmation Modal -->
+<div class="modal fade" id="deleteProjectModal" tabindex="-1" aria-labelledby="deleteProjectModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-danger" id="deleteProjectModalLabel">Confirm Project Deletion</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to delete this project? This action cannot be undone.
+            </div>
+            <div class="modal-footer">
+                
+                
+                <!-- Form for deletion with POST request -->
+                <form action="{% url 'delete_project' project.id %}" method="post" class="d-inline">
+                    {% csrf_token %}
+                    <button type="submit" class="btn btn-outline-danger">Yes, Delete</button>
+                </form>
+
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
