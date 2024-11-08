@@ -9,7 +9,7 @@ class CommentForm(forms.ModelForm):
             'content': forms.Textarea(attrs={
                 'class': 'form-control',
                 'rows': 3,
-                'placeholder': 'Tulis komentar di sini...',
+                'placeholder': 'Write your comment here',
                 'required': 'required',
             }),
         }

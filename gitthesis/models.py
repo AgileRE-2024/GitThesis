@@ -128,6 +128,7 @@ class Comment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     content = models.TextField(blank=True)
     created_at = models.DateTimeField(default=timezone.now)
+    is_solved = models.BooleanField(default=False) 
 
     def __str__(self):
         return f"Comment by {self.user.username} on Section {self.section.id} (Created: {self.created_at})"

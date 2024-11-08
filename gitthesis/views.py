@@ -29,6 +29,7 @@ from django.core.files.base import ContentFile
 from django_tex.core import compile_template_to_pdf
 from django_tex.shortcuts import render_to_pdf
 from django_tex.response import PDFResponse
+from django.views.decorators.http import require_POST
 import shutil
 import time
 import logging
@@ -103,7 +104,7 @@ def project_detail(request, project_id):
     section = get_object_or_404(Section, id=section_id)
     
     # Ambil komentar untuk section yang dipilih
-    comments = Comment.objects.filter(section=section)
+    comments = Comment.objects.filter(section=section).values('id', 'user__username', 'content', 'is_solved')
     form = CommentForm()
     
     section_versions = SectionVersion.objects.filter(section__project=project).order_by('-created_at')[:1]
@@ -385,6 +386,7 @@ def update_section_order(request, project_id):
         return JsonResponse({'success': False, 'error': str(e)}, status=500)
     
 
+
 @login_required
 def add_comment(request):
     if request.method == 'POST':
@@ -392,8 +394,6 @@ def add_comment(request):
         if form.is_valid():
             comment = form.save(commit=False)
             section_id = request.POST.get('section_id')
-            print("Section ID diterima:", section_id)  
-            
             if section_id:
                 comment.section_id = section_id
                 comment.user = request.user
@@ -404,18 +404,19 @@ def add_comment(request):
                     'success': True,
                     'message': "Komentar berhasil ditambahkan!",
                     'comment': {
+                        'id': comment.id,
                         'user': comment.user.username,
-                        'content': comment.content
+                        'content': comment.content,
+                        'is_solved': comment.is_solved
                     }
                 })
             else:
-                return JsonResponse({'success': False, 'message': "Komentar gagal, section_id tidak valid."})
+                return JsonResponse({'success': False, 'message': "Section ID tidak valid."})
         else:
             return JsonResponse({'success': False, 'message': "Form tidak valid.", 'errors': form.errors})
-    else:
-        return JsonResponse({'success': False, 'message': "Metode tidak valid."})
-    
+    return JsonResponse({'success': False, 'message': "Metode tidak valid."})
 
+    
 
 @require_http_methods(["GET"])
 def get_comments(request, section_id):
@@ -427,7 +428,9 @@ def get_comments(request, section_id):
             'id': comment.id,
             'user': comment.user.username,
             'content': comment.content,
-            'created_at': comment.created_at.strftime("%Y-%m-%d %H:%M:%S")
+            'created_at': comment.created_at.strftime("%Y-%m-%d %H:%M:%S"),
+            'is_solved':comment.is_solved
+            
         } for comment in comments]
         
         return JsonResponse({
@@ -440,6 +443,18 @@ def get_comments(request, section_id):
             'message': str(e)
         }, status=500)
         
+
+@require_POST
+def mark_solved(request, comment_id):
+    try:
+        comment = Comment.objects.get(id=comment_id)
+        comment.is_solved = True  # Asumsi bahwa field is_solved ada di model Comment
+        comment.save()
+        return JsonResponse({'status': 'success'})
+    except Comment.DoesNotExist:
+        return JsonResponse({'status': 'error', 'message': 'Komentar tidak ditemukan'})
+        
+
 
 def get_section_versions(request, section_id):
     # Ambil riwayat perubahan untuk section yang dipilih

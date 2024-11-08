@@ -496,3 +496,32 @@ aside {
     align-items: center;
     /* Center the number vertically */
 }
+
+/* COMMENT SECTION*/
+.comment-item {
+    padding: 5px 0;
+    margin-top: 1px;
+}
+
+.comment-user {
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.comment-text {
+    white-space: normal; /* Untuk memastikan teks dapat membungkus jika panjang */
+    margin-right: auto; /* Dorong teks ke kiri, memberi ruang bagi "Solved" di kanan */
+}
+
+.comment-status {
+    display: flex;
+    align-items: center;
+    margin-left: auto; /* Posisi Solved ke ujung kanan */
+}
+
+.badge-custom {
+    font-size: 0.8em; /* Sesuaikan ukuran teks */
+    padding: 0.15em 0.4em; /* Sesuaikan padding vertikal dan horizontal */
+    border-radius: 0.5rem; /* Atur bentuk sudut sesuai kebutuhan */
+}
+

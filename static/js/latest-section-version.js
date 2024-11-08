@@ -84,7 +84,7 @@ function loadSectionVersion(sectionId) {
                         <p class="text-muted mt-2">${version.created_at}</p>
 
                         <a href="/myprojects/section-versions/${sectionId}/" class="btn btn-primary btn-sm">
-                            All Section Histories
+                        Section History
                         </a>
                     `;
                 });
