@@ -19,12 +19,14 @@
                     <!-- Single delete button to show minus icons -->
                     <button id="deleteSelected" class="nav-item btn btn-danger btn-sm mt-1" onclick="toggleDeleteIcons()">Delete Section</button>
 
+                    {% comment %} SECTION LIST {% endcomment %}
                     <ul id="section-list" class="list-unstyled mb-4 mt-4">
                         {% for section in sections %}
                             <li id="section-{{ section.id }}" class="d-flex justify-content-between align-items-center section-query" data-id="{{ section.id }}" data-position="{{ section.position }}" >
                                 <a class="nav-item pt-1 pb-1 btn btn-outline-primary mt-2 text-dark fw-medium" 
                                 href="#{{ section.title|slugify }}-{{ section.id }}"
-                                ondblclick="editTitle(this, '{{ section.id }}')">
+                                ondblclick="editTitle(this, '{{ section.id }}')"
+                                onclick="loadSectionVersion('{{ section.id }}')">
                                 {{ section.title }}
                                 </a>
                                 <img id="checkbox-{{ section.id }}" src="{% static 'images/minus.png' %}"
@@ -75,7 +77,7 @@
             <!-- Overview dokumen di tengah -->
             <div class="col-md-8 col-lg-8">
                 <div class="document">
-                    <h4 class="text-center mb-2 gradient-text-sidebar fw-semibold">{{ project.name }}</h4>
+                    <h4 class="text-center mb-3 gradient-text-sidebar fw-semibold">{{ project.name }}</h4>
                         {% if project.owner == user %}
                             <div class="text-end mt-2">
                                 <a href="{% url 'project_settings' project.id %}" class="btn btn-primary btn-sm gradient-text-sidebar">Project Settings</a>
@@ -83,12 +85,11 @@
                         {% endif %}
                     
                     <!-- LaTeX Editor -->
-                    <!-- latextemplate.html -->
                     <form id="combined-form" method="POST" action="{% url 'create_tex_project' project.id %}">
                         {% csrf_token %}
                         {% for section in sections %}   
                             <div class="section-container" data-section-id="{{ section.id }}" id="section-content-{{ section.id }}">
-                                <div class="border-top my-2 gradient-text-sidebar mt-5" id="{{ section.title|slugify }}-{{ section.id }}" style="border-width: 5px;">
+                                <div class="border-top my-2 gradient-text-sidebar mt-2" id="{{ section.title|slugify }}-{{ section.id }}" style="border-width: 5px;">
                                     {{ section.title }}
                                 </div>
                                 <div class="latex-editor d-flex">
@@ -143,25 +144,25 @@
                 {% csrf_token %}
                 {{ form.content }}  <!-- Form konten yang Anda inginkan -->
                 <input type="hidden" name="section_id" id="current-section-id" value="{{ section.id }}"> 
-                <button type="submit" class="btn btn-primary mt-2">Kirim</button>
+                <button type="submit" class="btn btn-primary mt-2">Send</button>
             </form>
             
         </div>
 
-        <!-- Menampilkan Riwayat Perubahan untuk Section Ini -->
-        <div class="history mt-4 mb-5" id="history-{{ section.id }}" style="display: none;">
-            <h6 class="fw-semibold">Riwayat Perubahan</h6>
-            <ul class="list-unstyled" id="history-list-{{ section.id }}">
-                {% if section_version %}
-                    <li class="history-item fw-normal" data-history-id="{{ section_version.id }}">
-                        <h6 class="text-dark">{{ section_version.created_at|date:"Y-m-d H:i" }}</h6>
-                        <h6 class="text-dark">{{ section_version.title }}</h6>
-                    </li>
-                {% else %}
-                    <p>Tidak ada riwayat perubahan untuk section ini.</p>
-                {% endif %}
-            </ul>
-        </div>       
+        <!-- Menyediakan template HTML yang tetap ada di halaman -->
+        <div id="section-version" class="section-version mt-3">
+            <div class="card-header">
+                <h6 class="fw-semibold gradient-text-sidebar">Latest Section Version</h6>
+            </div>
+            <div class="card-body">
+                <!-- Konten akan diperbarui di sini -->
+                <p id="loading-message">Loading latest section version</p>
+                <div id="section-versions-list"></div>
+            </div>
+        </div>
+
+
+           
 
 
     </div>
@@ -220,7 +221,7 @@
     <script src="{% static 'js/comment-section.js' %}"></script>
 
     {% comment %} Histories Section {% endcomment %}
-    <script src="{% static 'js/history_section_project.js' %}"></script>
+    <script src="{% static 'js/latest-section-version.js' %}"></script>
 
     <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/jellyTriangle.js"></script>
 

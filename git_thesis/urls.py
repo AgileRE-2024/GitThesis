@@ -12,7 +12,9 @@ urlpatterns = [
     path('profile/', views.profile, name='profile'),
     path("myprojects/", myprojects, name='myprojects'),
     path('myprojects/project/<int:project_id>/', views.project_detail, name='project_detail'),
-    path('history/<int:section_id>', views.history_section, name='history_section'),
+    path('myprojects/section-versions/<int:section_id>/', views.section_versions, name='section_versions'),
+    path('myprojects/compare-versions/<int:section_id>/<int:version_id>/', views.compare_versions, name='compare_versions'),
+    path('apply_version/<int:section_id>/', views.apply_version, name='apply_version'),
     path("login/", login_view, name="login"),
     path("register/", register, name="register"),
     path("logout/", custom_logout, name="logout"),
@@ -35,9 +37,7 @@ urlpatterns = [
     path('project/<int:project_id>/generate-combined-pdf/', views.generate_combined_pdf, name='generate_combined_pdf'),
     path('myprojects/add_comment/', views.add_comment, name='add_comment'),
     path('myprojects/get_comments/<int:section_id>/', views.get_comments, name='get_comments'),
-    
-    path('myprojects/get_history/<int:section_id>/', views.get_history, name='get_history'),
-    
+    path('get_section_versions/<int:section_id>/', views.get_section_versions, name='get_section_versions'),
 ]
 
 

@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% load static %}
+<!-- section_versions.html -->
+{% block content %}
+    <div class="container mt-5 py-5">
+        <!-- Judul Halaman -->
+        <div class="row mb-4">
+            <div class="col">
+                <div class="container text-center mt-3">
+                    <h2 class="text-dark fw-semibold gradient-text-sidebar">History of the Section {{ section.title }}</h2>
+                    <h6 class="text-center mb-2 gradient-text-sidebar fw-semibold">{{ section.project.name }}</h6>
+                </div>
+            </div>
+        </div>
+
+        <!-- List Versi Section -->
+        {% if section_versions %}
+            <div class="d-flex justify-content-center">
+                <div class="list-group" style="width: 80%;">
+                    {% for version in section_versions %}
+                        <a href="{% url 'compare_versions' section.id version.id %}" class="list-group-item list-group-item-action list-group-item-light shadow-sm mb-3 rounded">
+                            <div class="d-flex w-100 justify-content-between py-2">
+                                <h5 class="mb-1">{{ version.title }}</h5>
+                                <p class="mb-1 text-muted" style="font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;">
+                                    {{ version.short_content }}
+                                </p> 
+                                <small class="text-muted">{{ version.created_at }}</small>
+                            </div>
+                        </a>
+                    {% endfor %}
+                </div>
+            </div>
+        {% else %}
+        <div class="row mt-4">
+            <div class="col text-center">
+                <div class="alert" role="alert">
+                    This section has no historical versions before this one, so there's nothing to compare.
+                </div>
+            </div>
+        </div>
+        {% endif %}
+
+        <!-- Spacer -->
+        <div class="row mt-4">
+            <div class="col text-center">
+                <a onclick="window.history.back();" class="btn btn-primary">Back to Project</a>
+            </div>
+        </div>
+    </div>
+{% endblock content %}
