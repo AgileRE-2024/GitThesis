@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container text-center mt-5 py-5 pb-5 errorhandling">
+    <h1 class="display-4 fw-normal text-danger">Oops! Something went wrong.</h1>
+    <p class="lead gradient-text-sidebar">{{ error_message }}</p>
+    <button onclick="window.history.back()" class="btn btn-primary mt-3">Go Back</button>
+</div>
+
+{% include 'footer.html' %}
+
+{% endblock %}
+
