@@ -3,7 +3,6 @@ import traceback
 from django.conf import settings
 from django.shortcuts import render, redirect
 from django.utils import timezone
-
 from gitthesis.forms import CommentForm
 from .models import *
 from django.contrib.auth.models import User
@@ -36,10 +35,61 @@ import logging
 from git_thesis.settings import LATEX_INTERPRETER, LATEX_INTERPRETER_OPTIONS
 
 
-def history_section(request, section_id):
+def section_versions(request, section_id):
+    # Ambil section berdasarkan ID
+    section = Section.objects.get(id=section_id)
+
+    latest_version = SectionVersion.objects.filter(section_id=section_id).order_by('-created_at').first()
+    section_versions = SectionVersion.objects.filter(section_id=section_id).exclude(id=latest_version.id).order_by('-created_at')
     
-    
-    return render(request, "history_section.html")
+    for version in section_versions:
+        # Ambil 10 kata terakhir
+        words = version.content.split()  
+        last_10_words = ' '.join(words[-5:]) 
+        version.short_content = last_10_words
+
+    # Render halaman untuk menampilkan versi-section
+    return render(request, 'section_versions.html', {  
+        'section': section,
+        'section_versions': section_versions
+    })
+
+def compare_versions(request, section_id, version_id):
+    # Ambil section berdasarkan ID
+    section = get_object_or_404(Section, id=section_id)
+
+    # Ambil versi yang dipilih dan versi terbaru
+    selected_version = get_object_or_404(SectionVersion, id=version_id, section_id=section_id)
+    latest_version = SectionVersion.objects.filter(section_id=section_id).order_by('-created_at').first()
+
+    # Render halaman perbandingan versi
+    return render(request, 'compare_versions.html', {
+        'section': section,
+        'selected_version': selected_version,
+        'latest_version': latest_version
+    })
+
+def apply_version(request, section_id):
+    if request.method == "POST":
+        selected_version_id = request.POST.get("selected_version_id")
+        section = get_object_or_404(Section, id=section_id)
+        selected_version = get_object_or_404(SectionVersion, id=selected_version_id)
+
+        # Update section content and title
+        section.title = selected_version.title
+        section.content = selected_version.content
+        section.save()
+
+        SectionVersion.objects.create(
+            section=section,
+            title=section.title,
+            content=section.content,
+            created_at=timezone.now()  
+        )
+
+        # Redirect to project detail page
+        return redirect('project_detail', project_id=section.project.id)  
+    return redirect('compare_versions')
 
 
 @login_required
@@ -56,10 +106,10 @@ def project_detail(request, project_id):
     comments = Comment.objects.filter(section=section)
     form = CommentForm()
     
-    section_version = SectionVersion.objects.filter(section=section).order_by('-created_at').first()
+    section_versions = SectionVersion.objects.filter(section__project=project).order_by('-created_at')[:1]
     
     return render(request, 'project.html', {
-        'project': project, 'images': images, 'sections': sections, 'comments' : comments, 'form' : form, 'section' :section,  'section_version': section_version,})
+        'project': project, 'images': images, 'sections': sections, 'comments' : comments, 'form' : form, 'section_versions': section_versions,})
 
 
 def home(request):
@@ -391,16 +441,20 @@ def get_comments(request, section_id):
         }, status=500)
         
 
-from django.http import JsonResponse
-from .models import SectionVersion
+def get_section_versions(request, section_id):
+    # Ambil riwayat perubahan untuk section yang dipilih
+    section_versions = SectionVersion.objects.filter(section_id=section_id).order_by('-created_at')[:1]
 
-def get_history(request, section_id):
-    history = SectionVersion.objects.filter(section_id=section_id).order_by('-created_at')
-    history_data = [
-        {"created_at": version.created_at.strftime("%Y-%m-%d %H:%M"), "title": version.title}
-        for version in history
+    # Menyiapkan data untuk dikirim sebagai respons JSON
+    versions_data = [
+        {
+            'title': version.title,
+            'created_at': version.created_at.strftime('%Y-%m-%d %H:%M:%S')
+        }
+        for version in section_versions
     ]
-    return JsonResponse({"history": history_data})
+
+    return JsonResponse({'section_versions': versions_data})
 
 
 
@@ -435,6 +489,12 @@ class AddSectionView(View):
             # Buat Section baru dengan position baru
             section = Section.objects.create(project=project, title=title, position=max_position)
 
+            SectionVersion.objects.create(
+                section=section,
+                title=section.title,
+                content=section.content  
+            )
+
             # Mengembalikan ID section yang baru dibuat
             return JsonResponse({"success": True, "section_id": section.id, "position": section.position}, status=201)
         except Project.DoesNotExist:
@@ -453,6 +513,12 @@ class UpdateSectionTitleView(View):
             section = Section.objects.get(id=section_id)
             section.title = title
             section.save()
+
+            SectionVersion.objects.create(
+                section=section,
+                title=section.title,
+                content=section.content  
+            )
             
             return JsonResponse({"success": True})
         except Section.DoesNotExist:
