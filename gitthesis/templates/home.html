@@ -1,0 +1,129 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+{% load static %}
+
+
+<div class="container-fluid mt-1">
+  <div class="row">
+
+    <!-- Sidebar Kiri (Top Projects) -->
+    <div class="col-md-3 col-lg-3">
+      <aside class="sidebar navbar-shadow" style="margin-top: 5rem; width: 23%; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <!-- Project Name Section -->
+            <li class="nav-item">
+              <span class="nav-link gradient-text-sidebar fw-bold">Top Projects</span>
+
+
+              <!-- Search Form -->
+              <div class="px-3 mb-3 w-80">
+                <form class="d-flex" role="search" method="GET" action="{% url 'home' %}">
+                    <input class="form-control" type="search" name="search" placeholder="Search" aria-label="Search" value="{{ search_query }}">
+                </form>
+              </div>
+
+              <!-- Pesan Pencarian -->
+              {% if search_query %}
+                <div class="px-3 mb-3 gradient-text-sidebar">
+                    <p>Results for "{{ search_query }}":</p>
+                </div>
+              {% endif %}
+
+
+            </li>
+
+            <!-- Example Projects -->
+            <ul class="nav flex-column">
+              {% for project in projects %}
+                  <li class="nav-item d-flex justify-content-between align-items-center mb-2" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
+                      <a class="nav-link text-dark fw-medium" href="{% url 'project_detail' project.id %}" style="flex: 1; word-break: break-word; white-space: normal; overflow-wrap: break-word;">
+                          {{ project.owner.username }}/{{ project.name|truncatechars:48 }}
+                      </a>
+                  </li>
+              {% empty %}
+                  <li class="nav-item">
+                      <a class="nav-link text-dark fw-medium" href="#">No projects available.</a>
+                  </li>
+              {% endfor %}
+          
+
+            <li class="border-top my-3" style="border-width: 5px;"></li> <!-- Divider -->
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Kolom Tengah (Card Riwayat) -->
+    <div class="col-md-6 col-lg-6" style="margin-top: 6rem; padding-left: 0.1rem; padding-right: 2rem;"> <!-- Tambahkan padding kiri dan kanan -->
+
+      <!-- Card Riwayat -->
+      {% for invitation in invitations %}
+      <!-- Card Riwayat -->
+      <div class="card mb-3 card-social border-1" style="max-width: 100%;">
+        <div class="row g-0">
+          <div class="col-md-2 d-flex align-items-center justify-content-center">
+            <img class="rounded-circle ms-2" 
+              src="{% if invitation.project.owner.userprofile.profile_picture %}{{ invitation.project.owner.userprofile.profile_picture.url }}{% else %}{% static 'images/profile-new.svg' %}{% endif %}" 
+              width="70px" height="70px" alt="Profile Picture">
+          </div>
+          <div class="col-md-10">
+            <div class="card-body">
+              <h5 class="card-title">{{ invitation.project.owner.username }}</h5> <!-- Nama orang yang invite -->
+              <p class="card-text">{{ invitation.project.owner.username }} has invited you to join the project "{{ invitation.project.name }}".</p> <!-- Pesan undangan dan nama proyek -->
+              <p class="card-text"><small class="text-body-secondary">Invitation sent on {{ invitation.invited_at|date:"d M Y H:i" }}</small></p> <!-- Waktu undangan -->
+            </div>
+          </div>
+        </div>
+      </div>
+      {% empty %}
+      <div class="card text-center mb-3" style="max-width: 100%;">
+        <div class="card-body">
+          <p class="card-text">You currently have no activity. Check back later!</p>
+          <a href="/myprojects" class="btn btn-primary btn-sm">Browse Projects</a>
+        </div>
+      </div>
+      {% endfor %}
+
+
+    </div>
+
+    <!-- Sidebar Kanan (Networks) -->
+    <div class="col-md-3 col-lg-3 ">
+      <aside class="sidebar navbar-shadow position-fixed" style="top: 5rem; right: 0.5rem; width: 25%; height: 100vh; border-right: 2px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+        <div class="position-sticky pt-3">
+          <ul class="nav flex-column">
+            <!-- Networks Section -->
+            <li class="nav-item">
+              <span class="nav-link gradient-text-sidebar fw-bold">Networks</span>
+            </li>
+
+            <!-- Example Networks -->
+            {% for collaborator in collaborators %}
+                <li class="nav-item">
+                    <a class="nav-link text-dark fw-medium d-flex align-items-center" href="#">
+                        <img class="me-2" src="{% static 'images/profile-new.svg' %}" width="30" height="30" alt="Profile">
+                        <span>{{ collaborator.username }}</span>
+                    </a>
+                </li>
+                {% empty %}
+                <li class="nav-item">
+                    <span class="nav-link text-dark fw-medium">No collaborators found.</span>
+                </li>
+                {% endfor %}
+          </ul>
+        </div>
+      </aside>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+</body>
+
+{% endblock %}
