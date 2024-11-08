@@ -36729,3 +36729,3038 @@ Not Found: /favicon.ico
 Watching for file changes with StatReloader
 Not Found: /favicon.ico
 Not Found: /favicon.ico
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Starting PDF generation for file: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731074264.tex
+Copied project_images to: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\images
+Using LATEX_INTERPRETER: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe
+Current working directory: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file
+pdflatex stdout: This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4 Portable) (preloaded format=pdflatex.fmt)
+ \write18 enabled.
+entering extended mode
+
+(D:/Kuliah/Semester 5/PPL PRAK/GitThesis/media/tex_file/Clustering in Game Anal
+ysis on FIFA22 Official Players Data_1731074264.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-10-09>
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/base\article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/base\size10.clo))
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\graphicx.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\keyval.sty)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\graphics.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\trig.sty)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics-cfg\graphics.cfg)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics-def\pdftex.def)))
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/l3backend\l3backend-pdftex.def)
+No file "Clustering in Game Analysis on FIFA22 Official Players Data_1731074264
+".aux.
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/con
+text/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/epstopdf-pkg\epstopdf-base.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/00miktex\epstopdf-sys.cfg))
+
+LaTeX Warning: No \author given.
+
+
+[1{D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/data/fonts/ma
+p/pdftex/pdftex.map}]
+Overfull \vbox (63.32504pt too high) has occurred while \output is active
+[2 <./images/1_20241102151715.jpg>]
+! Undefined control sequence.
+l.67 ...outube.com/watch?v=dQw4w9WgXcQ} \hyperlink
+                                                  {https://www.youtube.com/w...
+
+
+Overfull \hbox (60.1173pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/bx/n/10 Tautan Video YouTube:https://www.youtube.com/watch?v=dQw4w9W
+gXcQ
+
+Overfull \hbox (0.38965pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 https://www.youtube.com/watch?v=dQw4w9WgXcQKlik di sini un-tuk 
+menon-
+
+[3] (Clustering in Game Analysis on FIFA22 Official Players Data_1731074264.aux
+) )
+(see the transcript file for additional information)<D:/Kuliah/Semester 5/PPL P
+RAK/GitThesis/miktex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitTh
+esis/miktex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D
+:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex
+_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "Clustering in Game Analysis on FIFA22 Official Players Data_
+1731074264.pdf" (3 pages, 210067 bytes).
+Transcript written on "Clustering in Game Analysis on FIFA22 Official Players D
+ata_1731074264.log".
+
+pdflatex stderr: 
+PDF moved to: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731074264.pdf
+Starting PDF generation for file: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731074279.tex
+Copied project_images to: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\images
+Using LATEX_INTERPRETER: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe
+Current working directory: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file
+pdflatex stdout: This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4 Portable) (preloaded format=pdflatex.fmt)
+ \write18 enabled.
+entering extended mode
+
+(D:/Kuliah/Semester 5/PPL PRAK/GitThesis/media/tex_file/Clustering in Game Anal
+ysis on FIFA22 Official Players Data_1731074279.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-10-09>
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/base\article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/base\size10.clo))
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\graphicx.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\keyval.sty)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\graphics.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\trig.sty)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics-cfg\graphics.cfg)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics-def\pdftex.def)))
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/l3backend\l3backend-pdftex.def)
+No file "Clustering in Game Analysis on FIFA22 Official Players Data_1731074279
+".aux.
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/con
+text/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/epstopdf-pkg\epstopdf-base.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/00miktex\epstopdf-sys.cfg))
+
+LaTeX Warning: No \author given.
+
+
+[1{D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/data/fonts/ma
+p/pdftex/pdftex.map}]
+Overfull \vbox (63.32504pt too high) has occurred while \output is active
+[2 <./images/1_20241102151715.jpg>]
+! Undefined control sequence.
+l.67 ...outube.com/watch?v=dQw4w9WgXcQ} \hyperlink
+                                                  {https://www.youtube.com/w...
+
+
+Overfull \hbox (60.1173pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/bx/n/10 Tautan Video YouTube:https://www.youtube.com/watch?v=dQw4w9W
+gXcQ
+
+Overfull \hbox (0.38965pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 https://www.youtube.com/watch?v=dQw4w9WgXcQKlik di sini un-tuk 
+menon-
+
+[3] (Clustering in Game Analysis on FIFA22 Official Players Data_1731074279.aux
+) )
+(see the transcript file for additional information)<D:/Kuliah/Semester 5/PPL P
+RAK/GitThesis/miktex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitTh
+esis/miktex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D
+:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex
+_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "Clustering in Game Analysis on FIFA22 Official Players Data_
+1731074279.pdf" (3 pages, 210067 bytes).
+Transcript written on "Clustering in Game Analysis on FIFA22 Official Players D
+ata_1731074279.log".
+
+pdflatex stderr: 
+PDF moved to: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731074279.pdf
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\models.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/project/1/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\psycopg\connection.py", line 119, in connect
+    raise last_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "52.74.252.201", port 6543 failed: Network is unreachable (0x00002743/10051)
+	Is the server running on that host and accepting TCP/IP connections?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 57, in _view_wrapper
+    test_pass = test_func(request.user)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 80, in <lambda>
+    lambda u: u.is_authenticated,
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "D:\App\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\sql\compiler.py", line 1572, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "D:\App\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\psycopg\connection.py", line 119, in connect
+    raise last_ex.with_traceback(None)
+django.db.utils.OperationalError: connection failed: connection to server at "52.74.252.201", port 6543 failed: Network is unreachable (0x00002743/10051)
+	Is the server running on that host and accepting TCP/IP connections?
+Internal Server Error: /
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\psycopg\connection.py", line 119, in connect
+    raise last_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "52.74.252.201", port 6543 failed: Network is unreachable (0x00002743/10051)
+	Is the server running on that host and accepting TCP/IP connections?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 104, in landing
+    if request.user.is_authenticated:
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "D:\App\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\sql\compiler.py", line 1572, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "D:\App\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\psycopg\connection.py", line 119, in connect
+    raise last_ex.with_traceback(None)
+django.db.utils.OperationalError: connection failed: connection to server at "52.74.252.201", port 6543 failed: Network is unreachable (0x00002743/10051)
+	Is the server running on that host and accepting TCP/IP connections?
+Internal Server Error: /myprojects/project/6/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 244, in _get_session
+    return self._session_cache
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: 'SessionStore' object has no attribute '_session_cache'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\psycopg\connection.py", line 119, in connect
+    raise last_ex.with_traceback(None)
+psycopg.OperationalError: connection failed: connection to server at "52.74.252.201", port 6543 failed: Network is unreachable (0x00002743/10051)
+	Is the server running on that host and accepting TCP/IP connections?
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 57, in _view_wrapper
+    test_pass = test_func(request.user)
+                ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 80, in <lambda>
+    lambda u: u.is_authenticated,
+              ^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\functional.py", line 251, in inner
+    self._setup()
+  File "D:\App\Lib\site-packages\django\utils\functional.py", line 404, in _setup
+    self._wrapped = self._setupfunc()
+                    ^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\middleware.py", line 37, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+                                            ^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\middleware.py", line 17, in get_user
+    request._cached_user = auth.get_user(request)
+                           ^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\__init__.py", line 209, in get_user
+    user_id = _get_user_session_key(request)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\__init__.py", line 62, in _get_user_session_key
+    return get_user_model()._meta.pk.to_python(request.session[SESSION_KEY])
+                                               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 55, in __getitem__
+    return self._session[key]
+           ^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\base.py", line 249, in _get_session
+    self._session_cache = self.load()
+                          ^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\db.py", line 55, in load
+    s = self._get_session_from_db()
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\sessions\backends\db.py", line 34, in _get_session_from_db
+    return self.model.objects.get(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 645, in get
+    num = len(clone)
+          ^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 382, in __len__
+    self._fetch_all()
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 1928, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\query.py", line 91, in __iter__
+    results = compiler.execute_sql(
+              ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\models\sql\compiler.py", line 1572, in execute_sql
+    cursor = self.connection.cursor()
+             ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 320, in cursor
+    return self._cursor()
+           ^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 296, in _cursor
+    self.ensure_connection()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 278, in ensure_connection
+    with self.wrap_database_errors:
+  File "D:\App\Lib\site-packages\django\db\utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 279, in ensure_connection
+    self.connect()
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\base\base.py", line 256, in connect
+    self.connection = self.get_new_connection(conn_params)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\utils\asyncio.py", line 26, in inner
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\db\backends\postgresql\base.py", line 332, in get_new_connection
+    connection = self.Database.connect(**conn_params)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\psycopg\connection.py", line 119, in connect
+    raise last_ex.with_traceback(None)
+django.db.utils.OperationalError: connection failed: connection to server at "52.74.252.201", port 6543 failed: Network is unreachable (0x00002743/10051)
+	Is the server running on that host and accepting TCP/IP connections?
+Not Found: /favicon.ico
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /accounts/login/
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/project/11/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 62, in project_detail
+    return render(request, 'project.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\App\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\App\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\App\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\App\Lib\site-packages\django\template\base.py", line 563, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 246: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\forms.py changed, reloading.
+Watching for file changes with StatReloader
+Not Found: /favicon.ico
+Internal Server Error: /myprojects/project/12/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\template\base.py", line 510, in parse
+    compile_func = self.tags[command]
+                   ~~~~~~~~~^^^^^^^^^
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 62, in project_detail
+    return render(request, 'project.html', {
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\shortcuts.py", line 25, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 79, in get_template
+    return Template(self.engine.get_template(template_name), self)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\engine.py", line 177, in get_template
+    template, origin = self.find_template(template_name)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\engine.py", line 159, in find_template
+    template = loader.get_template(name, skip=skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loaders\cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loaders\base.py", line 28, in get_template
+    return Template(
+           ^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 196, in compile_nodelist
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\App\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 295, in do_extends
+    nodelist = parser.parse()
+               ^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\App\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 234, in do_block
+    nodelist = parser.parse(("endblock",))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 518, in parse
+    raise self.error(token, e)
+  File "D:\App\Lib\site-packages\django\template\base.py", line 516, in parse
+    compiled_result = compile_func(self, token)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 862, in do_for
+    nodelist_loop = parser.parse(
+                    ^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 512, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "D:\App\Lib\site-packages\django\template\base.py", line 563, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 242: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/get_comments/77/
+Internal Server Error: /myprojects/get_comments/76/
+Internal Server Error: /myprojects/get_comments/75/
+Internal Server Error: /myprojects/get_comments/76/
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\forms.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/73/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/77/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/78/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/79/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/78/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/77/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/77/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/77/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/73/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/73/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/73/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/75/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/74/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/77/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/78/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/77/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/77/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\views\decorators\http.py", line 64, in inner
+    return func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 374, in get_comments
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/get_comments/77/
+Internal Server Error: /myprojects/get_comments/76/
+Internal Server Error: /myprojects/get_comments/77/
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/76/
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/get_comments/76/
+Internal Server Error: /myprojects/get_comments/77/
+Internal Server Error: /myprojects/get_comments/76/
+Internal Server Error: /myprojects/get_comments/77/
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('comments/partial_comments.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: comments/partial_comments.html
+Internal Server Error: /myprojects/get_comments/78/
+Internal Server Error: /myprojects/get_comments/77/
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/get_comments/78/
+Internal Server Error: /myprojects/get_comments/79/
+Internal Server Error: /myprojects/get_comments/78/
+Internal Server Error: /myprojects/get_comments/78/
+Internal Server Error: /myprojects/get_comments/77/
+Internal Server Error: /myprojects/get_comments/78/
+Internal Server Error: /myprojects/get_comments/79/
+Internal Server Error: /myprojects/get_comments/78/
+Internal Server Error: /myprojects/get_comments/77/
+Internal Server Error: /myprojects/get_comments/76/
+Internal Server Error: /myprojects/get_comments/75/
+Internal Server Error: /myprojects/get_comments/74/
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('project.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('project.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/get_comments/1/
+Internal Server Error: /myprojects/get_comments/74/
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('project.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('project.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('project.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 355, in add_comment
+    html = render_to_string('project.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/get_comments/73/
+Internal Server Error: /myprojects/get_comments/1/
+Internal Server Error: /myprojects/get_comments/1/
+Internal Server Error: /myprojects/get_comments/2/
+Internal Server Error: /myprojects/get_comments/1/
+Internal Server Error: /myprojects/get_comments/2/
+Internal Server Error: /myprojects/get_comments/3/
+Internal Server Error: /myprojects/get_comments/2/
+Internal Server Error: /myprojects/get_comments/2/
+Internal Server Error: /myprojects/get_comments/3/
+Internal Server Error: /myprojects/get_comments/2/
+Internal Server Error: /myprojects/get_comments/3/
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 356, in add_comment
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 356, in add_comment
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Internal Server Error: /myprojects/get_comments/1/
+Internal Server Error: /myprojects/get_comments/2/
+Internal Server Error: /myprojects/get_comments/3/
+Internal Server Error: /myprojects/get_comments/87/
+Internal Server Error: /myprojects/get_comments/88/
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 357, in add_comment
+    html = render_to_string('project.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/get_comments/87/
+Internal Server Error: /myprojects/get_comments/87/
+Internal Server Error: /myprojects/add_comment/
+Traceback (most recent call last):
+  File "D:\App\Lib\site-packages\django\core\handlers\exception.py", line 55, in inner
+    response = get_response(request)
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\core\handlers\base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\contrib\auth\decorators.py", line 60, in _view_wrapper
+    return view_func(request, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py", line 357, in add_comment
+    html = render_to_string('project.html', {'comments': comments})
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader.py", line 62, in render_to_string
+    return template.render(context, request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\backends\django.py", line 107, in render
+    return self.template.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 171, in render
+    return self._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 159, in render
+    return compiled_parent._render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 163, in _render
+    return self.nodelist.render(context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\loader_tags.py", line 65, in render
+    result = block.nodelist.render(context)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 1008, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\base.py", line 969, in render_annotated
+    return self.render(context)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\template\defaulttags.py", line 480, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\App\Lib\site-packages\django\urls\resolvers.py", line 831, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'upload_image' with arguments '('',)' not found. 1 pattern(s) tried: ['project/(?P<project_id>[0-9]+)/upload_image/\\Z']
+Internal Server Error: /myprojects/get_comments/87/
+Internal Server Error: /myprojects/get_comments/88/
+Internal Server Error: /myprojects/get_comments/89/
+Internal Server Error: /myprojects/get_comments/90/
+Internal Server Error: /myprojects/get_comments/91/
+Internal Server Error: /myprojects/get_comments/92/
+Internal Server Error: /myprojects/get_comments/91/
+Internal Server Error: /myprojects/get_comments/92/
+Internal Server Error: /myprojects/get_comments/1/
+Internal Server Error: /myprojects/get_comments/3/
+Internal Server Error: /myprojects/get_comments/3/
+Internal Server Error: /myprojects/get_comments/4/
+Internal Server Error: /myprojects/get_comments/3/
+Internal Server Error: /myprojects/get_comments/4/
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Bad Request: /myprojects/add_comment/
+Internal Server Error: /myprojects/get_comments/4/
+Internal Server Error: /myprojects/get_comments/3/
+Internal Server Error: /myprojects/get_comments/4/
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+Starting PDF generation for file: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731093465.tex
+Copied project_images to: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\images
+Using LATEX_INTERPRETER: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe
+Current working directory: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file
+pdflatex stdout: This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4 Portable) (preloaded format=pdflatex.fmt)
+ \write18 enabled.
+entering extended mode
+
+(D:/Kuliah/Semester 5/PPL PRAK/GitThesis/media/tex_file/Clustering in Game Anal
+ysis on FIFA22 Official Players Data_1731093465.tex
+LaTeX2e <2024-06-01> patch level 2
+L3 programming layer <2024-10-09>
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/base\article.cls
+Document Class: article 2024/02/08 v1.4n Standard LaTeX document class
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/base\size10.clo))
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\graphicx.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\keyval.sty)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\graphics.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics\trig.sty)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics-cfg\graphics.cfg)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/graphics-def\pdftex.def)))
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/l3backend\l3backend-pdftex.def)
+No file "Clustering in Game Analysis on FIFA22 Official Players Data_1731093465
+".aux.
+
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/con
+text/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/epstopdf-pkg\epstopdf-base.sty
+(D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\tex/lat
+ex/00miktex\epstopdf-sys.cfg))
+
+LaTeX Warning: No \author given.
+
+
+[1{D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/data/fonts/ma
+p/pdftex/pdftex.map}]
+Overfull \vbox (63.32504pt too high) has occurred while \output is active
+[2 <./images/1_20241102151715.jpg>]
+! Undefined control sequence.
+l.67 ...outube.com/watch?v=dQw4w9WgXcQ} \hyperlink
+                                                  {https://www.youtube.com/w...
+
+
+Overfull \hbox (60.1173pt too wide) in paragraph at lines 67--68
+[]\OT1/cmr/bx/n/10 Tautan Video YouTube:https://www.youtube.com/watch?v=dQw4w9W
+gXcQ
+
+Overfull \hbox (0.38965pt too wide) in paragraph at lines 67--68
+\OT1/cmr/m/n/10 https://www.youtube.com/watch?v=dQw4w9WgXcQKlik di sini un-tuk 
+menon-
+
+[3] (Clustering in Game Analysis on FIFA22 Official Players Data_1731093465.aux
+) )
+(see the transcript file for additional information)<D:/Kuliah/Semester 5/PPL P
+RAK/GitThesis/miktex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmb
+x10.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/install
+/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitTh
+esis/miktex_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb><D
+:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex_portable/texmfs/install/fonts/typ
+e1/public/amsfonts/cm/cmr12.pfb><D:/Kuliah/Semester 5/PPL PRAK/GitThesis/miktex
+_portable/texmfs/install/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on "Clustering in Game Analysis on FIFA22 Official Players Data_
+1731093465.pdf" (3 pages, 210081 bytes).
+Transcript written on "Clustering in Game Analysis on FIFA22 Official Players D
+ata_1731093465.log".
+
+pdflatex stderr: 
+PDF moved to: D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731093465.pdf
+Not Found: /accounts/login/
+Not Found: /accounts/login/
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\git_thesis\urls.py changed, reloading.
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /myprojects/project/13/
+Not Found: /myprojects/project/13/
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader
+D:\Kuliah\Semester 5\PPL PRAK\GitThesis\gitthesis\views.py changed, reloading.
+Watching for file changes with StatReloader

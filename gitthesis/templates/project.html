@@ -123,31 +123,40 @@
         </div>
 
 
-    <!-- Sidebar kanan untuk komentar dan history -->
-    <div class="col-md-2 sidebar-right">
-        <div class="comments">
-            <h6 class="fw-semibold">Komentar</h6>
-            
-            <!-- Menampilkan komentar yang sudah ada -->
-            <div class="comment-list" id="comment-list" style="max-height: 250px; overflow-y: auto;">
-                {% for comment in comments %}
-                    <div class="comment-item" data-comment-id="{{ comment.id }}">
-                        <p><strong>{{ comment.user.username }}:</strong> {{ comment.content }}</p>
-                    </div>
-                {% empty %}
-                    <p>Tidak ada komentar untuk section ini.</p>
-                {% endfor %}
+        <div class="col-md-2 sidebar-right">
+            <div class="comments">
+                <h6 class="fw-semibold">Comments</h6>
+        
+                <!-- Menampilkan daftar komentar -->
+                <div class="comment-list" id="comment-list" style="max-height: 250px; overflow-y: auto;">
+                    {% for comment in comments %}
+                        <div class="comment-item d-flex justify-content-between align-items-center mb-2" data-comment-id="{{ comment.id }}">
+                            <div class="comment-content">
+                                <strong>{{ comment.user.username }} : </strong>
+                                <span class="comment-text">{{ comment.content }}</span>
+                            </div>
+                            <div class="comment-status ms-2">
+                                {% if not comment.is_solved %}
+                                    <i class="fa fa-check-circle text-muted" onclick="markCommentSolved({{ comment.id }}, this)" style="cursor: pointer; font-size: 1.2em;"></i>
+                                {% else %}
+                                    <span class="badge bg-success badge-custom ms-1">Solved</span>
+                                {% endif %}
+                            </div>
+                        </div>
+                    {% empty %}
+                        <p>There are no comments for this section.</p>
+                    {% endfor %}
+                </div>
+        
+                <!-- Form untuk menambahkan komentar baru -->
+                <form id="commentForm">
+                    {% csrf_token %}
+                    {{ form.content }}  <!-- Input konten komentar -->
+                    <input type="hidden" name="section_id" id="current-section-id" value="{{ section.id }}">
+                    <button type="submit" class="btn btn-primary mt-2">Send</button>
+                </form>
             </div>
         
-            <!-- Form untuk menambahkan komentar baru -->
-            <form id="commentForm">
-                {% csrf_token %}
-                {{ form.content }}  <!-- Form konten yang Anda inginkan -->
-                <input type="hidden" name="section_id" id="current-section-id" value="{{ section.id }}"> 
-                <button type="submit" class="btn btn-primary mt-2">Send</button>
-            </form>
-            
-        </div>
 
         <!-- Menyediakan template HTML yang tetap ada di halaman -->
         <div id="section-version" class="section-version mt-3">

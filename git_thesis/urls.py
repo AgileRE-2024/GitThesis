@@ -38,6 +38,10 @@ urlpatterns = [
     path('myprojects/add_comment/', views.add_comment, name='add_comment'),
     path('myprojects/get_comments/<int:section_id>/', views.get_comments, name='get_comments'),
     path('get_section_versions/<int:section_id>/', views.get_section_versions, name='get_section_versions'),
+    path('comments/mark_solved/<int:comment_id>/', views.mark_solved, name='mark_solved'),
+    
+
+    
 ]
 
 

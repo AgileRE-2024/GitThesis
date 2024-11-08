@@ -1789,3 +1789,21 @@
 2024-11-06 17:29:43,634+0700 INFO  pdflatex - allowing known shell commands
 2024-11-06 17:29:43,643+0700 INFO  pdflatex - allowing all shell commands
 2024-11-06 17:29:44,144+0700 INFO  pdflatex - this process (17132) finishes with exit code 1
+2024-11-08 20:57:46,242+0700 INFO  pdflatex - this process (12020) started by python in directory D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media\tex_file with command line: "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -shell-escape "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731074264.tex"
+2024-11-08 20:57:46,243+0700 INFO  pdflatex - running on Windows 10.0.22621
+2024-11-08 20:57:46,246+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.19.0 (1.40.26) (MiKTeX 24.4 Portable)
+2024-11-08 20:57:46,275+0700 INFO  pdflatex - allowing known shell commands
+2024-11-08 20:57:46,284+0700 INFO  pdflatex - allowing all shell commands
+2024-11-08 20:57:46,581+0700 INFO  pdflatex - this process (12020) finishes with exit code 1
+2024-11-08 20:57:59,827+0700 INFO  pdflatex - this process (24536) started by python in directory D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media\tex_file with command line: "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -shell-escape "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731074279.tex"
+2024-11-08 20:57:59,828+0700 INFO  pdflatex - running on Windows 10.0.22621
+2024-11-08 20:57:59,829+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.19.0 (1.40.26) (MiKTeX 24.4 Portable)
+2024-11-08 20:57:59,830+0700 INFO  pdflatex - allowing known shell commands
+2024-11-08 20:57:59,836+0700 INFO  pdflatex - allowing all shell commands
+2024-11-08 20:57:59,934+0700 INFO  pdflatex - this process (24536) finishes with exit code 1
+2024-11-09 02:17:47,897+0700 INFO  pdflatex - this process (18652) started by python in directory D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media\tex_file with command line: "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -shell-escape "D:\Kuliah\Semester 5\PPL PRAK\GitThesis\media/tex_file\Clustering in Game Analysis on FIFA22 Official Players Data_1731093465.tex"
+2024-11-09 02:17:47,898+0700 INFO  pdflatex - running on Windows 10.0.22621
+2024-11-09 02:17:47,901+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.19.0 (1.40.26) (MiKTeX 24.4 Portable)
+2024-11-09 02:17:47,932+0700 INFO  pdflatex - allowing known shell commands
+2024-11-09 02:17:47,941+0700 INFO  pdflatex - allowing all shell commands
+2024-11-09 02:17:48,386+0700 INFO  pdflatex - this process (18652) finishes with exit code 1
