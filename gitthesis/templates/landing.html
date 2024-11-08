@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+
+    <header class="pt-5 mt-5 mb-5">
+        {% for message in messages %}
+          {% if message.level == DEFAULT_MESSAGE_LEVELS.ERROR %}
+            <div class="alert alert-danger">{{ message }}</div>
+          {% endif %}
+        {% endfor %}    
+        
+        <div class="container text-center">
+            <h1 class="text-dark fw-semibold gradient-text">Unleashing the Power of <br>Collaborative Thesis Writing with GitThesis</h1>
+            <p class="text-muted">Collaborate effortlessly, track progress, and achieve your academic goals - All in GitThesis.</p>
+        </div>
+
+
+        <div class="d-flex justify-content-center align-items-center">
+            <l-grid
+                size="260"
+                speed="4"
+                color="#6C48C5"
+            ></l-grid>
+        </div>
+
+        <div class="d-flex justify-content-center mt-4">
+            <button class="btn btn-primary" data-bs-target="#SignIn" data-bs-toggle="modal">Get Started</button>
+        </div>
+
+    </header>
+
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/grid.js"></script>
+
+  {% include 'footer.html' %}
+  
+{% endblock %}
+  
