@@ -1,0 +1,238 @@
+{% load static %}
+<nav class="navbar navbar-expand-lg navbar-shadow fixed-top {% if not user.is_authenticated %}py-4{% endif %}" style="background-color: #ffffff;">
+    <div class="container-fluid">
+        <!-- Offcanvas toggle button -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Logo and Brand Name -->
+        <a href="{% url 'landing' %}" class="navbar-brand fw-bolder mx-auto ms-5 mb-0 h1">
+            <img class="d-inline-block align-top" src="{% static 'images/logothesis.svg' %}" height="20" width="20" alt="">
+            Git<span class="thesis-font-logo">Thesis</span>
+        </a>
+
+        <!-- Offcanvas Sidebar -->
+        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">GitThesis</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            {% if user.is_authenticated %}
+            <div class="offcanvas-body">
+                <ul class="navbar-nav ms-10 justify-content-end flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-hover fw-semibold {% if request.path == '/home/' %}active{% endif %}" aria-current="page" href="/home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link nav-link-hover fw-semibold {% if '/myprojects' in request.path %}active{% endif %}" href="/myprojects">My Projects</a>
+                    </li>
+                </ul>
+            </div>
+            {% endif %}
+        </div>
+        
+        <!-- Signin Signup Button and Profile Dropdown -->
+        <div class="d-flex align-items-center ms-auto me-5">
+            {% if not user.is_authenticated %}
+                <button class="btn btn-outline-primary me-2" data-bs-target="#SignIn" data-bs-toggle="modal">Sign in</button>
+                <button class="btn btn-primary" data-bs-target="#SignUp" data-bs-toggle="modal">Sign Up</button>
+            {% else %}
+            <div class="d-flex align-items-center nav-item px-2 py-2">
+                <!-- Notifications Icon with Rectangle -->
+                <a class="nav-link notification-container me-3" href="{% url 'inbox' %}">
+                    <div class="notification-icon position-relative px-3 py-2">
+                        {% if request.resolver_match.url_name == 'inbox' %}
+                            <img src="{% static 'images/filled_bells.svg' %}" alt="Notifications" style="width: 24px; height: 24px;">
+                        {% else %}
+                            <img src="{% static 'images/new_bells.svg' %}" alt="Notifications" style="width: 24px; height: 24px;">
+                        {% endif %}
+                        {% if invitations_count > 0 %}
+                            <span class="notification-badge">
+                                {{ invitations_count }}
+                            </span>
+                        {% endif %}
+                    </div>
+                </a>
+        
+                <!-- Profile Dropdown -->
+                <div class="nav-item dropdown profile-section">
+                    <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <!-- User Profile Picture -->
+                        <img class="rounded-circle me-2" 
+                             src="{% if user.userprofile.profile_picture %}{{ user.userprofile.profile_picture.url }}{% else %}{% static 'images/profile-new.svg' %}{% endif %}" 
+                             width="32" height="32" alt="Profile Picture">
+        
+                        <!-- Username -->
+                        <span class="fw-semibold">{{ user.username }}</span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                        <li><a class="dropdown-item" href="/profile">Profile</a></li>
+                        <li><button class="dropdown-item" data-bs-target="#signOutModal" data-bs-toggle="modal">Sign Out</button></li>
+                    </ul>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+        
+    </div>
+</nav>
+
+<!-- Sign Out Warning Modal -->
+<div class="modal fade" id="signOutModal" tabindex="-1" aria-labelledby="signOutModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="signOutModalLabel">Sign Out</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">Are you sure you want to sign out?</div>
+            <div class="modal-footer">
+                <a href="{% url 'logout' %}" class="btn btn-outline-danger">Sign Out</a>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sign In Modal -->
+<div class="modal fade" id="SignIn" aria-hidden="true" aria-labelledby="SignInLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="SignInLabel">Sign in</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="loginForm">
+                    {% csrf_token %}
+                    <div class="mb-3">
+                        <label for="inputUsername" class="form-label">Username</label>
+                        <input type="text" name="username" class="form-control" id="loginUsername" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="inputPassword" class="form-label">Password</label>
+                        <input type="password" name="password" class="form-control" id="inputPassword" required>
+                    </div>
+                    <div id="error-message" class="alert alert-danger d-none"></div>
+                    <div id="success-message" class="alert alert-success d-none">Successfully registered! Please log in.</div>
+                    <a class="thesis-font-logo" data-bs-target="#SignUp" data-bs-toggle="modal">I don't have an account</a> <br>
+                    <button type="submit" class="btn btn-primary w-100 mt-3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Sign Up Modal -->
+<div class="modal fade" id="SignUp" aria-hidden="true" aria-labelledby="SignUpLabel" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title fs-5" id="SignUpLabel">Sign up</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="registerForm" method="POST">
+                    {% csrf_token %}
+                    
+                    <!-- Username Field -->
+                    <div class="mb-3">
+                        <label for="inputUsername" class="form-label">Username</label>
+                        <input type="text" name="username" class="form-control" id="registerUsername" required>
+                    </div>
+                    
+                    <!-- Email Field -->
+                    <div class="mb-3">
+                        <label for="inputEmail" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" name="email" required>
+                    </div>
+                    
+                    <!-- Password Field -->
+                    <div class="mb-3">
+                        <label for="inputPassword1" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="inputPassword1" name="password1" required>
+                    </div>
+                    
+                    <!-- Confirm Password Field -->
+                    <div class="mb-3">
+                        <label for="inputPassword2" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="inputPassword2" name="password2" required>
+                    </div>
+
+                    <div id="register-error-message" class="alert alert-danger d-none"></div>
+                    <a class="thesis-font-logo" data-bs-target="#SignIn" data-bs-toggle="modal">I already have an account</a> <br>
+                    <button type="submit" class="btn btn-primary w-100 mt-3">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    document.getElementById('loginForm').onsubmit = function(event) {
+        event.preventDefault(); 
+        var formData = new FormData(this);
+        fetch("{% url 'login' %}", {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                window.location.href = "{% url 'home' %}";
+            } else {
+                document.getElementById('error-message').textContent = data.error;
+                document.getElementById('error-message').classList.remove('d-none');
+                document.getElementById('inputPassword').value = '';
+            }
+        })
+        .catch(error => console.error('Error:', error));
+    };
+
+    document.getElementById('registerForm').onsubmit = function(event) {
+        event.preventDefault(); 
+        var formData = new FormData(this);
+        fetch("{% url 'register' %}", {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Tampilkan pesan sukses dan sembunyikan pesan kesalahan
+                document.getElementById('success-message').classList.remove('d-none');
+                document.getElementById('register-error-message').classList.add('d-none');
+
+                // Tampilkan modal login dan sembunyikan modal registrasi
+                var signInModal = new bootstrap.Modal(document.getElementById('SignIn'));
+                signInModal.show();
+                var signUpModal = bootstrap.Modal.getInstance(document.getElementById('SignUp'));
+                signUpModal.hide();
+
+                // Reset form login
+                document.getElementById('loginForm').reset();
+            } else {
+                var errorMessage = '';
+                for (let key in data.error) {
+                    if (Array.isArray(data.error[key])) {
+                        data.error[key].forEach(function(msg) {
+                            errorMessage += msg + '<br>';
+                        });
+                    } else {
+                        errorMessage += data.error[key] + '<br>';
+                    }
+                }
+                document.getElementById('register-error-message').innerHTML = errorMessage;
+                document.getElementById('register-error-message').classList.remove('d-none');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            document.getElementById('register-error-message').textContent = 'Something went wrong. Please try again.';
+            document.getElementById('register-error-message').classList.remove('d-none');
+        });
+    };
+});
+</script>
