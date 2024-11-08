@@ -1,0 +1,149 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+
+<section class="h-100 gradient-custom-2" style="margin-top: 3rem;">
+    <div class="container py-5 h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col col-lg-9 col-xl-7">
+          <div class="card">
+            <div class="rounded-top text-white d-flex flex-row" style="background: linear-gradient(to right, #1230AE, #6C48C5, #C68FE6); height:200px;">
+              <div class="ms-4 mt-5 d-flex flex-column align-items-center" 
+                    style= "widhth: 150px; position: relative; top: 15px; border: 2px solid #ffff; border-radius: 80px;">
+                  <!-- Profile picture within a container -->
+                  <div style="width: 150px; height: 150px; border-radius: 50%; overflow: hidden; position: relative;">
+                      <img id="profileImage" src="{% if user.userprofile.profile_picture %}{{ user.userprofile.profile_picture.url }}{% else %}{% static 'images/profile-new.svg' %}{% endif %}" 
+                           alt="Profile Picture" 
+                           style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;" 
+                           onclick="document.getElementById('fileInput').click();" />
+                  </div>
+                  
+                  <!-- File input for image selection -->
+                  <input type="file" id="fileInput" accept="image/*" style="display: none;" onchange="previewImage(event)">
+              </div>
+              
+              <div class="ms-3" style="margin-top: 130px;">
+                <h5>{{ user.username }}</h5>
+                <p>{{ user.email }}</p>
+              </div>
+            </div>
+
+            <div class="p-4 text-black" style="background-color: #f8f9fa;">
+                <div class="ms-3" style="display:flex; margin-top: -5px;">
+                <button type="button" class="btn btn-outline-primary btn-sm" onclick="selectImage();">
+                    Update Image
+                </button>
+                </div>
+              <div class="d-flex justify-content-end text-center py-1">
+                <div>
+                  <p class="mb-1 h5" style="color: #1230AE;">{{ projectcount }}</p> 
+                  <p class="small text-muted mb-0 gradient-text-sidebar">Projects</p>
+                </div>
+                <div class="px-3">
+                  <p class="mb-1 h5" style="color: #1230AE;">{{ networkscount }}</p> 
+                  <p class="small text-muted mb-0 gradient-text-sidebar">Networks</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="card-body p-4 text-black">
+              <div class="mb-5">
+                  <p class="font-italic fst-lighter mb-1">Joined on {{ user.date_joined|date:"d M Y" }}</p>
+              </div>
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                <p class="lead fw-semibold gradient-text-sidebar mb-0">Owned Projects</p>
+                <p class="mb-0"><a href="/myprojects" class="text-muted thesis-font-logo">Show all</a></p>
+              </div>
+  
+              <div class="list-group">
+                  {% for project in projects %}
+                      <div class="list-group-item d-flex justify-content-between align-items-center mb-4 project-item">
+                          <span class="project-name">{{ project.name }}</span>  
+                          <a href="{% url 'project_detail' project.id %}" class="btn btn-secondary view-detail-btn" style="background-color: #1230AE;">View Detail</a>  
+                      </div>
+                  {% empty %}
+                      <div class="list-group-item">No projects available.</div>  
+                  {% endfor %}
+              </div>
+  
+              <div class="d-flex justify-content-between align-items-center mb-4">
+                  <p class="lead fw-semibold gradient-text-sidebar mb-0">Contributed Projects</p>
+                  <p class="mb-0"><a href="/myprojects" class="text-muted thesis-font-logo">Show all</a></p>
+              </div>
+  
+              <div class="list-group">
+                  {% for contributedproject in contributedprojects %}
+                      <div class="list-group-item d-flex justify-content-between align-items-center mb-4 project-item">
+                          <span class="project-name">{{ contributedproject.name }}</span>  
+                          <a href="{% url 'project_detail' contributedproject.id %}" class="btn btn-secondary view-detail-btn" style="background-color: #1230AE;">View Detail</a>  
+                      </div>
+                  {% empty %}
+                      <div class="list-group-item">No projects available.</div>  
+                  {% endfor %}
+              </div>
+  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+<script>
+    let selectedFile;
+
+    function previewImage(event) {
+        const reader = new FileReader();
+        reader.onload = function() {
+            const profileImage = document.getElementById('profileImage');
+            profileImage.src = reader.result; // Show preview of the selected image
+        };
+        selectedFile = event.target.files[0]; // Store the selected file
+        reader.readAsDataURL(selectedFile);
+        
+        // Ask the user for confirmation after selecting an image
+        const userConfirmed = confirm("Do you want to upload this image?");
+        if (userConfirmed) {
+            uploadImage(); // Proceed to upload if confirmed
+        } else {
+            // Reset the file input if the user cancels
+            document.getElementById('fileInput').value = "";
+            selectedFile = null; // Clear the selected file
+        }
+    }
+
+    function selectImage() {
+        const fileInput = document.getElementById('fileInput');
+        fileInput.click(); // Open file selection dialog
+    }
+
+    function uploadImage() {
+        const formData = new FormData();
+        formData.append('profile_picture', selectedFile);
+
+        fetch('{% url "upload_profile_image" %}', { // Update with your actual URL
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-CSRFToken': '{{ csrf_token }}' // Include CSRF token for security
+            },
+        })
+        .then(response => {
+            if (response.ok) {
+                window.location.reload(); // Reload the page to see the updated image
+            } else {
+                alert("Failed to upload image. Please try again.");
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert("An error occurred while uploading the image.");
+        });
+    }
+</script>
+
+
+{% endblock content %}
