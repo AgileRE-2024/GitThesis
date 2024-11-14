@@ -132,7 +132,7 @@
                     {% for comment in comments %}
                         <div class="comment-item d-flex justify-content-between align-items-center mb-2" data-comment-id="{{ comment.id }}">
                             <div class="comment-content">
-                                <strong>{{ comment.user.username }} : </strong>
+                                <span>{{ comment.user.username }} : </span>
                                 <span class="comment-text">{{ comment.content }}</span>
                             </div>
                             <div class="comment-status ms-2">
@@ -158,16 +158,16 @@
             </div>
         
 
-            <!-- Menyediakan template HTML yang tetap ada di halaman -->
-            <div id="section-version" class="section-version mt-3">
-                <div class="card-header">
-                    <h6 class="fw-semibold gradient-text-sidebar">Latest Section Version</h6>
-                </div>
-                <div class="card-body">
-                    <!-- Konten akan diperbarui di sini -->
-                    <p id="loading-message">Loading latest section version</p>
-                    <div id="section-versions-list"></div>
-                </div>
+                <!-- Menyediakan template HTML yang tetap ada di halaman -->
+                <div id="section-version" class="section-version mt-3">
+                    <div class="card-header">
+                        <h6 class="fw-semibold gradient-text-sidebar">Latest Section Version</h6>
+                    </div>
+                    <div class="card-body">
+                        <!-- Konten akan diperbarui di sini -->
+                        <p id="loading-message">Loading latest section version</p>
+                        <div id="section-versions-list"></div>
+                    </div>
         </div>
 
 

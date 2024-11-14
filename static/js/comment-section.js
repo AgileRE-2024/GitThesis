@@ -86,7 +86,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         commentList.insertAdjacentHTML("beforeend", commentItemHTML);
                     });
                 } else {
-                    commentList.innerHTML = '<p>Tidak ada komentar untuk section ini.</p>';
+                    commentList.innerHTML = '<p>There are no comments for this section.</p>';
                 }
             })
             .catch(error => {
@@ -108,7 +108,28 @@ document.addEventListener("DOMContentLoaded", function() {
         .then(response => response.json())
         .then(data => {
             if (data.status === 'success') {
-                iconElement.parentElement.innerHTML = '<span class="badge bg-success ms-1">Solved</span>';
+                // Menandai komentar sebagai solved dengan mengganti ikon menjadi badge "Solved"
+                const commentItem = iconElement.closest('.comment-item');
+                
+                // Ganti bagian status (hanya mengganti ikon checklist menjadi badge Solved)
+                const statusDiv = commentItem.querySelector('.d-flex.justify-content-between');
+
+                const existingBadge = statusDiv.querySelector('.badge');
+                if (existingBadge) {
+                    // Hanya ganti badge dengan status Solved
+                    existingBadge.classList.remove('bg-muted');
+                    existingBadge.classList.add('bg-success badge-custom');
+                    existingBadge.textContent = 'Solved';
+                } else {
+                    // Jika tidak ada badge, tambahkan yang baru
+                    statusDiv.insertAdjacentHTML('beforeend', '<span class="badge bg-success ms-1 badge-custom">Solved</span>');
+                }
+    
+                // Hapus ikon checklist setelah diubah menjadi Solved
+                const checkIcon = statusDiv.querySelector('i');
+                if (checkIcon) {
+                    checkIcon.remove();
+                }
             } else {
                 alert(data.message || 'Error marking comment as solved');
             }
@@ -117,6 +138,7 @@ document.addEventListener("DOMContentLoaded", function() {
             console.error('Error:', error);
         });
     };
+    
     
 
 
