@@ -1,3 +1,4 @@
+
 document.addEventListener("DOMContentLoaded", function() {
     const commentForm = document.getElementById("commentForm");
     const commentList = document.getElementById("comment-list");
@@ -23,21 +24,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
                 // Menambahkan komentar baru ke daftar komentar
                 const newCommentHTML = `
-                    <div class="comment-item d-flex justify-content-between align-items-center mb-2" data-comment-id="${data.comment.id}">
-                        <div class="d-flex flex-grow-1 align-items-center">
-                            <strong class="comment-user me-2">${data.comment.user} :</strong>
-                            <span class="comment-text me-auto">${data.comment.content}</span>
-                        </div>
-                        <div class="comment-status">
+                    <div class="comment-item mb-2" data-comment-id="${data.comment.id}">
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="comment-user"><strong>${data.comment.user} : </strong></span>
                             ${data.comment.is_solved ? 
-                                '<span class="badge bg-success badge-custom">Solved</span>' : 
-                                `<i class="fa fa-check-circle text-muted" onclick="markCommentSolved(${data.comment.id}, this)" style="cursor: pointer; font-size: 1.2em;"></i>`
-                            }
+                                '<span class="badge bg-success badge-custom">Solved</span>' :
+                                `<i class="fa fa-check-circle text-muted check-icon" onclick="markCommentSolved(${data.comment.id}, this)" style="cursor: pointer; font-size: 1.2em;"></i>`}
+                        </div>
+                        <div class="comment-text mt-1">
+                            ${data.comment.content}
                         </div>
                     </div>
                 `;
 
-            
+                // Cek apakah masih ada pesan "There are no comments for this section"
+                const noCommentsMessage = commentList.querySelector('p');
+                if (noCommentsMessage) {
+                    noCommentsMessage.remove();  // Hapus pesan tidak ada komentar
+                }
+
+                // Menambahkan komentar baru ke dalam commentList
                 commentList.insertAdjacentHTML("beforeend", newCommentHTML);
             } else {
                 console.error("Error:", data.message);
