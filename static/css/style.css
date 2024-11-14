@@ -504,13 +504,16 @@ aside {
 }
 
 .comment-user {
-    font-weight: bold;
     margin-right: 5px;
+    font-weight: 500;
 }
 
 .comment-text {
+    word-wrap: break-word; /* Memungkinkan teks untuk dibungkus jika panjang */
+    overflow-wrap: break-word; 
     white-space: normal; /* Untuk memastikan teks dapat membungkus jika panjang */
     margin-right: auto; /* Dorong teks ke kiri, memberi ruang bagi "Solved" di kanan */
+    flex-grow: 1;
 }
 
 .comment-status {
@@ -520,8 +523,8 @@ aside {
 }
 
 .badge-custom {
-    font-size: 0.8em; /* Sesuaikan ukuran teks */
-    padding: 0.15em 0.4em; /* Sesuaikan padding vertikal dan horizontal */
-    border-radius: 0.5rem; /* Atur bentuk sudut sesuai kebutuhan */
+    font-size: 0.8em; 
+    padding: 0.15em 0.4em; 
+    border-radius: 0.5rem; 
 }
 
