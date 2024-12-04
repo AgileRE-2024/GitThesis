@@ -1,5 +1,7 @@
 {% extends 'base.html' %}
 
+{% load static %}
+
 {% block content %}
 <div class="container" style="margin-top: 6rem;">
 
@@ -32,8 +34,7 @@
         <!-- Input for collaborators, excluding project owner -->
         <div class="mb-3">
             <label for="collaborators" class="form-label gradient-text-sidebar">Collaborators (comma-separated emails)</label>
-            <input type="text" class="form-control" id="collaborators" name="collaborators" 
-                   value="{% for collaborator in all_collaborators %}{% if collaborator.user != project.owner %}{{ collaborator.user.email }}{% if not forloop.last %}, {% endif %}{% endif %}{% endfor %}" required>
+            <input type="text" class="form-control" id="collaborators" name="collaborators" required>
             <small class="form-text text-muted">Add multiple collaborators by separating their emails with commas.</small>
         </div>
         
@@ -50,7 +51,8 @@
         {% for collaboratorAccepted in collaboratorsAccepted %}
         <div class="list-group-item d-flex justify-content-between align-items-center mb-2 collaborator-item" style="border-top: 1px solid #ddd;">
             <div class="d-flex align-items-center">
-                <img src="{{ collaboratorAccepted.user.profile_picture.url }}" alt="{{ collaboratorAccepted.user.username }}'s avatar" class="collaborator-avatar" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;">
+                <img src="{% if collaboratorAccepted.user.userprofile.profile_picture %}{{ collaboratorAccepted.user.userprofile.profile_picture.url }}{% else %}{% static 'images/profile-new.svg' %}{% endif %}" alt="{{ collaboratorAccepted.user.username }}'s avatar" class="rounded-circle me-3" style="width: 40px; height: 40px; border-radius: 50%; margin-right: 10px;">
+
                 <div>
                     <strong>{{ collaboratorAccepted.user.username }}</strong>
                     {% if collaboratorAccepted.user == project.owner %}
