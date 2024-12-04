@@ -139,7 +139,12 @@
                                 {% if not comment.is_solved %}
                                     <i class="fa fa-check-circle text-muted" onclick="markCommentSolved({{ comment.id }}, this)" style="cursor: pointer; font-size: 1.2em;"></i>
                                 {% else %}
-                                    <span class="badge bg-success badge-custom ms-1">Solved</span>
+                                    <span class="badge bg-success badge-custom ms-1"
+                                        data-bs-toggle="tooltip" 
+                                        title="Commented by: {{ comment.username }} on {{ comment.created_at }}&#10;
+                                        Solved by: {{ comment.solved_by }} on {{ comment.solved_at }}">
+                                        Solved
+                                    </span>
                                 {% endif %}
                             </div>
                         </div>
@@ -147,6 +152,7 @@
                         <p>There are no comments for this section.</p>
                     {% endfor %}
                 </div>
+                
         
                 <!-- Form untuk menambahkan komentar baru -->
                 <form id="commentForm">
@@ -155,7 +161,7 @@
                     <input type="hidden" name="section_id" id="current-section-id" value="{{ section.id }}">
                     <button type="submit" class="btn btn-primary mt-2">Send</button>
                 </form>
-            </div>
+                </div>
         
 
                 <!-- Menyediakan template HTML yang tetap ada di halaman -->
@@ -168,10 +174,40 @@
                         <p id="loading-message">Loading latest section version</p>
                         <div id="section-versions-list"></div>
                     </div>
+
+                </div>
+
+                <!-- Tambahkan ikon kontributor di sidebar kanan -->
+                <div id="collaborator-card" class="collaborator-card mt-3">
+                    <a href="{% url 'contributors_page' project.id %}" style="text-decoration: none;">
+                        <h6 class="fw-semibold">Contributors</h6>
+                    </a>
+                    <div class="row">
+                        {% for collaborator in collaborators %}
+                            <div class="col-md-3 mb-4 text-center position-relative pe-4">
+                                <!-- Profile picture -->
+                                <div class="collaborator-avatar" style="width: 35px; height: 35px; border-radius: 50%; overflow: hidden; position: relative;">
+                                    <img src="{% if collaborator.user.userprofile and collaborator.user.userprofile.profile_picture %}{{ collaborator.user.userprofile.profile_picture.url }}{% else %}{% static 'images/profile-new.svg' %}{% endif %}" 
+                                        alt="Profile Picture" 
+                                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                                </div>
+
+                                <!-- Tooltip -->
+                                <div class="collaborator-tooltip">
+                                    <p>Email: {{ collaborator.user.email }}</p>
+                                    <p>Contributor since: {{ collaborator.invited_at|date:"F j, Y" }}</p>
+                                </div>
+                            </div>
+                        {% empty %}
+                            <p>No contributors found for this project.</p>
+                        {% endfor %}
+
+                    </div>
+                </div>
+            
+
         </div>
 
-
-           
 
 
     </div>
@@ -183,6 +219,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
 
     <!-- Integrasi MathJax -->
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
@@ -231,6 +269,9 @@
 
     {% comment %} Histories Section {% endcomment %}
     <script src="{% static 'js/latest-section-version.js' %}"></script>
+
+    {% comment %} Tooltip {% endcomment %}
+    <script src="{% static 'js/tooltip.js' %}"></script>
 
     <script type="module" src="https://cdn.jsdelivr.net/npm/ldrs/dist/auto/jellyTriangle.js"></script>
 
