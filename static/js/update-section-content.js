@@ -1,4 +1,3 @@
-
 document.addEventListener("keydown", async (event) => {
     if (event.ctrlKey && event.key === "s") {
         event.preventDefault();
@@ -10,21 +9,22 @@ document.addEventListener("keydown", async (event) => {
             const updatedContent = textarea.value;
 
             try {
+                const csrfToken = document.querySelector('[name=csrfmiddlewaretoken]').value;
                 const response = await fetch(`/project/${projectID}/update-section/${sectionID}/`, {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
-                        "X-CSRFToken": document.querySelector('[name=csrfmiddlewaretoken]').value,
+                        "X-CSRFToken": csrfToken,
                     },
                     body: JSON.stringify({ content: updatedContent }),
                 });
 
-                const result = await response.json(); // Mendapatkan respons dalam bentuk JSON
+                const result = await response.json();
 
                 if (response.ok) {
-                    console.log("Section updated successfully.");
+                    console.log("Section updated successfully:", result.message);
                 } else {
-                    console.error("Error updating section:", response.statusText);
+                    console.error("Error updating section:", result.message || response.statusText);
                 }
             } catch (error) {
                 console.error("Failed to update section:", error);
