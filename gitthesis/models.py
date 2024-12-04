@@ -1,3 +1,6 @@
+from difflib import SequenceMatcher
+import logging
+from venv import logger
 from django.db import models
 from django.contrib.auth.models import User
 from django.utils import timezone
@@ -39,20 +42,39 @@ class Section(models.Model):
     content = models.TextField(default="", null=True, blank=True)
     position = models.PositiveIntegerField(default=0)
     created_at = models.DateTimeField(default=timezone.now)
-    updated_at = models.DateTimeField(auto_now=True)  
+    updated_at = models.DateTimeField(auto_now=True)
+
 
     class Meta:
         ordering = ['position']
 
-    def save_new_version(self):
+    def save_new_version(self, user=None):
         """
         Save changes as a new version in the SectionVersion model.
         """
+        
+        if not user:
+            raise ValueError("User must be provided when saving a new version.")
+        
+        self.save()
+            
         new_version = SectionVersion.objects.create(
             section=self,
             title=self.title, 
             content=self.content,
+            updated_by=user
         )
+        print(f"New version created with content: {self.content}")
+        
+        # Tandai untuk melewati perhitungan kontribusi
+        new_version._skip_contribution_calculation = True
+        new_version.save()  # Menyimpan versi baru tanpa menghitung kontribusi
+
+        if self.get_history().count() > 1:
+            previous_version = self.get_history()[1]  # Ambil versi sebelumnya
+            print(f"Previous version content: {previous_version.content}")
+            new_version.calculate_contribution(previous_version)  # Hitung kontribusi berdasarkan versi sebelumnya
+        
         return new_version
 
     def get_history(self):
@@ -86,17 +108,74 @@ class Section(models.Model):
         return f"Section of {self.project.name} (Created: {self.created_at})"
 
 
+logger = logging.getLogger(__name__)
+
 class SectionVersion(models.Model):
     section = models.ForeignKey(
-        Section, on_delete=models.CASCADE, related_name="versions"
+        "Section", on_delete=models.CASCADE, related_name="versions"
     )
     title = models.CharField(max_length=255, default="Untitled Section")
-    content = models.TextField(default="", null=True, blank=True)
+    content = models.TextField(default="", blank=True)
     created_at = models.DateTimeField(default=timezone.now)
+    updated_by = models.ForeignKey(
+        User, on_delete=models.CASCADE, related_name="versions_updated", null=True
+    )
+    characters_added = models.IntegerField(default=0)
+    characters_removed = models.IntegerField(default=0)
+
+    def calculate_contribution(self, previous_version):
+        if previous_version:
+            print(f"Calculating contribution between {previous_version.id} and {self.id}")
+        else:
+            print("Previous version is None, skipping calculation.")
+            
+        previous_content = previous_version.content or ""
+        current_content = self.content or ""
+
+        print(f"Previous content length: {len(previous_content)}")
+        print(f"Current content length: {len(current_content)}")
+        
+        added = 0 
+        removed = 0
+
+        matcher = SequenceMatcher(None, previous_content, current_content)
+        for tag, i1, i2, j1, j2 in matcher.get_opcodes():
+            print(f"Tag: {tag}, Previous: {previous_content[i1:i2]}, Current: {current_content[j1:j2]}")
+            if tag == "insert":
+                added += len(current_content[j1:j2])
+            elif tag == "delete":
+                removed += len(previous_content[i1:i2])
+
+        self.characters_added = added
+        self.characters_removed = removed
+
+        print(f"Final Added: {self.characters_added}, Final Removed: {self.characters_removed}")
+
+        
+    def save(self, *args, **kwargs):
+        logger.debug(f"Saving SectionVersion: {self.pk}")  # Ini log yang ada
+        logger.debug(f"SectionVersion ID: {self.id}")  # Tambahkan log ini untuk memeriksa ID
+        
+        skip_contribution_calculation = getattr(self, '_skip_contribution_calculation', False)
+
+        if not skip_contribution_calculation:
+            if self.pk and self.section.versions.exists():
+                previous_version = self.section.versions.exclude(pk=self.pk).order_by("-created_at").first()
+                if previous_version:
+                    self.calculate_contribution(previous_version)
+                else:
+                    print("No previous version to calculate contribution.")
+        
+        if hasattr(self, '_skip_contribution_calculation'):
+            del self._skip_contribution_calculation
+
+        super().save(*args, **kwargs) 
+
+
 
     def __str__(self):
         return f"Version of Section {self.section.id} (Created: {self.created_at})"
-
+    
 
 class ProjectImage(models.Model):
     project = models.ForeignKey(
@@ -128,7 +207,9 @@ class Comment(models.Model):
     user = models.ForeignKey(User, on_delete=models.CASCADE)
     content = models.TextField(blank=True)
     created_at = models.DateTimeField(default=timezone.now)
-    is_solved = models.BooleanField(default=False) 
+    is_solved = models.BooleanField(default=False)
+    solved_by = models.ForeignKey(User, null=True, blank=True, on_delete=models.SET_NULL, related_name="solved_comments")
+    solved_at = models.DateTimeField(null=True, blank=True)
 
     def __str__(self):
         return f"Comment by {self.user.username} on Section {self.section.id} (Created: {self.created_at})"
@@ -184,9 +265,16 @@ def create_default_sections(sender, instance, created, **kwargs):
             )
             position += 1  
 
-            SectionVersion.objects.create(
+            section_version= SectionVersion.objects.create(
                 section=section,
                 title=section.title,
                 content=section.content,
                 created_at=timezone.now()
             )
+            
+            previous_version = SectionVersion.objects.filter(section=section).exclude(id=section_version.id).order_by('-created_at').first()
+            if previous_version:
+                section_version.calculate_contribution(previous_version)
+
+        # Anda bisa menambahkan log jika perlu untuk memastikan bahwa section dan version telah dibuat
+        print(f"Default sections created for project {instance.id}")
