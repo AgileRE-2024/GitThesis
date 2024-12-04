@@ -30,6 +30,7 @@ from django_tex.core import compile_template_to_pdf
 from django_tex.shortcuts import render_to_pdf
 from django_tex.response import PDFResponse
 from django.views.decorators.http import require_POST
+from django.utils import timezone
 import shutil
 import time
 import logging
@@ -69,6 +70,10 @@ def compare_versions(request, section_id, version_id):
         'selected_version': selected_version,
         'latest_version': latest_version
     })
+    
+
+import logging
+logger = logging.getLogger(__name__)
 
 def apply_version(request, section_id):
     if request.method == "POST":
@@ -81,36 +86,81 @@ def apply_version(request, section_id):
         section.content = selected_version.content
         section.save()
 
-        SectionVersion.objects.create(
+        logger.debug(f"Updated section {section.id} with title '{section.title}' and content length {len(section.content)}")
+
+        # Create a new version
+        new_version = SectionVersion.objects.create(
             section=section,
             title=section.title,
             content=section.content,
-            created_at=timezone.now()  
+            updated_by=request.user,
+            created_at=timezone.now()
         )
+        logger.debug(f"Created new SectionVersion {new_version.id} for section {section.id}")
+
+        # Calculate contribution
+        latest_version = SectionVersion.objects.filter(section=section).order_by('-created_at').first()
+        if latest_version and section.versions.count() > 1:
+            previous_version = section.versions.exclude(id=latest_version.id).order_by('-created_at').first()
+            if previous_version:
+                logger.debug(f"Calculating contribution between previous version {previous_version.id} and latest version {latest_version.id}")
+                latest_version.calculate_contribution(previous_version)
+                logger.debug(f"Calculated: Added {latest_version.characters_added}, Removed {latest_version.characters_removed}")
+                latest_version.save()
 
         # Redirect to project detail page
-        return redirect('project_detail', project_id=section.project.id)  
+        return redirect('project_detail', project_id=section.project.id)
     return redirect('compare_versions')
 
 
+from django.db.models import Sum, F
 @login_required
 def project_detail(request, project_id):
     project = get_object_or_404(Project, id=project_id)
-    images = project.images.all().order_by('-created_at') 
+    images = project.images.all().order_by('-created_at')
     sections = project.sections.all().order_by('position')
     
     # Mengambil komentar untuk section pertama (atau section aktif)
-    section_id = request.GET.get('section_id', sections.first().id)  
+    section_id = request.GET.get('section_id', sections.first().id)
     section = get_object_or_404(Section, id=section_id)
     
-    # Ambil komentar untuk section yang dipilih
-    comments = Comment.objects.filter(section=section).values('id', 'user__username', 'content', 'is_solved')
-    form = CommentForm()
+    contributions = calculate_contributions(project_id)
     
+    # Ambil komentar untuk section yang dipilih dengan semua informasi yang dibutuhkan
+    comments = Comment.objects.filter(section=section).select_related('user', 'solved_by').order_by('created_at')
+    
+    # Konversi komentar ke format dictionary dengan informasi yang lengkap untuk template
+    comments_data = [{
+        'id': comment.id,
+        'username': comment.user.username,
+        'content': comment.content,
+        'created_at': comment.created_at,
+        'is_solved': comment.is_solved,
+        'solved_by': comment.solved_by.username if comment.solved_by else None,
+        'solved_at': comment.solved_at
+    } for comment in comments]
+    
+    # Ambil kolaborator yang diterima untuk proyek ini
+    collaborators = Collaborator.objects.filter(project=project, is_accepted=True).select_related('user', 'user__userprofile')
+
+    form = CommentForm()
     section_versions = SectionVersion.objects.filter(section__project=project).order_by('-created_at')[:1]
     
     return render(request, 'project.html', {
-        'project': project, 'images': images, 'sections': sections, 'comments' : comments, 'form' : form, 'section_versions': section_versions,})
+        'project': project,
+        'images': images,
+        'sections': sections,
+        'comments': comments_data,  # Mengirim comments_data ke template
+        'form': form,
+        'section_versions': section_versions,
+        'collaborators': collaborators,
+        'contributions' : contributions
+    })
+    
+
+def auto_save_version(sender, instance, created, **kwargs):
+    if not created:
+        instance.save_new_version(instance.project.owner)
 
 
 def home(request):
@@ -348,13 +398,32 @@ def update_section_content(request, project_id, section_id):
         try:
             section = Section.objects.get(id=section_id, project_id=project_id)
             section.content = content
-            section.save()
-            
-            SectionVersion.objects.create(
+            section.save()  # Simpan perubahan konten
+
+            logger.debug(f"Updated section {section.id} content length: {len(section.content)}")
+
+            # Buat versi baru
+            new_version = SectionVersion.objects.create(
                 section=section,
-                title=section.title,  
-                content=content,  
+                title=section.title,
+                content=section.content,
+                updated_by=request.user,
+                created_at=timezone.now()
             )
+            logger.debug(f"Created new SectionVersion {new_version.id} for section {section.id}")
+
+            # Hitung kontribusi jika ada versi sebelumnya
+            latest_version = SectionVersion.objects.filter(section=section).order_by('-created_at').first()
+            if latest_version and section.versions.count() > 1:
+                previous_version = section.versions.exclude(id=latest_version.id).order_by('-created_at').first()
+                if previous_version:
+                    logger.debug(f"Calculating contribution between previous version {previous_version.id} and latest version {latest_version.id}")
+                    latest_version.calculate_contribution(previous_version)
+                    logger.debug(f"Calculated: Added {latest_version.characters_added}, Removed {latest_version.characters_removed}")
+                    latest_version.save()
+
+            # Pastikan konten yang diperbarui diterapkan kembali
+            section.refresh_from_db()
             
             logger.info(f"Section {section_id} updated successfully.")
             return JsonResponse({"success": True, "message": "Section updated successfully"})
@@ -422,15 +491,16 @@ def add_comment(request):
 def get_comments(request, section_id):
     try:
         section = get_object_or_404(Section, id=section_id)
-        comments = Comment.objects.filter(section=section).select_related('user').order_by('created_at')
+        comments = Comment.objects.filter(section=section).select_related('user', 'solved_by').order_by('created_at')
         
         comments_data = [{
             'id': comment.id,
             'user': comment.user.username,
             'content': comment.content,
             'created_at': comment.created_at.strftime("%Y-%m-%d %H:%M:%S"),
-            'is_solved':comment.is_solved
-            
+            'is_solved': comment.is_solved,
+            'solved_by': comment.solved_by.username if comment.solved_by else None,
+            'solved_at': comment.solved_at.strftime("%Y-%m-%d %H:%M:%S") if comment.solved_at else None
         } for comment in comments]
         
         return JsonResponse({
@@ -442,18 +512,130 @@ def get_comments(request, section_id):
             'status': 'error',
             'message': str(e)
         }, status=500)
+
         
 
 @require_POST
 def mark_solved(request, comment_id):
     try:
         comment = Comment.objects.get(id=comment_id)
-        comment.is_solved = True  # Asumsi bahwa field is_solved ada di model Comment
+        comment.is_solved = True
+        comment.solved_by = request.user  # Simpan user yang menandai sebagai Solved
+        comment.solved_at = timezone.now()  # Simpan waktu saat ditandai Solved
         comment.save()
         return JsonResponse({'status': 'success'})
     except Comment.DoesNotExist:
         return JsonResponse({'status': 'error', 'message': 'Komentar tidak ditemukan'})
-        
+    
+
+# Setup logger
+logger = logging.getLogger(__name__)
+
+def contributors_page(request, project_id):
+    logger.info(f"Accessing contributors page for project {project_id}")
+
+    try:
+        # Ambil proyek berdasarkan ID
+        project = Project.objects.get(id=project_id)
+        logger.debug(f"Project {project.id} - {project.name} retrieved successfully.")
+
+        # Ambil kolaborator yang sudah diterima dan optimalkan query dengan select_related
+        collaborators = Collaborator.objects.filter(project=project, is_accepted=True).select_related('user__userprofile')
+        logger.debug(f"Found {collaborators.count()} accepted collaborators for project {project.id}.")
+
+        # Hitung kontribusi
+        contributions = calculate_contributions(project_id)
+        logger.debug(f"Contributions calculated: {contributions}")
+
+        collaborator_contributions = []  # List untuk menyimpan kontribusi
+        for collaborator in collaborators:
+            logger.debug(f"Processing collaborator {collaborator.user.username} (User ID: {collaborator.user.id}).")
+            user_contrib = next((item for item in contributions if item["updated_by__id"] == collaborator.user.id), None)
+            
+            try:
+                user_profile = collaborator.user.userprofile
+                profile_picture = user_profile.profile_picture.url if user_profile.profile_picture else None
+            except UserProfile.DoesNotExist:
+                # Jika UserProfile tidak ditemukan, set profil default atau None
+                profile_picture = None
+                logger.warning(f"User {collaborator.user.username} does not have a profile picture.")
+            
+            # Debug log untuk memeriksa URL gambar profil
+            logger.debug(f"User {collaborator.user.username} profile_picture: {profile_picture}")
+
+            if user_contrib:
+                logger.debug(f"Contribution found for {collaborator.user.username}: {user_contrib}")
+                collaborator_contribution = {
+                    "username": user_contrib["updated_by__username"],
+                    "total_added": user_contrib["total_added"],
+                    "total_removed": user_contrib["total_removed"],
+                    "percentage": user_contrib["percentage"],
+                    "profile_picture": profile_picture, 
+                }
+            else:
+                logger.warning(f"No contribution found for {collaborator.user.username}. Setting default values.")
+                collaborator_contribution = {
+                    "username": collaborator.user.username,
+                    "total_added": 0,
+                    "total_removed": 0,
+                    "percentage": 0,
+                    "profile_picture": profile_picture,
+                }
+
+            collaborator_contributions.append(collaborator_contribution)
+
+        logger.debug(f"Collaborator contributions prepared: {collaborator_contributions}")
+
+        return render(request, 'contributors.html', {
+            'project': project,
+            'collaborator_contributions': collaborator_contributions,  
+        })
+
+    except Project.DoesNotExist:
+        logger.error(f"Project with ID {project_id} does not exist.")
+        return JsonResponse({"error": "Project not found"}, status=404)
+
+    except Exception as e:
+        logger.exception(f"An error occurred while processing the contributors page for project {project_id}: {str(e)}")
+        return JsonResponse({"error": "An unexpected error occurred."}, status=500)
+
+
+
+
+def calculate_contributions(project_id):
+    # Ambil semua versi yang terkait dengan proyek tersebut
+    contributions = SectionVersion.objects.filter(
+        section__project_id=project_id
+    ).values(
+        "updated_by__username",  # Nama pengguna yang melakukan update
+        "updated_by__id"         # ID pengguna
+    ).annotate(
+        total_added=Sum("characters_added"),
+        total_removed=Sum("characters_removed")
+    ).order_by("-total_added")
+
+    # Log hasil sementara (debugging)
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.debug(f"Raw contributions: {list(contributions)}")
+
+    # Hitung kontribusi total dalam proyek
+    total_project_contribution = sum(
+        contrib["total_added"] + contrib["total_removed"] for contrib in contributions
+    ) if contributions else 0
+
+    # Tambahkan persentase kontribusi ke setiap item
+    for contribution in contributions:
+        total_contrib = contribution["total_added"] + contribution["total_removed"]
+        contribution["percentage"] = (
+            (total_contrib / total_project_contribution) * 100
+            if total_project_contribution > 0
+            else 0
+        )
+
+    return contributions
+
+    
 
 
 def get_section_versions(request, section_id):
@@ -470,8 +652,6 @@ def get_section_versions(request, section_id):
     ]
 
     return JsonResponse({'section_versions': versions_data})
-
-
 
 
 @method_decorator(csrf_exempt, name="dispatch")
@@ -782,7 +962,7 @@ def delete_project(request, project_id):
 @login_required
 def project_settings(request, project_id):
     project = get_object_or_404(Project, id=project_id)
-
+    
     if request.user != project.owner:
         return HttpResponseForbidden("You are not allowed to edit this project.")
 

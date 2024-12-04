@@ -66,7 +66,6 @@ TEMPLATES = [
                 "django.contrib.auth.context_processors.auth",
                 "django.contrib.messages.context_processors.messages",
                 'gitthesis.context_processors.invitations_context',
-                
             ],
         },
     },
@@ -83,28 +82,28 @@ WSGI_APPLICATION = "git_thesis.wsgi.application"
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.postgresql",
-        "NAME": "postgres",
-        "USER": "postgres.vmdtthgnubgffvzxzdjo", 
-        "PASSWORD": "gxYoAoWCBCfoepgr",
-        "HOST": "aws-0-ap-southeast-1.pooler.supabase.com",
-        "PORT": "6543",
-    }
-}
-
-
 # DATABASES = {
 #     "default": {
-#         "ENGINE": "django.db.backends.mysql",
-#         "NAME": "gitthesis",
-#         "USER": "root",
-#         "PASSWORD": "your_password",
-#         "HOST": "localhost",
-#         "PORT": "3306",
+#         "ENGINE": "django.db.backends.postgresql",
+#         "NAME": "postgres",
+#         "USER": "postgres.vmdtthgnubgffvzxzdjo", 
+#         "PASSWORD": "gxYoAoWCBCfoepgr",
+#         "HOST": "aws-0-ap-southeast-1.pooler.supabase.com",
+#         "PORT": "6543",
 #     }
 # }
+
+
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.mysql",
+        "NAME": "gitthesis",
+        "USER": "root",
+        "PASSWORD": "your_password",
+        "HOST": "localhost",
+        "PORT": "3306",
+    }
+}
 
 
 # Password validation
@@ -131,7 +130,8 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = "en-us"
 
-TIME_ZONE = "UTC"
+TIME_ZONE = 'Asia/Jakarta'  # Sesuaikan dengan zona waktu lokal kamu
+
 
 USE_I18N = True
 
