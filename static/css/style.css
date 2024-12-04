@@ -113,7 +113,7 @@ input[type="text"]:focus {
     border-left: 1px solid #ddd;
     overflow-y: auto;
     position: sticky;
-    top: 90px;
+    top: 70px;
     /* Stick to the top */
     height: 100vh;
     min-width: 50px;
@@ -125,6 +125,15 @@ input[type="text"]:focus {
     border-radius: 5px;
     box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
 }
+
+.collaborator-card {
+    background-color: #ffff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 8px 10px rgba(0, 0, 0, 0.1);
+}
+
+
 .comments {
     background-color: #ffff;
     padding: 15px;
@@ -133,7 +142,7 @@ input[type="text"]:focus {
 }
 
 .comments h6,
-.history h6 {
+.history h6, .collaborator-card h6{
     color: #6C48C5;
 }
 
@@ -501,6 +510,7 @@ aside {
 .comment-item {
     padding: 5px 0;
     margin-top: 1px;
+    overflow: visible;
 }
 
 .comment-user {
@@ -525,6 +535,73 @@ aside {
 .badge-custom {
     font-size: 0.8em; 
     padding: 0.15em 0.4em; 
-    border-radius: 0.5rem; 
+    border-radius: 0.25rem;
+    position: relative;
+    cursor: pointer;
+}
+
+/* Tooltip pada badge Solved muncul di samping (kanan atau kiri) */
+.tooltip.bs-tooltip-end .tooltip-arrow::before {
+    border-width: 10px; /* Ukuran panah tooltip */
+    border-left-color: #ffffff; /* Warna panah tooltip */
+}
+
+.tooltip.bs-tooltip-end {
+    margin-left: 5px; /* Jarak tooltip dari badge */
+}
+
+/* Menambah gaya pada tooltip */
+.tooltip-inner {
+    background-color:#ffffff; /* Warna latar belakang tooltip */
+    color: #000000; /* Warna teks tooltip */
+    font-size: 14px; /* Ukuran font */
+    padding: 10px; /* Jarak dalam tooltip */
+    border-radius: 8px; /* Membuat pojok tooltip membulat */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan tooltip */
+}
+
+/* Container untuk tooltip collaborator */
+.collaborator-tooltip {
+    display: none; /* Sembunyikan secara default */
+    position: absolute;
+    top: 50%; /* Posisikan di tengah elemen avatar secara vertikal */
+    left: 60px; /* Geser ke kiri avatar dengan ruang tambahan */
+    transform: translateY(-50%); /* Koreksi pemusatan vertikal */
+    width: 200px; /* Lebar tooltip */
+    background-color: white; /* Latar belakang */
+    color: #333; /* Warna teks */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    text-align: left;
+    z-index: 1009; /* Pastikan tooltip muncul di atas */
+    font-size: 0.9em;
+    white-space: normal; /* Pastikan teks membungkus */
+    opacity: 0; /* Tambahkan transisi */
+    transition: opacity 0.3s ease;
+    max-width: 250px; /* Batasi lebar tooltip */
+}
+
+
+/* Menampilkan tooltip saat di-hover */
+.col-md-3:hover .collaborator-tooltip {
+    display: block;
+    opacity: 1;
+}
+
+.collaborator-avatar {
+    position: relative; /* Pastikan avatar jadi referensi tooltip */
+    z-index: 1;
+    overflow: visible;
+}
+
+/* Style gambar avatar */
+.collaborator-avatar img {
+    transition: transform 0.3s ease;
+}
+
+/* Zoom-in pada gambar saat di-hover */
+.col-md-3:hover .collaborator-avatar img {
+    transform: scale(1.1);
 }
 
