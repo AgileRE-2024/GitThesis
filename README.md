@@ -40,9 +40,13 @@ GitThesis is a Django-based website designed to help students and lecturers coll
    python -m venv venv
    ```
 2. Activate the virtual environment:
-   - **On Windows:**
+   - **On Windows Command Prompt:**
      ```bash
      venv\Scripts\activate
+     ```
+   - **On Windows Bash:**
+     ```bash
+     source venv/Scripts/activate
      ```
    - **On Linux/Mac:**
      ```bash
