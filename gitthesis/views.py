@@ -26,9 +26,6 @@ from django.views.decorators.http import require_http_methods
 from django.db import models
 from django.http import HttpResponse, FileResponse
 from django.core.files.base import ContentFile
-from django_tex.core import compile_template_to_pdf
-from django_tex.shortcuts import render_to_pdf
-from django_tex.response import PDFResponse
 from django.views.decorators.http import require_POST
 from django.utils import timezone
 import shutil
