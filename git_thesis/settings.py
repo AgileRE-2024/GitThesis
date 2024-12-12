@@ -93,17 +93,23 @@ WSGI_APPLICATION = "git_thesis.wsgi.application"
 #     }
 # }
 
-
 DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.mysql",
-        "NAME": "gitthesis",
-        "USER": "root",
-        "PASSWORD": "your_password",
-        "HOST": "localhost",
-        "PORT": "3306",
+    'default': {
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',  
     }
 }
+
+# DATABASES = {
+#     "default": {
+#         "ENGINE": "django.db.backends.mysql",
+#         "NAME": "gitthesis",
+#         "USER": "root",
+#         "PASSWORD": "your_password",
+#         "HOST": "localhost",
+#         "PORT": "3306",
+#     }
+# }
 
 
 # Password validation

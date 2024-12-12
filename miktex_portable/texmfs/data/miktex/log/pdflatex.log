@@ -1807,3 +1807,27 @@
 2024-11-09 02:17:47,932+0700 INFO  pdflatex - allowing known shell commands
 2024-11-09 02:17:47,941+0700 INFO  pdflatex - allowing all shell commands
 2024-11-09 02:17:48,386+0700 INFO  pdflatex - this process (18652) finishes with exit code 1
+2024-11-10 16:48:18,657+0700 INFO  pdflatex - this process (12172) started by python in directory D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\media\tex_file with command line: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -shell-escape "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\media/tex_file\Arga Penyanyi Terhebat_1731232095.tex"
+2024-11-10 16:48:18,658+0700 INFO  pdflatex - running on Windows 10.0.19045
+2024-11-10 16:48:18,665+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.19.0 (1.40.26) (MiKTeX 24.4 Portable)
+2024-11-10 16:48:18,729+0700 INFO  pdflatex - allowing known shell commands
+2024-11-10 16:48:18,763+0700 INFO  pdflatex - allowing all shell commands
+2024-11-10 16:48:19,632+0700 INFO  pdflatex - this process (12172) finishes with exit code 0
+2024-11-10 16:48:27,411+0700 INFO  pdflatex - this process (2284) started by python in directory D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\media\tex_file with command line: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -shell-escape "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\media/tex_file\Arga Penyanyi Terhebat_1731232106.tex"
+2024-11-10 16:48:27,412+0700 INFO  pdflatex - running on Windows 10.0.19045
+2024-11-10 16:48:27,417+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.19.0 (1.40.26) (MiKTeX 24.4 Portable)
+2024-11-10 16:48:27,424+0700 INFO  pdflatex - allowing known shell commands
+2024-11-10 16:48:27,448+0700 INFO  pdflatex - allowing all shell commands
+2024-11-10 16:48:27,831+0700 INFO  pdflatex - this process (2284) finishes with exit code 0
+2024-11-10 16:49:28,851+0700 INFO  pdflatex - this process (2104) started by python in directory D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\media\tex_file with command line: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -shell-escape "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\media/tex_file\Arga Penyanyi Terhebat_1731232168.tex"
+2024-11-10 16:49:28,851+0700 INFO  pdflatex - running on Windows 10.0.19045
+2024-11-10 16:49:28,858+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.19.0 (1.40.26) (MiKTeX 24.4 Portable)
+2024-11-10 16:49:28,866+0700 INFO  pdflatex - allowing known shell commands
+2024-11-10 16:49:28,889+0700 INFO  pdflatex - allowing all shell commands
+2024-11-10 16:49:29,285+0700 INFO  pdflatex - this process (2104) finishes with exit code 0
+2024-12-12 14:26:43,664+0700 INFO  pdflatex - this process (10924) started by python in directory D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\media\tex_file with command line: "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\miktex_portable\texmfs\install\miktex\bin\x64\pdflatex.exe" -interaction=nonstopmode -shell-escape "D:\UNAIR\UNAIR SEMESTER 5\Pembangunan Perangkat Lunak PRAK\GItThesis\GitThesis\media/tex_file\Ikan Tomat_1733988402.tex"
+2024-12-12 14:26:43,665+0700 INFO  pdflatex - running on Windows 10.0.19045
+2024-12-12 14:26:43,671+0700 INFO  pdflatex - this is MiKTeX-PDFTEX 4.19.0 (1.40.26) (MiKTeX 24.4 Portable)
+2024-12-12 14:26:43,731+0700 INFO  pdflatex - allowing known shell commands
+2024-12-12 14:26:43,764+0700 INFO  pdflatex - allowing all shell commands
+2024-12-12 14:26:44,360+0700 INFO  pdflatex - this process (10924) finishes with exit code 0
