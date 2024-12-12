@@ -1,4 +1,17 @@
-# GitThesis Installation Guide
+# GitThesis
+
+## Kelompok 5 PPL PRAK I1
+
+| Nama                      | NIM       |
+| ------------------------- | --------- |
+| Fardhan Erfandyar         | 187221029 |
+| Hiekam Nursal Muhammad    | 187221090 |
+| Octavia Putri Yudhistira  | 187221063 |
+| Wildan Arga Wijaya        | 187221086 |
+| Fadiya Ardiati Zahra      | 187221099 |
+
+## Project Kuliah Pembangunan Perangkat Lunak 2024
+
 ## Introduction
 GitThesis is a Django-based website designed to help students and lecturers collaborate and track on thesis projects. Follow the steps below to set up the application on your local machine.
 ---
