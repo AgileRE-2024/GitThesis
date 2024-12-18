@@ -75,7 +75,7 @@
 
 
             <!-- Overview dokumen di tengah -->
-            <div class="col-md-8 col-lg-8">
+            <div class="overview col-md-8 col-lg-8">
                 <div class="document">
                     <h4 class="text-center mb-3 gradient-text-sidebar fw-semibold">{{ project.name }}</h4>
                         {% if project.owner == user %}
@@ -184,24 +184,21 @@
                     </a>
                     <div class="row">
                         {% for collaborator in collaborators %}
-                            <div class="col-md-3 mb-4 text-center position-relative pe-4">
+                            <div class="col-md-3 mb-4 text-center position-relative">
                                 <!-- Profile picture -->
-                                <div class="collaborator-avatar" style="width: 35px; height: 35px; border-radius: 50%; overflow: hidden; position: relative;">
+                                <div class="collaborator-avatar" style="width: 35px; height: 35px; border-radius: 50%; overflow: hidden;">
                                     <img src="{% if collaborator.user.userprofile and collaborator.user.userprofile.profile_picture %}{{ collaborator.user.userprofile.profile_picture.url }}{% else %}{% static 'images/profile-new.svg' %}{% endif %}" 
                                         alt="Profile Picture" 
-                                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                                        style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;"
+                                        data-bs-toggle="tooltip"
+                                        data-bs-placement="left"
+                                        title="Email: {{ collaborator.user.email }}&#10;Contributor since: {{ collaborator.invited_at|date:'F j, Y' }}">
                                 </div>
-
-                                <!-- Tooltip -->
-                                <div class="collaborator-tooltip">
-                                    <p>Email: {{ collaborator.user.email }}</p>
-                                    <p>Contributor since: {{ collaborator.invited_at|date:"F j, Y" }}</p>
-                                </div>
+                
                             </div>
                         {% empty %}
                             <p>No contributors found for this project.</p>
                         {% endfor %}
-
                     </div>
                 </div>
             
@@ -219,8 +216,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.7.7/handlebars.min.js"></script>
 
     <!-- Integrasi MathJax -->
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
