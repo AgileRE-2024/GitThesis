@@ -520,7 +520,12 @@ def mark_solved(request, comment_id):
         comment.solved_by = request.user  # Simpan user yang menandai sebagai Solved
         comment.solved_at = timezone.now()  # Simpan waktu saat ditandai Solved
         comment.save()
-        return JsonResponse({'status': 'success'})
+        return JsonResponse({
+            'status': 'success',
+            'solved_by': request.user.username,
+            'solved_at': comment.solved_at.strftime('%Y-%m-%d %H:%M:%S'),
+            'created_at': comment.created_at.strftime('%Y-%m-%d %H:%M:%S')
+        })
     except Comment.DoesNotExist:
         return JsonResponse({'status': 'error', 'message': 'Komentar tidak ditemukan'})
     
