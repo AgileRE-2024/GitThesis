@@ -1,5 +1,4 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const commentForm = document.getElementById("commentForm");
     const commentList = document.getElementById("comment-list");
     let lastUpdatedSectionId = null;
 
@@ -42,6 +41,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     }
 
+
     // Event listener untuk scroll
     window.addEventListener('scroll', throttle(function() {
         const currentSection = getCurrentSection();
@@ -80,7 +80,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Hapus tooltip sebelum mengirim request
         const tooltipInstance = bootstrap.Tooltip.getInstance(iconElement);
         if (tooltipInstance) tooltipInstance.dispose();
-
+    
         fetch(`/comments/mark_solved/${commentId}/`, {
             method: 'POST',
             headers: {
@@ -93,23 +93,25 @@ document.addEventListener("DOMContentLoaded", function() {
             if (data.status === 'success') {
                 const commentItem = iconElement.closest('.comment-item');
                 const statusDiv = commentItem.querySelector('.d-flex.justify-content-between');
-
-                const username = commentItem.querySelector('.comment-user').textContent.trim();
-                const currentTimestamp = formatDate(new Date());
-
+                const createdAt = formatDate(new Date(data.created_at));
+                const commentUsername = commentItem.querySelector('.comment-user').textContent.trim();
+                const solvedByUsername = data.solved_by;  // Dari server
+                const solvedAt = formatDate(new Date(data.solved_at)); // Waktu dari server
+    
                 // Tambahkan badge Solved
                 statusDiv.insertAdjacentHTML('beforeend', `
                     <span class="badge bg-success badge-custom" 
                         data-bs-toggle="tooltip" 
-                        title="Commented by: ${username} on ${formatDate(commentItem.querySelector('.comment-user').dataset.createdAt)} | Solved by: You on ${currentTimestamp}">
+                        title="Commented by: ${commentUsername} on ${createdAt} | Solved by: ${solvedByUsername} on ${solvedAt}">
+                        
                         Solved
                     </span>
                 `);
-
+    
                 // Inisialisasi ulang tooltip untuk badge baru
                 const badge = statusDiv.querySelector('.badge');
                 new bootstrap.Tooltip(badge, { placement: 'end', delay: { show: 200, hide: 200 } });
-
+    
                 // Hapus ikon solved
                 iconElement.remove();
                 initializeTooltips();
@@ -136,7 +138,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         const solvedInfo = comment.is_solved
                             ? `<span class="badge bg-success badge-custom" 
                                 data-bs-toggle="tooltip" 
-                                title="Commented by: ${comment.user} on ${formatDate(comment.created_at)}\nSolved by: ${comment.solved_by || 'N/A'} on ${formatDate(comment.solved_at)}">
+                                title="Commented by: ${comment.user} on ${formatDate(comment.created_at)}\n | Solved by: ${comment.solved_by || 'N/A'} on ${formatDate(comment.solved_at)}">
                                 Solved
                             </span>`
                             : `<i class="fa fa-check-circle text-muted" 
@@ -146,10 +148,10 @@ document.addEventListener("DOMContentLoaded", function() {
                                 title="Click to mark as solved">
                             </i>`;
 
-                        const commentItemHTML = `
+                            const commentItemHTML = `
                             <div class="comment-item mb-2">
                                 <div class="d-flex justify-content-between align-items-center">
-                                    <span class="comment-user" data-created-at="${comment.created_at}"><strong>${comment.user}:</strong></span>
+                                    <span class="comment-user" data-user-name="${comment.user}" data-created-at="${formatDate(comment.created_at)}"><strong>${comment.user}:</strong></span>
                                     ${solvedInfo}
                                 </div>
                                 <div class="comment-text mt-1">
@@ -176,11 +178,20 @@ document.addEventListener("DOMContentLoaded", function() {
             });
     }
 
+    const initialSection = getCurrentSection();
+    if (initialSection) {
+        const sectionId = initialSection.getAttribute('data-section-id');
+        if (sectionId) {
+            updateComments(sectionId);
+            lastUpdatedSectionId = sectionId;
+        }
+    }
+
     // Fungsi untuk menginisialisasi tooltip
     function initializeTooltips() {
         const tooltipElements = document.querySelectorAll('[data-bs-toggle="tooltip"]');
         tooltipElements.forEach(element => {
-            new bootstrap.Tooltip(element, { placement: 'top' });
+            new bootstrap.Tooltip(element, { placement: 'left' });
         });
     }
 
